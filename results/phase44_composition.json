@@ -1,0 +1,35 @@
+{
+  "phase": 44,
+  "name": "program_composition",
+  "programs": {
+    "MIN": {
+      "layer": 8,
+      "acc": 1.0
+    },
+    "PLUS1": {
+      "layer": 20,
+      "acc": 1.0
+    }
+  },
+  "min_only_acc": 1.0,
+  "composed_acc": 0.0,
+  "test_results": {
+    "min_only": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "composed": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "elapsed": 78.2
+}

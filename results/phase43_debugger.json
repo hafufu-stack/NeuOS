@@ -1,0 +1,106 @@
+{
+  "phase": 43,
+  "name": "neural_debugger",
+  "probe_layers": {
+    "op": 2,
+    "a": 16,
+    "b": 8,
+    "r": 22
+  },
+  "probe_train_accs": {
+    "op": 1.0,
+    "operand_a": 1.0,
+    "operand_b": 1.0,
+    "result": 1.0
+  },
+  "debug_results": [
+    {
+      "prompt": "def f(): return min(9, 3) =",
+      "true": "MIN(9,3)=3",
+      "debug": "MIN(3,3)=3",
+      "op_ok": true,
+      "a_ok": "False",
+      "b_ok": "True",
+      "r_ok": "True",
+      "all_ok": "False"
+    },
+    {
+      "prompt": "def f(): return max(1, 8) =",
+      "true": "MAX(1,8)=8",
+      "debug": "MAX(2,2)=7",
+      "op_ok": true,
+      "a_ok": "False",
+      "b_ok": "False",
+      "r_ok": "False",
+      "all_ok": "False"
+    },
+    {
+      "prompt": "def f(): return 7 + 2 =",
+      "true": "SUM(7,2)=9",
+      "debug": "SUM(7,2)=9",
+      "op_ok": true,
+      "a_ok": "True",
+      "b_ok": "True",
+      "r_ok": "True",
+      "all_ok": "True"
+    },
+    {
+      "prompt": "def f(): return 6 - 4 =",
+      "true": "SUB(6,4)=2",
+      "debug": "SUB(6,4)=2",
+      "op_ok": true,
+      "a_ok": "True",
+      "b_ok": "True",
+      "r_ok": "True",
+      "all_ok": "True"
+    },
+    {
+      "prompt": "def f(): return min(2, 7) =",
+      "true": "MIN(2,7)=2",
+      "debug": "MIN(2,7)=2",
+      "op_ok": true,
+      "a_ok": "True",
+      "b_ok": "True",
+      "r_ok": "True",
+      "all_ok": "True"
+    },
+    {
+      "prompt": "def f(): return max(5, 3) =",
+      "true": "MAX(5,3)=5",
+      "debug": "MAX(5,3)=5",
+      "op_ok": true,
+      "a_ok": "True",
+      "b_ok": "True",
+      "r_ok": "True",
+      "all_ok": "True"
+    },
+    {
+      "prompt": "def f(): return 3 + 4 =",
+      "true": "SUM(3,4)=7",
+      "debug": "SUM(3,4)=7",
+      "op_ok": true,
+      "a_ok": "True",
+      "b_ok": "True",
+      "r_ok": "True",
+      "all_ok": "True"
+    },
+    {
+      "prompt": "def f(): return 8 - 3 =",
+      "true": "SUB(8,3)=5",
+      "debug": "SUB(7,3)=5",
+      "op_ok": true,
+      "a_ok": "False",
+      "b_ok": "True",
+      "r_ok": "True",
+      "all_ok": "False"
+    }
+  ],
+  "test_accuracies": {
+    "op": 1.0,
+    "a": 0.625,
+    "b": 0.875,
+    "r": 0.875,
+    "full": 0.625
+  },
+  "elapsed": 18.4
+}

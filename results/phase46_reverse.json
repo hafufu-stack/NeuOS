@@ -1,0 +1,66 @@
+{
+  "phase": 46,
+  "name": "program_reverse_engineering",
+  "vec_identification_acc": 0.0,
+  "behavior_identification_acc": 0.3333,
+  "re_results": {
+    "mystery_A": {
+      "true_label": "MIN",
+      "vec_match": "DOUBLE",
+      "vec_correct": false,
+      "vec_sims": {
+        "MIN": -0.142,
+        "MAX": -0.1723,
+        "IDENTITY": -0.0584,
+        "DOUBLE": -0.0551
+      },
+      "behavior_match": "IDENTITY",
+      "behavior_correct": false,
+      "behavior_scores": {
+        "MIN": 0.3333,
+        "MAX": 0.3333,
+        "IDENTITY": 0.7778,
+        "DOUBLE": 0.1111
+      }
+    },
+    "mystery_B": {
+      "true_label": "MAX",
+      "vec_match": "IDENTITY",
+      "vec_correct": false,
+      "vec_sims": {
+        "MIN": -0.1127,
+        "MAX": -0.0819,
+        "IDENTITY": 0.0787,
+        "DOUBLE": 0.047
+      },
+      "behavior_match": "IDENTITY",
+      "behavior_correct": false,
+      "behavior_scores": {
+        "MIN": 0.3333,
+        "MAX": 0.3333,
+        "IDENTITY": 0.4444,
+        "DOUBLE": 0.2222
+      }
+    },
+    "mystery_C": {
+      "true_label": "IDENTITY",
+      "vec_match": "MIN",
+      "vec_correct": false,
+      "vec_sims": {
+        "MIN": 0.0963,
+        "MAX": 0.0763,
+        "IDENTITY": -0.0262,
+        "DOUBLE": 0.0819
+      },
+      "behavior_match": "IDENTITY",
+      "behavior_correct": true,
+      "behavior_scores": {
+        "MIN": 0.4444,
+        "MAX": 0.2222,
+        "IDENTITY": 0.5556,
+        "DOUBLE": 0.3333
+      }
+    }
+  },
+  "elapsed": 205.8
+}
