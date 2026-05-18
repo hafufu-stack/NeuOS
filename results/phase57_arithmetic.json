@@ -1,0 +1,142 @@
+{
+  "phase": 57,
+  "name": "program_arithmetic",
+  "test_prompts": [
+    "3, 7) =",
+    "5, 2) =",
+    "8, 1) =",
+    "4, 6) =",
+    "9, 3) =",
+    "7, 2) =",
+    "6, 3) =",
+    "2, 9) ="
+  ],
+  "min_expected": [
+    "3",
+    "2",
+    "1",
+    "4",
+    "3",
+    "2",
+    "3",
+    "2"
+  ],
+  "max_expected": [
+    "7",
+    "5",
+    "8",
+    "6",
+    "9",
+    "7",
+    "6",
+    "9"
+  ],
+  "arithmetic_results": {
+    "MIN + MAX": {
+      "predictions": [
+        "7",
+        "2",
+        "8",
+        "6",
+        "3",
+        "1",
+        "3",
+        "9"
+      ],
+      "min_match": 3,
+      "max_match": 4,
+      "total": 8
+    },
+    "MIN - MAX": {
+      "predictions": [
+        "3",
+        "2",
+        "8",
+        "6",
+        "3",
+        "1",
+        "3",
+        "2"
+      ],
+      "min_match": 5,
+      "max_match": 2,
+      "total": 8
+    },
+    "MAX - MIN": {
+      "predictions": [
+        "7",
+        "5",
+        "8",
+        "6",
+        "7",
+        "7",
+        "6",
+        "7"
+      ],
+      "min_match": 0,
+      "max_match": 6,
+      "total": 8
+    },
+    "0.5*MIN + 0.5*MAX": {
+      "predictions": [
+        "7",
+        "2",
+        "8",
+        "6",
+        "3",
+        "1",
+        "3",
+        "9"
+      ],
+      "min_match": 3,
+      "max_match": 4,
+      "total": 8
+    },
+    "2*MIN": {
+      "predictions": [
+        "7",
+        "5",
+        "1",
+        "4",
+        "3",
+        "2",
+        "3",
+        "9"
+      ],
+      "min_match": 5,
+      "max_match": 3,
+      "total": 8
+    },
+    "2*MAX": {
+      "predictions": [
+        "7",
+        "5",
+        "8",
+        "6",
+        "9",
+        "7",
+        "6",
+        "9"
+      ],
+      "min_match": 0,
+      "max_match": 8,
+      "total": 8
+    },
+    "MIN * -1 (negation)": {
+      "predictions": [
+        "3",
+        "2",
+        "8",
+        "6",
+        "2",
+        "1",
+        "6",
+        "2"
+      ],
+      "min_match": 3,
+      "max_match": 3,
+      "total": 8
+    }
+  },
+  "elapsed": 108.4
+}

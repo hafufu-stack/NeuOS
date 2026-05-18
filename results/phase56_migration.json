@@ -1,0 +1,11 @@
+{
+  "phase": 56,
+  "name": "soul_migration",
+  "results": {
+    "0.5B": 1.0,
+    "1.5B": 1.0
+  },
+  "migration_success": true,
+  "same_kernel_code": true,
+  "elapsed": 208.9
+}

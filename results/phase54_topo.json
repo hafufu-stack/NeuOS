@@ -1,0 +1,12 @@
+{
+  "phase": 54,
+  "name": "topological_proprioception",
+  "cv_accuracy": 0.9048,
+  "train_acc": 1.0,
+  "test_acc": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "n_features": 14,
+  "p49_baseline_test": 0.0,
+  "elapsed": 20.0
+}
