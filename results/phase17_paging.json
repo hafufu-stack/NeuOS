@@ -1,0 +1,13 @@
+{
+  "phase": 17,
+  "name": "kv_cache_paging",
+  "n_pairs": 8,
+  "results": {
+    "baseline_A": 0.25,
+    "baseline_B": 0.625,
+    "paged_A": 0.25,
+    "paged_B": 0.625,
+    "stress_4way": 0.0
+  },
+  "elapsed": 7.5
+}

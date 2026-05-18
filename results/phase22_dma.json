@@ -1,0 +1,19 @@
+{
+  "phase": 22,
+  "name": "dma_execution",
+  "dma_results": {
+    "MIN": 0.6667,
+    "MAX": 0.0,
+    "SUM": 0.0
+  },
+  "cross_injection": 0.3333,
+  "control_predictions": [
+    "",
+    "",
+    "5",
+    "",
+    "6",
+    "4"
+  ],
+  "elapsed": 11.2
+}

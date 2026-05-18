@@ -1,0 +1,14 @@
+{
+  "phase": 16,
+  "name": "neural_executable",
+  "n_tests": 6,
+  "n_programs": 4,
+  "results": {
+    "addition": 0.0,
+    "maximum": 0.0,
+    "identity": 0.0
+  },
+  "control_acc": 0.8333,
+  "cross_diff_rate": 0.0,
+  "elapsed": 6.1
+}

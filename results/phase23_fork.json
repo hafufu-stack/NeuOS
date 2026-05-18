@@ -1,0 +1,56 @@
+{
+  "phase": 23,
+  "name": "neural_fork",
+  "n_tests": 4,
+  "min_acc": 0.75,
+  "max_acc": 0.0,
+  "sum_acc": 0.0,
+  "diff_rate": 1.0,
+  "fork_results": [
+    {
+      "a": 3,
+      "b": 7,
+      "baseline": "",
+      "fork_MIN": "3",
+      "fork_MAX": "2",
+      "fork_SUM": "",
+      "exp_min": "3",
+      "exp_max": "7",
+      "exp_sum": "N/A"
+    },
+    {
+      "a": 5,
+      "b": 2,
+      "baseline": "",
+      "fork_MIN": "2",
+      "fork_MAX": "3",
+      "fork_SUM": "",
+      "exp_min": "2",
+      "exp_max": "5",
+      "exp_sum": "7"
+    },
+    {
+      "a": 8,
+      "b": 1,
+      "baseline": "",
+      "fork_MIN": "8",
+      "fork_MAX": "3",
+      "fork_SUM": "",
+      "exp_min": "1",
+      "exp_max": "8",
+      "exp_sum": "9"
+    },
+    {
+      "a": 4,
+      "b": 6,
+      "baseline": "",
+      "fork_MIN": "4",
+      "fork_MAX": "3",
+      "fork_SUM": "",
+      "exp_min": "4",
+      "exp_max": "6",
+      "exp_sum": "N/A"
+    }
+  ],
+  "elapsed": 10.0
+}

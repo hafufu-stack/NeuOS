@@ -1,0 +1,58 @@
+{
+  "phase": 14,
+  "name": "dynamic_register_reallocation",
+  "n_problems": 25,
+  "n_layers": 24,
+  "baseline_acc": 0.6,
+  "results": {
+    "L4": {
+      "damaged_acc": 0.04,
+      "best_remap_acc": 1.0,
+      "best_remap_src": 2,
+      "noise_resilience": {
+        "0.1": 0.6,
+        "0.5": 0.6,
+        "1.0": 0.6,
+        "2.0": 0.6
+      },
+      "recovery": 0.96
+    },
+    "L13": {
+      "damaged_acc": 0.0,
+      "best_remap_acc": 0.6,
+      "best_remap_src": 14,
+      "noise_resilience": {
+        "0.1": 0.6,
+        "0.5": 0.6,
+        "1.0": 0.6,
+        "2.0": 0.6
+      },
+      "recovery": 0.6
+    },
+    "L16": {
+      "damaged_acc": 0.0,
+      "best_remap_acc": 0.6,
+      "best_remap_src": 17,
+      "noise_resilience": {
+        "0.1": 0.6,
+        "0.5": 0.6,
+        "1.0": 0.6,
+        "2.0": 0.6
+      },
+      "recovery": 0.6
+    },
+    "L20": {
+      "damaged_acc": 0.0,
+      "best_remap_acc": 0.6,
+      "best_remap_src": 21,
+      "noise_resilience": {
+        "0.1": 0.6,
+        "0.5": 0.6,
+        "1.0": 0.6,
+        "2.0": 0.6
+      },
+      "recovery": 0.6
+    }
+  },
+  "elapsed": 37.5
+}

@@ -1,0 +1,122 @@
+{
+  "phase": 25,
+  "name": "register_algebra",
+  "injection_layer": 16,
+  "results": {
+    "MIN": {
+      "accuracy": 0.3333,
+      "predictions": [
+        "7",
+        "8",
+        "1",
+        "6",
+        "2",
+        "5"
+      ]
+    },
+    "MAX": {
+      "accuracy": 0.6667,
+      "predictions": [
+        "7",
+        "8",
+        "1",
+        "6",
+        "2",
+        "5"
+      ]
+    },
+    "SUM": {
+      "accuracy": 0.0,
+      "predictions": [
+        "N/A",
+        "N/A",
+        "3",
+        "N/A",
+        "2",
+        "5"
+      ]
+    },
+    "SUB": {
+      "accuracy": 0.0,
+      "predictions": [
+        "",
+        "1",
+        "1",
+        "",
+        "2",
+        "5"
+      ]
+    },
+    "MID=(MIN+MAX)/2": {
+      "predictions": [
+        "7",
+        "8",
+        "1",
+        "6",
+        "2",
+        "5"
+      ],
+      "min_match": 0.3333,
+      "max_match": 0.6667,
+      "sum_match": 0.0,
+      "diff_match": 0.0
+    },
+    "DIFF=MAX-MIN": {
+      "predictions": [
+        "7",
+        "8",
+        "1",
+        "6",
+        "2",
+        "5"
+      ],
+      "min_match": 0.3333,
+      "max_match": 0.6667,
+      "sum_match": 0.0,
+      "diff_match": 0.0
+    },
+    "ANTI-MIN=2MAX-MIN": {
+      "predictions": [
+        "7",
+        "8",
+        "1",
+        "6",
+        "2",
+        "5"
+      ],
+      "min_match": 0.3333,
+      "max_match": 0.6667,
+      "sum_match": 0.0,
+      "diff_match": 0.0
+    },
+    "BLEND=0.3MIN+0.7MAX": {
+      "predictions": [
+        "7",
+        "8",
+        "1",
+        "6",
+        "2",
+        "5"
+      ],
+      "min_match": 0.3333,
+      "max_match": 0.6667,
+      "sum_match": 0.0,
+      "diff_match": 0.0
+    },
+    "SUM-MIN+MAX": {
+      "predictions": [
+        "7",
+        "8",
+        "5",
+        "6",
+        "2",
+        "5"
+      ],
+      "min_match": 0.1667,
+      "max_match": 0.8333,
+      "sum_match": 0.0,
+      "diff_match": 0.0
+    }
+  },
+  "elapsed": 13.5
+}

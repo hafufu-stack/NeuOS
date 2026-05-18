@@ -1,0 +1,177 @@
+{
+  "phase": 5,
+  "name": "thermodynamic_scheduling",
+  "n_scenarios": 10,
+  "metrics": {
+    "weighted_completion": {
+      "round_robin": 40.59,
+      "priority_queue": 29.64,
+      "thermodynamic": 37.75
+    },
+    "high_priority_latency": {},
+    "throughput": {
+      "round_robin": 20.0,
+      "priority_queue": 20.0,
+      "thermodynamic": 20.0
+    }
+  },
+  "all_results": {
+    "round_robin": [
+      {
+        "wct": 49.8,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 41.03,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 44.09,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 39.25,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 34.01,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 38.42,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 39.56,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 39.7,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 45.67,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 34.39,
+        "completed": 20,
+        "total": 20
+      }
+    ],
+    "priority_queue": [
+      {
+        "wct": 39.12,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 29.83,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 30.92,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 27.66,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 26.0,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 30.56,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 27.87,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 29.32,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 32.2,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 22.93,
+        "completed": 20,
+        "total": 20
+      }
+    ],
+    "thermodynamic": [
+      {
+        "wct": 54.07,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 40.24,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 36.94,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 34.17,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 32.14,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 37.17,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 35.57,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 38.62,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 39.32,
+        "completed": 20,
+        "total": 20
+      },
+      {
+        "wct": 29.27,
+        "completed": 20,
+        "total": 20
+      }
+    ]
+  },
+  "elapsed": 0.0
+}

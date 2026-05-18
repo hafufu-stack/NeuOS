@@ -1,0 +1,15 @@
+{
+  "phase": 12,
+  "name": "context_switching",
+  "n_pairs": 8,
+  "n_layers": 24,
+  "results": {
+    "baseline_A": 0.25,
+    "baseline_B": 0.625,
+    "restored_A": 0.0,
+    "restored_B": 0.125,
+    "timeslice_A": 0.0,
+    "timeslice_B": 0.125
+  },
+  "elapsed": 10.6
+}

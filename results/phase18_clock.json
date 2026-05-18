@@ -1,0 +1,14 @@
+{
+  "phase": 18,
+  "name": "cache_clock",
+  "baseline": 0.0333,
+  "clock_2cycle": 0.0333,
+  "clock_3cycle": 0.0,
+  "loop_results": {
+    "3": 0,
+    "5": -1,
+    "7": -1,
+    "10": -1
+  },
+  "elapsed": 11.6
+}
