@@ -1,0 +1,113 @@
+{
+  "phase": 32,
+  "name": "wetware_1_5b",
+  "model": "Qwen2.5-1.5B",
+  "n_layers": 28,
+  "isa_results": {
+    "MIN": 0.0,
+    "MAX": 0.0,
+    "SUM": 0.0
+  },
+  "muscle_control": {
+    "target_force": 50.0,
+    "final_error": 50.0,
+    "converged": "False",
+    "trajectory": [
+      {
+        "step": 0,
+        "activation": 0.5,
+        "force": 50.0,
+        "error": 0.0
+      },
+      {
+        "step": 1,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 2,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 3,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 4,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 5,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 6,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 7,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 8,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 9,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 10,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 11,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 12,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 13,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      },
+      {
+        "step": 14,
+        "activation": 0.0,
+        "force": 0.0,
+        "error": 50.0
+      }
+    ]
+  },
+  "dma_1_5b": {
+    "layer": 14,
+    "accuracy": 0.0
+  },
+  "elapsed": 14.7
+}

@@ -1,0 +1,208 @@
+{
+  "phase": 30,
+  "name": "neural_ipc",
+  "direct_acc": 0.125,
+  "ipc_acc": 0.0,
+  "ipc_multi_acc": 0.0,
+  "results": {
+    "direct": [
+      {
+        "a": 1,
+        "b": 2,
+        "c": 3,
+        "expected": 6,
+        "pred": "4",
+        "correct": false
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "c": 1,
+        "expected": 6,
+        "pred": "5",
+        "correct": false
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "expected": 3,
+        "pred": "3",
+        "correct": true
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "c": 4,
+        "expected": 9,
+        "pred": "5",
+        "correct": false
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "c": 3,
+        "expected": 6,
+        "pred": "5",
+        "correct": false
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "c": 2,
+        "expected": 6,
+        "pred": "5",
+        "correct": false
+      },
+      {
+        "a": 4,
+        "b": 1,
+        "c": 2,
+        "expected": 7,
+        "pred": "6",
+        "correct": false
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "c": 1,
+        "expected": 5,
+        "pred": "4",
+        "correct": false
+      }
+    ],
+    "ipc": [
+      {
+        "a": 1,
+        "b": 2,
+        "c": 3,
+        "expected": 6,
+        "pred": "3",
+        "correct": false
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "c": 1,
+        "expected": 6,
+        "pred": "1",
+        "correct": false
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "expected": 3,
+        "pred": "1",
+        "correct": false
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "c": 4,
+        "expected": 9,
+        "pred": "1",
+        "correct": false
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "c": 3,
+        "expected": 6,
+        "pred": "3",
+        "correct": false
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "c": 2,
+        "expected": 6,
+        "pred": "1",
+        "correct": false
+      },
+      {
+        "a": 4,
+        "b": 1,
+        "c": 2,
+        "expected": 7,
+        "pred": "1",
+        "correct": false
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "c": 1,
+        "expected": 5,
+        "pred": "1",
+        "correct": false
+      }
+    ],
+    "ipc_multi": [
+      {
+        "a": 1,
+        "b": 2,
+        "c": 3,
+        "expected": 6,
+        "pred": "3",
+        "correct": false
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "c": 1,
+        "expected": 6,
+        "pred": "1",
+        "correct": false
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "expected": 3,
+        "pred": "1",
+        "correct": false
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "c": 4,
+        "expected": 9,
+        "pred": "4",
+        "correct": false
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "c": 3,
+        "expected": 6,
+        "pred": "",
+        "correct": false
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "c": 2,
+        "expected": 6,
+        "pred": "3",
+        "correct": false
+      },
+      {
+        "a": 4,
+        "b": 1,
+        "c": 2,
+        "expected": 7,
+        "pred": "3",
+        "correct": false
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "c": 1,
+        "expected": 5,
+        "pred": "1",
+        "correct": false
+      }
+    ]
+  },
+  "elapsed": 8.5
+}

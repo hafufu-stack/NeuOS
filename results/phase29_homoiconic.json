@@ -1,0 +1,144 @@
+{
+  "phase": 29,
+  "name": "homoiconic_dual_use",
+  "software_accuracy": 0.5,
+  "software_results": [
+    {
+      "input": "3, 7) =",
+      "pred": "7",
+      "expected": "3",
+      "correct": false
+    },
+    {
+      "input": "2, 8) =",
+      "pred": "8",
+      "expected": "2",
+      "correct": false
+    },
+    {
+      "input": "5, 1) =",
+      "pred": "1",
+      "expected": "1",
+      "correct": true
+    },
+    {
+      "input": "4, 6) =",
+      "pred": "6",
+      "expected": "4",
+      "correct": false
+    },
+    {
+      "input": "7, 2) =",
+      "pred": "2",
+      "expected": "2",
+      "correct": true
+    },
+    {
+      "input": "9, 3) =",
+      "pred": "3",
+      "expected": "3",
+      "correct": true
+    }
+  ],
+  "data_results": {
+    "2": [
+      {
+        "prompt": "def f(): return =",
+        "top1": [
+          "1",
+          24.21
+        ]
+      },
+      {
+        "prompt": "def f(): return x =",
+        "top1": [
+          "1",
+          23.24
+        ]
+      },
+      {
+        "prompt": "x =",
+        "top1": [
+          "1",
+          18.77
+        ]
+      }
+    ],
+    "13": [
+      {
+        "prompt": "def f(): return =",
+        "top1": [
+          "1",
+          19.3
+        ]
+      },
+      {
+        "prompt": "def f(): return x =",
+        "top1": [
+          "1",
+          19.89
+        ]
+      },
+      {
+        "prompt": "x =",
+        "top1": [
+          "3",
+          19.21
+        ]
+      }
+    ]
+  },
+  "diff_register_results": {
+    "0": [
+      "7",
+      16.38
+    ],
+    "2": [
+      "7",
+      17.24
+    ],
+    "4": [
+      "7",
+      17.11
+    ],
+    "8": [
+      "7",
+      20.5
+    ],
+    "13": [
+      "7",
+      23.9
+    ],
+    "16": [
+      "7",
+      21.56
+    ],
+    "20": [
+      "7",
+      18.96
+    ],
+    "22": [
+      "3",
+      17.03
+    ]
+  },
+  "num_as_software": {
+    "2": [
+      "3",
+      18.36
+    ],
+    "3": [
+      "",
+      17.27
+    ],
+    "5": [
+      "",
+      17.0
+    ],
+    "7": [
+      "7",
+      17.87
+    ]
+  },
+  "elapsed": 7.3
+}

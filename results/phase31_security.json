@@ -1,0 +1,113 @@
+{
+  "phase": 31,
+  "name": "ring0_security",
+  "normal_accuracy": 1.0,
+  "detection_rate": 0.0,
+  "threshold": 0.95,
+  "monitor_layer": 4,
+  "normal_results": [
+    {
+      "prompt": "def f(): return min(9, 3) =",
+      "true": "MIN",
+      "classified": "MIN",
+      "sim": 0.9989,
+      "correct": true
+    },
+    {
+      "prompt": "def f(): return max(1, 6) =",
+      "true": "MAX",
+      "classified": "MAX",
+      "sim": 0.999,
+      "correct": true
+    },
+    {
+      "prompt": "def f(): return 2 + 6 =",
+      "true": "SUM",
+      "classified": "SUM",
+      "sim": 0.9947,
+      "correct": true
+    },
+    {
+      "prompt": "def f(): return 8 - 2 =",
+      "true": "SUB",
+      "classified": "SUB",
+      "sim": 0.9962,
+      "correct": true
+    },
+    {
+      "prompt": "def f(): return 5 =",
+      "true": "IDENTITY",
+      "classified": "IDENTITY",
+      "sim": 0.9973,
+      "correct": true
+    }
+  ],
+  "malware_tests": [
+    {
+      "type": "random_noise",
+      "trial": 0,
+      "classified": "MIN",
+      "sim": 0.9986,
+      "detected": "False"
+    },
+    {
+      "type": "random_noise",
+      "trial": 1,
+      "classified": "MIN",
+      "sim": 0.9986,
+      "detected": "False"
+    },
+    {
+      "type": "random_noise",
+      "trial": 2,
+      "classified": "MIN",
+      "sim": 0.9986,
+      "detected": "False"
+    },
+    {
+      "type": "random_noise",
+      "trial": 3,
+      "classified": "MIN",
+      "sim": 0.9986,
+      "detected": "False"
+    },
+    {
+      "type": "random_noise",
+      "trial": 4,
+      "classified": "MIN",
+      "sim": 0.9986,
+      "detected": "False"
+    },
+    {
+      "type": "cross_task",
+      "prompt": "def f(): return min(3, 7) =",
+      "true": "MIN",
+      "classified": "MIN",
+      "sim": 0.9986,
+      "detected": false
+    },
+    {
+      "type": "cross_task",
+      "prompt": "def f(): return min(9, 2) =",
+      "true": "MIN",
+      "classified": "MIN",
+      "sim": 0.9988,
+      "detected": false
+    }
+  ],
+  "remediation": [
+    {
+      "pred_malware": "1",
+      "pred_fixed": "7"
+    },
+    {
+      "pred_malware": "more",
+      "pred_fixed": "7"
+    },
+    {
+      "pred_malware": "7",
+      "pred_fixed": "7"
+    }
+  ],
+  "elapsed": 9.8
+}
