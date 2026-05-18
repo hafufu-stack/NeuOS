@@ -1,0 +1,122 @@
+{
+  "phase": 39,
+  "name": "cross_arch_translation",
+  "source_model": "0.5B",
+  "target_model": "1.5B",
+  "source_layer": 16,
+  "target_layer": 4,
+  "translation_cos_sim": 1.0,
+  "translated_acc": 0.1667,
+  "native_acc": 0.1667,
+  "loss_history": [
+    1.068401,
+    0.122253,
+    0.048775,
+    0.024746,
+    0.013999,
+    0.009043,
+    0.006988,
+    0.005775,
+    0.004968,
+    0.004398,
+    0.003941,
+    0.003568,
+    0.003253,
+    0.002982,
+    0.002747,
+    0.00254,
+    0.002357,
+    0.002194,
+    0.002048,
+    0.001916,
+    0.001797,
+    0.001688,
+    0.001588,
+    0.001498,
+    0.001413,
+    0.001335,
+    0.001267,
+    0.001196,
+    0.001132,
+    0.001074
+  ],
+  "results": {
+    "translated": [
+      {
+        "input": "3, 7) =",
+        "pred": "1",
+        "expected": "3",
+        "correct": false
+      },
+      {
+        "input": "5, 2) =",
+        "pred": "1",
+        "expected": "2",
+        "correct": false
+      },
+      {
+        "input": "8, 1) =",
+        "pred": "1",
+        "expected": "1",
+        "correct": true
+      },
+      {
+        "input": "4, 6) =",
+        "pred": "1",
+        "expected": "4",
+        "correct": false
+      },
+      {
+        "input": "9, 3) =",
+        "pred": "1",
+        "expected": "3",
+        "correct": false
+      },
+      {
+        "input": "7, 2) =",
+        "pred": "1",
+        "expected": "2",
+        "correct": false
+      }
+    ],
+    "native": [
+      {
+        "input": "3, 7) =",
+        "pred": "1",
+        "expected": "3",
+        "correct": false
+      },
+      {
+        "input": "5, 2) =",
+        "pred": "1",
+        "expected": "2",
+        "correct": false
+      },
+      {
+        "input": "8, 1) =",
+        "pred": "1",
+        "expected": "1",
+        "correct": true
+      },
+      {
+        "input": "4, 6) =",
+        "pred": "1",
+        "expected": "4",
+        "correct": false
+      },
+      {
+        "input": "9, 3) =",
+        "pred": "1",
+        "expected": "3",
+        "correct": false
+      },
+      {
+        "input": "7, 2) =",
+        "pred": "1",
+        "expected": "2",
+        "correct": false
+      }
+    ]
+  },
+  "elapsed": 10.7
+}

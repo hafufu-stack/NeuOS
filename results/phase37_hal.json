@@ -1,0 +1,81 @@
+{
+  "phase": 37,
+  "name": "rosetta_hal",
+  "alignment_accuracy": 0.5,
+  "dma_with_sensor": 0.25,
+  "loss_history": [
+    1.0083,
+    0.9038,
+    0.8659,
+    0.9062,
+    0.8759,
+    0.8515,
+    0.8067,
+    0.7951,
+    0.8942,
+    0.8035,
+    0.8503,
+    0.896,
+    0.8805,
+    0.8681,
+    0.8767,
+    0.8124,
+    0.8587,
+    0.841,
+    0.8165,
+    0.8158
+  ],
+  "align_results": {
+    "0": {
+      "best_match": 0,
+      "correct": true,
+      "sim": 0.4689
+    },
+    "1": {
+      "best_match": 1,
+      "correct": true,
+      "sim": 0.4478
+    },
+    "2": {
+      "best_match": 2,
+      "correct": true,
+      "sim": 0.3646
+    },
+    "3": {
+      "best_match": 3,
+      "correct": true,
+      "sim": 0.3175
+    },
+    "4": {
+      "best_match": 3,
+      "correct": false,
+      "sim": 0.3176
+    },
+    "5": {
+      "best_match": 4,
+      "correct": false,
+      "sim": 0.3542
+    },
+    "6": {
+      "best_match": 7,
+      "correct": false,
+      "sim": 0.4522
+    },
+    "7": {
+      "best_match": 7,
+      "correct": true,
+      "sim": 0.4382
+    },
+    "8": {
+      "best_match": 7,
+      "correct": false,
+      "sim": 0.4223
+    },
+    "9": {
+      "best_match": 7,
+      "correct": false,
+      "sim": 0.4116
+    }
+  },
+  "elapsed": 13.6
+}
