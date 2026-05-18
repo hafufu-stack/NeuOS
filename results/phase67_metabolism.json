@@ -1,0 +1,119 @@
+{
+  "phase": 67,
+  "name": "neural_metabolism",
+  "initial_pop": 20,
+  "final_pop": 16,
+  "n_rounds": 15,
+  "pop_history": [
+    20,
+    20,
+    21,
+    21,
+    21,
+    21,
+    21,
+    21,
+    21,
+    18,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "energy_history": [
+    4.6,
+    4.2,
+    3.62,
+    3.93,
+    3.5,
+    3.81,
+    4.12,
+    3.69,
+    3.26,
+    3.36,
+    3.41,
+    3.16,
+    3.38,
+    3.59,
+    3.34
+  ],
+  "specialization_counts": {
+    "MIN": 2,
+    "GENERALIST": 3,
+    "MAX": 5
+  },
+  "top_survivors": {
+    "18": {
+      "min_score": 1.0,
+      "max_score": 0.0,
+      "energy": 6.0,
+      "age": 15,
+      "specialization": "MIN"
+    },
+    "8": {
+      "min_score": 0.5,
+      "max_score": 0.5,
+      "energy": 5.0,
+      "age": 15,
+      "specialization": "GENERALIST"
+    },
+    "10": {
+      "min_score": 0.75,
+      "max_score": 0.0,
+      "energy": 5.0,
+      "age": 15,
+      "specialization": "MIN"
+    },
+    "15": {
+      "min_score": 0.5,
+      "max_score": 0.5,
+      "energy": 5.0,
+      "age": 15,
+      "specialization": "GENERALIST"
+    },
+    "17": {
+      "min_score": 0.5,
+      "max_score": 0.5,
+      "energy": 5.0,
+      "age": 15,
+      "specialization": "GENERALIST"
+    },
+    "0": {
+      "min_score": 0.25,
+      "max_score": 0.75,
+      "energy": 2.5,
+      "age": 15,
+      "specialization": "MAX"
+    },
+    "1": {
+      "min_score": 0.25,
+      "max_score": 0.75,
+      "energy": 2.5,
+      "age": 15,
+      "specialization": "MAX"
+    },
+    "2": {
+      "min_score": 0.25,
+      "max_score": 0.75,
+      "energy": 2.5,
+      "age": 15,
+      "specialization": "MAX"
+    },
+    "3": {
+      "min_score": 0.25,
+      "max_score": 0.75,
+      "energy": 2.5,
+      "age": 15,
+      "specialization": "MAX"
+    },
+    "5": {
+      "min_score": 0.25,
+      "max_score": 0.75,
+      "energy": 2.5,
+      "age": 15,
+      "specialization": "MAX"
+    }
+  },
+  "elapsed": 82.2
+}

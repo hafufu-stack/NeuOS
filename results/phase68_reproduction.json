@@ -1,0 +1,83 @@
+{
+  "phase": 68,
+  "name": "neural_reproduction",
+  "n_generations": 8,
+  "total_organisms": 34,
+  "gen_stats": [
+    {
+      "gen": 0,
+      "n_organisms": 2,
+      "avg_train": 1.0,
+      "max_train": 1.0,
+      "avg_test": 0.5
+    },
+    {
+      "gen": 1,
+      "n_organisms": 4,
+      "avg_train": 0.35,
+      "max_train": 0.6,
+      "avg_test": 0.4167
+    },
+    {
+      "gen": 2,
+      "n_organisms": 4,
+      "avg_train": 0.4,
+      "max_train": 0.8,
+      "avg_test": 0.5
+    },
+    {
+      "gen": 3,
+      "n_organisms": 4,
+      "avg_train": 0.2,
+      "max_train": 0.4,
+      "avg_test": 0.3333
+    },
+    {
+      "gen": 4,
+      "n_organisms": 4,
+      "avg_train": 0.35,
+      "max_train": 0.4,
+      "avg_test": 0.25
+    },
+    {
+      "gen": 5,
+      "n_organisms": 4,
+      "avg_train": 0.3,
+      "max_train": 0.6,
+      "avg_test": 0.3333
+    },
+    {
+      "gen": 6,
+      "n_organisms": 4,
+      "avg_train": 0.3,
+      "max_train": 0.4,
+      "avg_test": 0.0
+    },
+    {
+      "gen": 7,
+      "n_organisms": 4,
+      "avg_train": 0.45,
+      "max_train": 0.6,
+      "avg_test": 0.0
+    }
+  ],
+  "final_gen_diversity": 0.6321,
+  "lineage_depth": {
+    "0": 2,
+    "1": 4,
+    "2": 4,
+    "3": 4,
+    "4": 4,
+    "5": 4,
+    "6": 4,
+    "7": 4,
+    "8": 4
+  },
+  "mutation_rates_tested": [
+    0.01,
+    0.05,
+    0.1,
+    0.5
+  ],
+  "elapsed": 64.2
+}

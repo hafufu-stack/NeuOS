@@ -1,0 +1,14 @@
+{
+  "phase": 66,
+  "name": "neural_immune_system",
+  "n_self": 16,
+  "n_pathogen": 16,
+  "loo_accuracy": 0.8125,
+  "novel_results": {
+    "novel_self": 1,
+    "novel_pathogen": 0,
+    "corrupted_self": 1,
+    "heavily_corrupted": 1
+  },
+  "elapsed": 695.2
+}
