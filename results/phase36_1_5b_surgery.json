@@ -1,0 +1,30 @@
+{
+  "phase": 36,
+  "name": "1_5b_isa_surgery",
+  "model": "Qwen2.5-1.5B",
+  "n_layers": 28,
+  "without_surgery": {
+    "MIN": 0.0,
+    "MAX": 0.0,
+    "SUM": 0.0
+  },
+  "with_surgery": {
+    "MIN": 0.2222,
+    "MAX": 0.1111,
+    "SUM": 0.2222
+  },
+  "probe_results": {
+    "0": 0.3968,
+    "4": 0.7381,
+    "8": 0.6905,
+    "12": 0.6825,
+    "16": 0.627,
+    "20": 0.5794,
+    "24": 0.5794
+  },
+  "min_best_layer": 4,
+  "min_best_acc": 0.7381,
+  "dma_acc": 0.5,
+  "dma_layer": 14,
+  "elapsed": 18.5
+}

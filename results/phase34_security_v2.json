@@ -1,0 +1,73 @@
+{
+  "phase": 34,
+  "name": "ring0_security_v2",
+  "results_per_layer": {
+    "4": {
+      "normal_acc": 1.0,
+      "avg_normal_sim": 0.9972,
+      "avg_malware_sim": 0.9986,
+      "gap": -0.0014,
+      "threshold": 0.9979,
+      "detection_rate": 0.0,
+      "false_positive_rate": 0.6
+    },
+    "8": {
+      "normal_acc": 1.0,
+      "avg_normal_sim": 0.9885,
+      "avg_malware_sim": 0.9972,
+      "gap": -0.0086,
+      "threshold": 0.9928,
+      "detection_rate": 0.0,
+      "false_positive_rate": 0.6
+    },
+    "14": {
+      "normal_acc": 1.0,
+      "avg_normal_sim": 0.9917,
+      "avg_malware_sim": 0.995,
+      "gap": -0.0032,
+      "threshold": 0.9933,
+      "detection_rate": 0.0,
+      "false_positive_rate": 0.6
+    },
+    "16": {
+      "normal_acc": 1.0,
+      "avg_normal_sim": 0.9648,
+      "avg_malware_sim": 0.0149,
+      "gap": 0.9499,
+      "threshold": 0.4898,
+      "detection_rate": 1.0,
+      "false_positive_rate": 0.0
+    },
+    "18": {
+      "normal_acc": 1.0,
+      "avg_normal_sim": 0.973,
+      "avg_malware_sim": 0.062,
+      "gap": 0.911,
+      "threshold": 0.5175,
+      "detection_rate": 1.0,
+      "false_positive_rate": 0.0
+    },
+    "20": {
+      "normal_acc": 1.0,
+      "avg_normal_sim": 0.9775,
+      "avg_malware_sim": 0.0599,
+      "gap": 0.9176,
+      "threshold": 0.5187,
+      "detection_rate": 1.0,
+      "false_positive_rate": 0.0
+    },
+    "22": {
+      "normal_acc": 1.0,
+      "avg_normal_sim": 0.98,
+      "avg_malware_sim": 0.0634,
+      "gap": 0.9165,
+      "threshold": 0.5217,
+      "detection_rate": 1.0,
+      "false_positive_rate": 0.0
+    }
+  },
+  "best_monitor_layer": 16,
+  "best_gap": 0.9499,
+  "best_detection_rate": 1.0,
+  "elapsed": 17.7
+}
