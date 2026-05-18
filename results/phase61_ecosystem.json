@@ -1,0 +1,63 @@
+{
+  "phase": 61,
+  "name": "neural_ecosystem",
+  "species_fitness": {
+    "MIN": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "MAX": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "SUM": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "cross_results": {
+    "MIN+SUM": {
+      "MIN_acc": 0.2,
+      "SUM_acc": 0.0
+    },
+    "MAX+MIN": {
+      "MAX_acc": 0.6,
+      "MIN_acc": 0.4
+    },
+    "MAX+SUM": {
+      "MAX_acc": 0.4,
+      "SUM_acc": 0.0
+    }
+  },
+  "niche_sims": {
+    "MIN-MAX": 0.0985,
+    "MIN-SUM": -0.0396,
+    "MAX-SUM": 0.0522
+  },
+  "stability": {
+    "0.0": {
+      "MIN": 0.0,
+      "MAX": 1.0
+    },
+    "0.25": {
+      "MIN": 0.4,
+      "MAX": 0.6
+    },
+    "0.5": {
+      "MIN": 0.4,
+      "MAX": 0.6
+    },
+    "0.75": {
+      "MIN": 0.6,
+      "MAX": 0.2
+    },
+    "1.0": {
+      "MIN": 1.0,
+      "MAX": 0.0
+    }
+  },
+  "elapsed": 344.3
+}

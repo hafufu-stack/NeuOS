@@ -1,0 +1,22 @@
+{
+  "phase": 63,
+  "name": "mirror_test",
+  "mirror_results": {
+    "MIN": {
+      "orig_vs_r1": -0.0084,
+      "r1_vs_r2": 0.894,
+      "r2_vs_r3": 0.9731,
+      "orig_vs_r2": -0.0193
+    },
+    "MAX": {
+      "orig_vs_r1": -0.018,
+      "r1_vs_r2": 0.8708,
+      "r2_vs_r3": 0.9629,
+      "orig_vs_r2": -0.0219
+    }
+  },
+  "cross_recognition": 0.1902,
+  "min_self_recognition": -0.0084,
+  "max_self_recognition": -0.018,
+  "elapsed": 105.7
+}

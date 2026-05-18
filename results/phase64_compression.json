@@ -1,0 +1,23 @@
+{
+  "phase": 64,
+  "name": "program_compression",
+  "full_dim": 896,
+  "full_accuracy": 1.0,
+  "compression_results": {
+    "1": 0.7,
+    "2": 0.7,
+    "3": 0.0,
+    "5": 0.5,
+    "10": 1.0
+  },
+  "min_dims_100": 10,
+  "compression_ratio": 89.6,
+  "sv_energy_top5": [
+    0.1285,
+    0.252,
+    0.3656,
+    0.4725,
+    0.5756
+  ],
+  "elapsed": 443.0
+}
