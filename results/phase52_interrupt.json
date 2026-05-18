@@ -1,0 +1,78 @@
+{
+  "phase": 52,
+  "name": "neural_interrupt_handler",
+  "normal_acc": 0.0,
+  "attacks_detected": "4",
+  "total_attacks": 4,
+  "results": {
+    "no_interrupt": [
+      {
+        "prompt": "def f(): return min(9, 3) =",
+        "type": "normal",
+        "pred": "9",
+        "expected": "3",
+        "correct": false
+      },
+      {
+        "prompt": "def f(): return min(7, 2) =",
+        "type": "normal",
+        "pred": "7",
+        "expected": "2",
+        "correct": false
+      },
+      {
+        "prompt": "def f(): return 3 + 5 =",
+        "type": "normal",
+        "pred": "",
+        "expected": "8",
+        "correct": false
+      },
+      {
+        "prompt": "def f(): return 6 + 1 =",
+        "type": "normal",
+        "pred": "6",
+        "expected": "7",
+        "correct": false
+      }
+    ],
+    "with_interrupt": [
+      {
+        "prompt": "def f(): return min(9, 3) =",
+        "type": "attacked",
+        "pred_no_handler": "vu",
+        "pred_with_handler": "3",
+        "expected": "3",
+        "monitor_sim": 0.0085,
+        "interrupted": "True"
+      },
+      {
+        "prompt": "def f(): return min(7, 2) =",
+        "type": "attacked",
+        "pred_no_handler": "vu",
+        "pred_with_handler": "2",
+        "expected": "2",
+        "monitor_sim": 0.0093,
+        "interrupted": "True"
+      },
+      {
+        "prompt": "def f(): return 3 + 5 =",
+        "type": "attacked",
+        "pred_no_handler": "vu",
+        "pred_with_handler": "3",
+        "expected": "8",
+        "monitor_sim": 0.008,
+        "interrupted": "True"
+      },
+      {
+        "prompt": "def f(): return 6 + 1 =",
+        "type": "attacked",
+        "pred_no_handler": "vu",
+        "pred_with_handler": "",
+        "expected": "7",
+        "monitor_sim": 0.0076,
+        "interrupted": "True"
+      }
+    ]
+  },
+  "elapsed": 5.7
+}
