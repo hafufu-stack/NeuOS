@@ -10,9 +10,9 @@ NeuOS is a systematic investigation revealing that pre-trained transformer langu
 
 **[NeuOS: Discovering and Exploiting the Neural Von Neumann Architecture Inside Pre-Trained Language Models](https://doi.org/10.5281/zenodo.20262991)**
 
-## Key Results (26 Phases)
+## Neural CPU Register Map (ISA)
 
-### Neural CPU Register Map (ISA)
+All 24 layers of Qwen2.5-0.5B were probed to identify a complete 9-register Instruction Set Architecture:
 
 | Register | Layer | Accuracy | Pipeline Stage |
 |----------|-------|----------|----------------|
@@ -26,55 +26,56 @@ NeuOS is a systematic investigation revealing that pre-trained transformer langu
 | **SUM** | L20 | **78%** | ALU |
 | **MAX** | L22 | **100%** | Output Register |
 
-### Breakthrough Results
+## Key Results (76 Phases across 12 Seasons)
+
+### Season 1–4: The Neural Computer (P1–P26)
 
 | Discovery | Phase | Result |
 |-----------|-------|--------|
-| **Self-Healing OS** | P14 | 100% recovery from hardware damage via dynamic register reallocation |
-| **ISA Universality** | P15 | Register positions stable across prompt formats (+/-2 layers) |
-| **Register Transfer** | P20 | 90% behavioral takeover by transplanting L16 (MIN) register |
-| **DMA Execution** | P22 | 66.7% accuracy executing programs without any text instructions |
-| **Neural fork()** | P23 | 100% differentiation: 1 input -> 3 different programs |
+| **Unified ISA** | P9 | 9 registers identified across 24 layers |
+| **Self-Healing OS** | P14 | 100% recovery from hardware damage via register reallocation |
+| **Register Transfer** | P20 | 90% behavioral takeover by transplanting MIN register |
+| **DMA Execution** | P22 | 66.7% accuracy executing programs without text instructions |
+| **Neural fork()** | P23 | 100% differentiation: 1 input → 3 different programs |
 | **Neural Decompiler** | P26 | 100% program identification from register state alone |
 
-### All Phases
+### Season 5–7: Autopoiesis and Polymorphism (P27–P55)
 
-| Phase | Name | Key Finding |
-|-------|------|-------------|
-| P1 | Sorting Register | MIN=L16 (100%), MAX=L18 (99%) |
-| P2 | Conditional Branch | Comparison=L15 (99%) |
-| P3 | Write Optimization | Best single layer: L22 (50%) |
-| P4 | Graceful Degradation | Catastrophic: 10% dropout destroys computation |
-| P5 | Thermodynamic Scheduling | Thermodynamic scheduling beats round-robin |
-| P6 | Blackbox Device Probing | Linear R2=0.98 |
-| P7 | Instruction Taxonomy | 8-class OPCODE classification |
-| P8 | Multi-Program Execution | 0% (register collision) |
-| **P9** | **Register Map** | **Unified ISA: 9 registers L0-L22** |
-| P10 | Chained Computation | Intermediate sum exists (57%) but chain fails |
-| P11 | Neural Clock | 0% (embedding layer overwrites) |
-| P12 | Context Switch | 0% (hidden state restoration fails) |
-| P13 | Wetware Hypervisor | 0% (Hill muscle equilibrium) |
-| **P14** | **Self-Healing** | **100% recovery via register reallocation** |
-| **P15** | **ISA Universality** | **Format-invariant register positions** |
-| P16 | Neural Executable | 0% (tokenization boundary mismatch) |
-| **P17** | **KV-Cache Paging** | **Baseline-matching multitasking** |
-| P18 | Cache Clock | KV continuation works (limited by base accuracy) |
-| P19 | Symbiotic Polymorphism | 0% (0.5B model too small for control) |
-| **P20** | **Register Transfer** | **90% takeover; L0 cos_sim=0.99 (universal parser)** |
-| **P22** | **DMA Execution** | **66.7% without text instructions** |
-| **P23** | **Neural fork()** | **75% MIN accuracy, 100% differentiation** |
-| **P24** | **Execution Port** | **Optimal injection at L5-L8, not native layer** |
-| P25 | Register Algebra | MIN-MAX cos_sim=0.981; linear synthesis fails |
-| **P26** | **Neural Decompiler** | **100% program identification (5 operations)** |
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **Cross-Architecture Translation** | P39 | Register vectors translated between 0.5B and 1.5B models |
+| **Autopoietic Kernel** | P50 | 100% accuracy via self-compilation with zero external labels |
+| **Topological Proprioception** | P54 | 90.5% anomaly detection from topology features |
+| **Polymorphic Hot Swapping** | P55 | 60% accuracy maintained across 15 hot-swaps of 5 variants |
+
+### Season 8–9: Artificial Life (P56–P70)
+
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **Neural Quine** | P58 | Self-replicating program vector (self-sim 0.70 vs control -0.001) |
+| **Neural Genetic Algorithm** | P59 | Gradient-free evolution: 83.3% test accuracy |
+| **Program Compression** | P64 | 896-dim vector compressed to 10 dims, 100% accuracy retained |
+| **Cambrian Explosion** | P70 | 19 unique phenotypes emerge over 20 generations |
+
+### Season 10–12: The Opus (P71–P76)
+
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **Multicellular Organism** | P71 | MIN+MAX cells cooperate for RANGE: 80% accuracy |
+| **Developmental Metamorphosis** | P72 | Reversible FIRST→MIN→MAX program differentiation |
+| **Neural Parasitism** | P73 | Parasite vector destroys host MAX function (100%→0%) |
+| **Aging and Rejuvenation** | P76 | Retraining restores aged program (40%→80%); SVD pruning fails |
+
+> A complete summary of all 76 phases with detailed metrics is available in the paper's Appendix (Table 2).
 
 ## Project Structure
 
 ```
-experiments/    # Phase scripts (P1-P26)
+experiments/    # Phase scripts (P1-P76)
 results/        # JSON output from all phases
 figures/        # Visualization PNGs
-papers/         # LaTeX source and PDF
-runner.py       # Orchestrator v5 (GPU/CPU parallel)
+papers/         # LaTeX source and PDF (v1, v2)
+runner.py       # Orchestrator (GPU/CPU parallel)
 ```
 
 ## Running
@@ -96,7 +97,7 @@ python experiments/phase9_register_map.py
 
 ## Based on
 
-- [Aletheia](https://github.com/hafufu-stack/aletheia) - Neural Von Neumann Machine discovery
+- [Aletheia](https://github.com/hafufu-stack/aletheia) — Neural Von Neumann Machine discovery
 - Qwen2.5-0.5B with embedding surgery
 
 ## Author

@@ -1,0 +1,419 @@
+{
+ "P10": {
+  "name": "chained_computation",
+  "n_single": 30,
+  "n_chain": 40,
+  "n_layers": 24
+ },
+ "P11": {
+  "name": "neural_clock",
+  "n_problems": 30,
+  "n_loop": 20,
+  "baseline_acc": 0.0333,
+  "loop_4op_acc": 0
+ },
+ "P12": {
+  "name": "context_switching",
+  "n_pairs": 8,
+  "n_layers": 24
+ },
+ "P13": {
+  "name": "wetware_hypervisor",
+  "method": "DAgger",
+  "n_dagger_iters": 5,
+  "success_rate": 0.0
+ },
+ "P14": {
+  "name": "dynamic_register_reallocation",
+  "n_problems": 25,
+  "n_layers": 24,
+  "baseline_acc": 0.6
+ },
+ "P15": {
+  "name": "isa_universality",
+  "n_layers": 24
+ },
+ "P16": {
+  "name": "neural_executable",
+  "n_tests": 6,
+  "n_programs": 4,
+  "control_acc": 0.8333,
+  "cross_diff_rate": 0.0
+ },
+ "P17": {
+  "name": "kv_cache_paging",
+  "n_pairs": 8
+ },
+ "P18": {
+  "name": "cache_clock",
+  "baseline": 0.0333,
+  "clock_2cycle": 0.0333,
+  "clock_3cycle": 0.0
+ },
+ "P19": {
+  "name": "symbiotic_polymorphism",
+  "n_targets": 6,
+  "n_cycles": 15,
+  "success_rate": 0.0
+ },
+ "P1": {
+  "name": "sorting_register_discovery",
+  "n_problems": 120,
+  "n_layers": 24
+ },
+ "P20": {
+  "name": "register_transfer",
+  "min_takeover": 0.9
+ },
+ "P22": {
+  "name": "dma_execution",
+  "cross_injection": 0.3333
+ },
+ "P23": {
+  "name": "neural_fork",
+  "n_tests": 4,
+  "min_acc": 0.75,
+  "max_acc": 0.0,
+  "sum_acc": 0.0,
+  "diff_rate": 1.0
+ },
+ "P24": {
+  "name": "execution_port"
+ },
+ "P25": {
+  "name": "register_algebra",
+  "injection_layer": 16
+ },
+ "P26": {
+  "name": "neural_decompiler",
+  "best_layer": 2,
+  "multi_layer_accuracy": 1.0
+ },
+ "P27": {
+  "name": "multi_port_dma"
+ },
+ "P28": {
+  "name": "execution_matrix",
+  "task_donor": "MIN",
+  "task_target": "ADD"
+ },
+ "P29": {
+  "name": "homoiconic_dual_use",
+  "software_accuracy": 0.5
+ },
+ "P2": {
+  "name": "conditional_branch_register",
+  "n_problems": 72,
+  "n_layers": 24
+ },
+ "P30": {
+  "name": "neural_ipc",
+  "direct_acc": 0.125,
+  "ipc_acc": 0.0,
+  "ipc_multi_acc": 0.0
+ },
+ "P31": {
+  "name": "ring0_security",
+  "normal_accuracy": 1.0,
+  "detection_rate": 0.0,
+  "threshold": 0.95,
+  "monitor_layer": 4
+ },
+ "P32": {
+  "name": "wetware_1_5b",
+  "model": "Qwen2.5-1.5B",
+  "n_layers": 28
+ },
+ "P33": {
+  "name": "attention_archaeology"
+ },
+ "P34": {
+  "name": "ring0_security_v2",
+  "best_monitor_layer": 16,
+  "best_gap": 0.9499,
+  "best_detection_rate": 1.0
+ },
+ "P35": {
+  "name": "gradient_program_synthesis",
+  "target_layer": 8,
+  "target_op": "MAX"
+ },
+ "P36": {
+  "name": "1_5b_isa_surgery",
+  "model": "Qwen2.5-1.5B",
+  "n_layers": 28,
+  "min_best_layer": 4,
+  "min_best_acc": 0.7381,
+  "dma_acc": 0.5,
+  "dma_layer": 14
+ },
+ "P37": {
+  "name": "rosetta_hal",
+  "alignment_accuracy": 0.5,
+  "dma_with_sensor": 0.25
+ },
+ "P38": {
+  "name": "cybernetic_jit",
+  "final_train_acc": 1.0,
+  "avg_control_error": 0.0,
+  "control_accuracy": 1.0
+ },
+ "P39": {
+  "name": "cross_arch_translation",
+  "source_model": "0.5B",
+  "target_model": "1.5B",
+  "source_layer": 16,
+  "target_layer": 4,
+  "translation_cos_sim": 1.0,
+  "translated_acc": 0.1667,
+  "native_acc": 0.1667
+ },
+ "P3": {
+  "name": "write_optimization",
+  "n_problems": 12,
+  "n_layers": 24,
+  "baseline_accuracy": 0.3333
+ },
+ "P40": {
+  "name": "universal_device_api",
+  "avg_zero_shot_acc": 0.6389
+ },
+ "P41": {
+  "name": "register_fingerprinting",
+  "n_samples": 93
+ },
+ "P42": {
+  "name": "adversarial_evasion",
+  "monitor_layer": 16,
+  "threshold": 0.95,
+  "attack_success": 1.0,
+  "evasion_rate": 0.0,
+  "full_attack_rate": 0.0
+ },
+ "P43": {
+  "name": "neural_debugger"
+ },
+ "P44": {
+  "name": "program_composition",
+  "min_only_acc": 1.0,
+  "composed_acc": 0.0
+ },
+ "P45": {
+  "name": "conditional_branching",
+  "final_train_acc": 1.0,
+  "test_acc": 0.6667,
+  "symmetry_rate": 0.3333
+ },
+ "P46": {
+  "name": "program_reverse_engineering",
+  "vec_identification_acc": 0.0,
+  "behavior_identification_acc": 0.3333
+ },
+ "P47": {
+  "name": "hardware_fatigue_homeostasis",
+  "avg_error_no_adapt": 15.0,
+  "avg_error_adapted": 27.36,
+  "improvement_pct": -82.4,
+  "recompile_count": 17
+ },
+ "P48": {
+  "name": "neural_hyperthreading",
+  "final_orthogonality": 0.006872
+ },
+ "P49": {
+  "name": "neural_proprioception",
+  "train_acc": 1.0,
+  "test_acc": 0.0,
+  "precision": 0,
+  "recall": 0.0,
+  "n_normal": 15,
+  "n_anomaly": 20
+ },
+ "P4": {
+  "name": "graceful_degradation",
+  "n_layers": 24,
+  "n_trials": 5
+ },
+ "P50": {
+  "name": "autopoietic_kernel",
+  "accuracy": 1.0,
+  "avg_oracle_error": 25.63,
+  "avg_self_error": 26.27
+ },
+ "P51": {
+  "name": "program_polymorphism",
+  "n_variants": 10
+ },
+ "P52": {
+  "name": "neural_interrupt_handler",
+  "normal_acc": 0.0,
+  "attacks_detected": "4",
+  "total_attacks": 4
+ },
+ "P53": {
+  "name": "liquid_homeostasis",
+  "improvement_vs_none": -55.7,
+  "improvement_vs_aggressive": 17.9,
+  "ema_tau": 0.95
+ },
+ "P54": {
+  "name": "topological_proprioception",
+  "cv_accuracy": 0.9048,
+  "train_acc": 1.0,
+  "test_acc": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "n_features": 14,
+  "p49_baseline_test": 0.0
+ },
+ "P55": {
+  "name": "polymorphic_hot_swapping",
+  "accuracy": 0.6,
+  "n_variants": 5,
+  "n_swaps": 15,
+  "avg_binary_sim": -0.0178
+ },
+ "P56": {
+  "name": "soul_migration",
+  "migration_success": true,
+  "same_kernel_code": true
+ },
+ "P57": {
+  "name": "program_arithmetic"
+ },
+ "P58": {
+  "name": "neural_quine",
+  "final_self_sim": 0.702,
+  "avg_control_sim": -0.0006,
+  "avg_portable_sim": 0.6241,
+  "quine_amplification": 1238.71
+ },
+ "P59": {
+  "name": "neural_genetic_algorithm",
+  "pop_size": 20,
+  "n_generations": 30,
+  "evolved_train": 0.8,
+  "evolved_test": 0.8333,
+  "gradient_train": 1.0,
+  "gradient_test": 0.8333
+ },
+ "P5": {
+  "name": "thermodynamic_scheduling",
+  "n_scenarios": 10
+ },
+ "P60": {
+  "name": "recursive_self_improvement",
+  "converged": true,
+  "diverged": true,
+  "final_quine_sim": 0.9998,
+  "final_random_sim": 0.9997
+ },
+ "P61": {
+  "name": "neural_ecosystem"
+ },
+ "P62": {
+  "name": "dream_compilation",
+  "n_dreams": 20,
+  "n_clusters": 4
+ },
+ "P63": {
+  "name": "mirror_test",
+  "cross_recognition": 0.1902,
+  "min_self_recognition": -0.0084,
+  "max_self_recognition": -0.018
+ },
+ "P64": {
+  "name": "program_compression",
+  "full_dim": 896,
+  "full_accuracy": 1.0,
+  "min_dims_100": 10,
+  "compression_ratio": 89.6
+ },
+ "P65": {
+  "name": "program_genome"
+ },
+ "P66": {
+  "name": "neural_immune_system",
+  "n_self": 16,
+  "n_pathogen": 16,
+  "loo_accuracy": 0.8125
+ },
+ "P67": {
+  "name": "neural_metabolism",
+  "initial_pop": 20,
+  "final_pop": 16,
+  "n_rounds": 15
+ },
+ "P68": {
+  "name": "neural_reproduction",
+  "n_generations": 8,
+  "total_organisms": 34,
+  "final_gen_diversity": 0.6321
+ },
+ "P69": {
+  "name": "integrated_information"
+ },
+ "P6": {
+  "name": "blackbox_device_probing"
+ },
+ "P70": {
+  "name": "cambrian_explosion",
+  "pop_size": 30,
+  "n_generations": 20,
+  "unique_phenotypes": 19
+ },
+ "P71": {
+  "name": "multicellular_organism",
+  "min_solo": 0.8,
+  "max_solo": 1.0,
+  "multicellular_range": 0.8,
+  "single_cell_range": 0.8,
+  "sort_accuracy": 1.0,
+  "combined_min": 0.6,
+  "combined_max": 0.4
+ },
+ "P72": {
+  "name": "developmental_program",
+  "n_steps": 20
+ },
+ "P73": {
+  "name": "neural_symbiosis",
+  "min_solo": 0.75,
+  "max_solo": 1.0,
+  "min_symbiotic": 0.75,
+  "max_symbiotic": 0.75,
+  "mutualism": false,
+  "max_parasitized": 0.0,
+  "parasitism": true
+ },
+ "P74": {
+  "name": "memory_consolidation",
+  "weak_score": 0.8,
+  "strong_score": 0.8,
+  "final_consolidated": 0.2
+ },
+ "P75": {
+  "name": "language_emergence",
+  "n_programs": 32,
+  "communication_accuracy": 0.2812,
+  "reconstruction_accuracy": 0.0
+ },
+ "P76": {
+  "name": "aging_and_death"
+ },
+ "P7": {
+  "name": "instruction_taxonomy",
+  "n_layers": 24,
+  "best_layer": 1
+ },
+ "P8": {
+  "name": "multi_program_execution",
+  "n_single": 8,
+  "n_multi": 8,
+  "n_layers": 24
+ },
+ "P9": {
+  "name": "unified_register_map",
+  "n_layers": 24
+ }
+}
