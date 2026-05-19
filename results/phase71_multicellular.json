@@ -1,0 +1,12 @@
+{
+  "phase": 71,
+  "name": "multicellular_organism",
+  "min_solo": 0.8,
+  "max_solo": 1.0,
+  "multicellular_range": 0.8,
+  "single_cell_range": 0.8,
+  "sort_accuracy": 1.0,
+  "combined_min": 0.6,
+  "combined_max": 0.4,
+  "elapsed": 79.6
+}

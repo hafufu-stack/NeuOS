@@ -1,0 +1,21 @@
+{
+  "phase": 75,
+  "name": "language_emergence",
+  "n_programs": 32,
+  "pca_variance": [
+    0.0819,
+    0.0558,
+    0.0503,
+    0.0488,
+    0.0448
+  ],
+  "communication_accuracy": 0.2812,
+  "dim_results": {
+    "1": 0.2188,
+    "2": 0.1875,
+    "3": 0.2188,
+    "5": 0.2812
+  },
+  "reconstruction_accuracy": 0.0,
+  "elapsed": 908.3
+}

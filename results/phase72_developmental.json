@@ -1,0 +1,175 @@
+{
+  "phase": 72,
+  "name": "developmental_program",
+  "n_steps": 20,
+  "timeline": [
+    {
+      "t": 0,
+      "stage": "LARVA",
+      "first": 5,
+      "min": 2,
+      "max": 3
+    },
+    {
+      "t": 1,
+      "stage": "LARVA",
+      "first": 5,
+      "min": 2,
+      "max": 3
+    },
+    {
+      "t": 2,
+      "stage": "LARVA",
+      "first": 5,
+      "min": 2,
+      "max": 3
+    },
+    {
+      "t": 3,
+      "stage": "LARVA",
+      "first": 5,
+      "min": 2,
+      "max": 3
+    },
+    {
+      "t": 4,
+      "stage": "LARVA",
+      "first": 5,
+      "min": 2,
+      "max": 3
+    },
+    {
+      "t": 5,
+      "stage": "LARVA",
+      "first": 5,
+      "min": 2,
+      "max": 3
+    },
+    {
+      "t": 6,
+      "stage": "LARVA",
+      "first": 5,
+      "min": 2,
+      "max": 3
+    },
+    {
+      "t": 7,
+      "stage": "PUPA_TRANS",
+      "first": 5,
+      "min": 2,
+      "max": 3
+    },
+    {
+      "t": 8,
+      "stage": "PUPA_TRANS",
+      "first": 5,
+      "min": 2,
+      "max": 3
+    },
+    {
+      "t": 9,
+      "stage": "PUPA_TRANS",
+      "first": 2,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "t": 10,
+      "stage": "PUPA_TRANS",
+      "first": 2,
+      "min": 3,
+      "max": 2
+    },
+    {
+      "t": 11,
+      "stage": "PUPA_TRANS",
+      "first": 4,
+      "min": 1,
+      "max": 4
+    },
+    {
+      "t": 12,
+      "stage": "PUPA_TRANS",
+      "first": 1,
+      "min": 4,
+      "max": 1
+    },
+    {
+      "t": 13,
+      "stage": "ADULT_TRANS",
+      "first": 2,
+      "min": 5,
+      "max": 0
+    },
+    {
+      "t": 14,
+      "stage": "ADULT_TRANS",
+      "first": 3,
+      "min": 4,
+      "max": 1
+    },
+    {
+      "t": 15,
+      "stage": "ADULT_TRANS",
+      "first": 2,
+      "min": 3,
+      "max": 1
+    },
+    {
+      "t": 16,
+      "stage": "ADULT_TRANS",
+      "first": 2,
+      "min": 3,
+      "max": 1
+    },
+    {
+      "t": 17,
+      "stage": "ADULT_TRANS",
+      "first": 3,
+      "min": 2,
+      "max": 2
+    },
+    {
+      "t": 18,
+      "stage": "ADULT_TRANS",
+      "first": 1,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "t": 19,
+      "stage": "ADULT_TRANS",
+      "first": 2,
+      "min": 0,
+      "max": 4
+    }
+  ],
+  "revert_test": [
+    {
+      "alpha": 0.0,
+      "first": 3,
+      "max": 5
+    },
+    {
+      "alpha": 0.25,
+      "first": 3,
+      "max": 3
+    },
+    {
+      "alpha": 0.5,
+      "first": 1,
+      "max": 1
+    },
+    {
+      "alpha": 0.75,
+      "first": 3,
+      "max": 2
+    },
+    {
+      "alpha": 1.0,
+      "first": 5,
+      "max": 3
+    }
+  ],
+  "elapsed": 85.5
+}

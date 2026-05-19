@@ -1,0 +1,194 @@
+{
+  "phase": 76,
+  "name": "aging_and_death",
+  "aging_during_training": [
+    {
+      "epoch": 0,
+      "accuracy": 0.4,
+      "loss": 5.0553,
+      "norm": 0.8892,
+      "top10_energy": 0.0488,
+      "top50_energy": 0.1911,
+      "entropy": 93.0483
+    },
+    {
+      "epoch": 10,
+      "accuracy": 0.8,
+      "loss": 0.0151,
+      "norm": 1.8174,
+      "top10_energy": 0.0387,
+      "top50_energy": 0.1622,
+      "entropy": 57.5016
+    },
+    {
+      "epoch": 20,
+      "accuracy": 0.8,
+      "loss": 0.0065,
+      "norm": 1.8253,
+      "top10_energy": 0.0392,
+      "top50_energy": 0.1631,
+      "entropy": 57.2854
+    },
+    {
+      "epoch": 30,
+      "accuracy": 0.8,
+      "loss": 0.0044,
+      "norm": 1.8255,
+      "top10_energy": 0.0396,
+      "top50_energy": 0.1639,
+      "entropy": 57.2538
+    },
+    {
+      "epoch": 40,
+      "accuracy": 0.8,
+      "loss": 0.0033,
+      "norm": 1.8258,
+      "top10_energy": 0.0399,
+      "top50_energy": 0.1645,
+      "entropy": 57.2296
+    },
+    {
+      "epoch": 50,
+      "accuracy": 0.8,
+      "loss": 0.0027,
+      "norm": 1.8261,
+      "top10_energy": 0.0403,
+      "top50_energy": 0.1651,
+      "entropy": 57.2052
+    },
+    {
+      "epoch": 60,
+      "accuracy": 0.8,
+      "loss": 0.0022,
+      "norm": 1.8264,
+      "top10_energy": 0.0406,
+      "top50_energy": 0.1656,
+      "entropy": 57.1883
+    },
+    {
+      "epoch": 70,
+      "accuracy": 0.8,
+      "loss": 0.0018,
+      "norm": 1.8267,
+      "top10_energy": 0.0408,
+      "top50_energy": 0.166,
+      "entropy": 57.1724
+    },
+    {
+      "epoch": 80,
+      "accuracy": 0.8,
+      "loss": 0.0016,
+      "norm": 1.827,
+      "top10_energy": 0.0411,
+      "top50_energy": 0.1664,
+      "entropy": 57.1568
+    },
+    {
+      "epoch": 90,
+      "accuracy": 0.8,
+      "loss": 0.0014,
+      "norm": 1.8273,
+      "top10_energy": 0.0413,
+      "top50_energy": 0.1668,
+      "entropy": 57.1415
+    },
+    {
+      "epoch": 99,
+      "accuracy": 0.8,
+      "loss": 0.0012,
+      "norm": 1.8275,
+      "top10_energy": 0.0415,
+      "top50_energy": 0.1672,
+      "entropy": 57.1281
+    }
+  ],
+  "accelerated_aging": [
+    {
+      "age": 1,
+      "accuracy": 0.6,
+      "top10_energy": 0.0723,
+      "top50_energy": 0.2568,
+      "norm": 2.3768,
+      "entropy": 43.6422
+    },
+    {
+      "age": 2,
+      "accuracy": 0.4,
+      "top10_energy": 0.0762,
+      "top50_energy": 0.2666,
+      "norm": 2.7862,
+      "entropy": 38.4457
+    },
+    {
+      "age": 3,
+      "accuracy": 0.6,
+      "top10_energy": 0.0891,
+      "top50_energy": 0.2969,
+      "norm": 3.2169,
+      "entropy": 33.5011
+    },
+    {
+      "age": 4,
+      "accuracy": 0.2,
+      "top10_energy": 0.0909,
+      "top50_energy": 0.2914,
+      "norm": 3.5685,
+      "entropy": 31.3045
+    },
+    {
+      "age": 5,
+      "accuracy": 0.6,
+      "top10_energy": 0.0877,
+      "top50_energy": 0.2979,
+      "norm": 3.8586,
+      "entropy": 29.4303
+    },
+    {
+      "age": 6,
+      "accuracy": 0.6,
+      "top10_energy": 0.0938,
+      "top50_energy": 0.3011,
+      "norm": 4.1441,
+      "entropy": 27.5621
+    },
+    {
+      "age": 7,
+      "accuracy": 0.4,
+      "top10_energy": 0.0976,
+      "top50_energy": 0.3066,
+      "norm": 4.4172,
+      "entropy": 26.0831
+    },
+    {
+      "age": 8,
+      "accuracy": 0.4,
+      "top10_energy": 0.0996,
+      "top50_energy": 0.3224,
+      "norm": 4.6671,
+      "entropy": 24.8828
+    },
+    {
+      "age": 9,
+      "accuracy": 0.4,
+      "top10_energy": 0.1087,
+      "top50_energy": 0.3332,
+      "norm": 4.8104,
+      "entropy": 24.131
+    },
+    {
+      "age": 10,
+      "accuracy": 0.4,
+      "top10_energy": 0.1101,
+      "top50_energy": 0.3307,
+      "norm": 4.9467,
+      "entropy": 23.7237
+    }
+  ],
+  "rejuvenation": {
+    "aged": 0.4,
+    "retrained": 0.8,
+    "svd_pruned": 0.2,
+    "young_baseline": 0.8
+  },
+  "elapsed": 50.9
+}

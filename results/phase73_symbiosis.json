@@ -1,0 +1,34 @@
+{
+  "phase": 73,
+  "name": "neural_symbiosis",
+  "min_solo": 0.75,
+  "max_solo": 1.0,
+  "min_symbiotic": 0.75,
+  "max_symbiotic": 0.75,
+  "mutualism": false,
+  "max_parasitized": 0.0,
+  "parasitism": true,
+  "relationships": [
+    {
+      "scale": 0.1,
+      "min_benefit": 0.0,
+      "max_benefit": 0.0
+    },
+    {
+      "scale": 0.3,
+      "min_benefit": 0.0,
+      "max_benefit": -0.25
+    },
+    {
+      "scale": 0.5,
+      "min_benefit": 0.0,
+      "max_benefit": -0.25
+    },
+    {
+      "scale": 1.0,
+      "min_benefit": -0.25,
+      "max_benefit": -0.25
+    }
+  ],
+  "elapsed": 112.4
+}
