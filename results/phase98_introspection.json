@@ -1,0 +1,120 @@
+{
+  "phase": 98,
+  "name": "introspection",
+  "train_accuracy": 0.6667,
+  "novel_accuracy": 0.5,
+  "introspection_results": [
+    {
+      "program": "MIN_s0",
+      "expected": "1",
+      "predicted": "1",
+      "correct": true
+    },
+    {
+      "program": "MIN_s100",
+      "expected": "1",
+      "predicted": "1",
+      "correct": true
+    },
+    {
+      "program": "MIN_s200",
+      "expected": "1",
+      "predicted": "1",
+      "correct": true
+    },
+    {
+      "program": "MIN_s300",
+      "expected": "1",
+      "predicted": "1",
+      "correct": true
+    },
+    {
+      "program": "MIN_s400",
+      "expected": "1",
+      "predicted": "1",
+      "correct": true
+    },
+    {
+      "program": "MIN_s500",
+      "expected": "1",
+      "predicted": "1",
+      "correct": true
+    },
+    {
+      "program": "MIN_s600",
+      "expected": "1",
+      "predicted": "1",
+      "correct": true
+    },
+    {
+      "program": "MIN_s700",
+      "expected": "1",
+      "predicted": "1",
+      "correct": true
+    },
+    {
+      "program": "MAX_s0",
+      "expected": "2",
+      "predicted": "1",
+      "correct": false
+    },
+    {
+      "program": "MAX_s100",
+      "expected": "2",
+      "predicted": "1",
+      "correct": false
+    },
+    {
+      "program": "MAX_s200",
+      "expected": "2",
+      "predicted": "1",
+      "correct": false
+    },
+    {
+      "program": "MAX_s300",
+      "expected": "2",
+      "predicted": "1",
+      "correct": false
+    }
+  ],
+  "novel_results": [
+    {
+      "task": "MIN_s500",
+      "expected": "1",
+      "predicted": "1",
+      "correct": true
+    },
+    {
+      "task": "MAX_s500",
+      "expected": "2",
+      "predicted": "1",
+      "correct": false
+    },
+    {
+      "task": "MIN_s600",
+      "expected": "1",
+      "predicted": "1",
+      "correct": true
+    },
+    {
+      "task": "MAX_s600",
+      "expected": "2",
+      "predicted": "1",
+      "correct": false
+    },
+    {
+      "task": "MIN_s700",
+      "expected": "1",
+      "predicted": "1",
+      "correct": true
+    },
+    {
+      "task": "MAX_s700",
+      "expected": "2",
+      "predicted": "1",
+      "correct": false
+    }
+  ],
+  "num_programs_trained": 12,
+  "elapsed": 845.7
+}

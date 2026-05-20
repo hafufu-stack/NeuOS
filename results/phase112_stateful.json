@@ -1,0 +1,43 @@
+{
+  "phase": 112,
+  "name": "stateful_consciousness",
+  "state_dim": 64,
+  "recurrent_train": 1.0,
+  "recurrent_test": 0.3333,
+  "direct_train": 1.0,
+  "direct_test": 0.3333,
+  "nostate_acc": 0.2,
+  "history": [
+    {
+      "epoch": 40,
+      "loss": 1.528,
+      "train_acc": 0.6,
+      "test_acc": 0.3333
+    },
+    {
+      "epoch": 80,
+      "loss": 0.3509,
+      "train_acc": 1.0,
+      "test_acc": 0.3333
+    },
+    {
+      "epoch": 120,
+      "loss": 0.0004,
+      "train_acc": 1.0,
+      "test_acc": 0.3333
+    },
+    {
+      "epoch": 160,
+      "loss": 0.0001,
+      "train_acc": 1.0,
+      "test_acc": 0.3333
+    },
+    {
+      "epoch": 200,
+      "loss": 0.0,
+      "train_acc": 1.0,
+      "test_acc": 0.3333
+    }
+  ],
+  "elapsed": 854.1
+}

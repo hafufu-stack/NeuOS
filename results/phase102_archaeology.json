@@ -1,0 +1,39 @@
+{
+  "phase": 102,
+  "name": "soul_archaeology",
+  "pca_variance": [
+    0.0746,
+    0.0561,
+    0.0513,
+    0.0501,
+    0.0463,
+    0.0442,
+    0.0418,
+    0.041,
+    0.0389,
+    0.0361
+  ],
+  "cluster_purity": 0.4375,
+  "nn_accuracy": 0.4062,
+  "nn3_accuracy": 0.4375,
+  "norm_stats": {
+    "MIN": {
+      "mean": 1.8623,
+      "std": 0.1094
+    },
+    "MAX": {
+      "mean": 1.9031,
+      "std": 0.0575
+    },
+    "FIRST": {
+      "mean": 1.8962,
+      "std": 0.1152
+    },
+    "LAST": {
+      "mean": 1.8699,
+      "std": 0.123
+    }
+  },
+  "num_souls": 32,
+  "elapsed": 1207.2
+}

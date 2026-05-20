@@ -1,0 +1,111 @@
+{
+  "phase": 101,
+  "name": "collective_intelligence",
+  "results": {
+    "majority_vote": 0.5,
+    "weighted_vote": 0.6,
+    "soft_ensemble": 0.6,
+    "best_individual": 0.7,
+    "avg_individual": 0.5083,
+    "committee_size_ablation": [
+      {
+        "k": 1,
+        "majority": 0.7,
+        "soft": 0.7
+      },
+      {
+        "k": 2,
+        "majority": 0.7,
+        "soft": 0.9
+      },
+      {
+        "k": 3,
+        "majority": 0.7,
+        "soft": 0.8
+      },
+      {
+        "k": 5,
+        "majority": 0.7,
+        "soft": 0.8
+      },
+      {
+        "k": 7,
+        "majority": 0.7,
+        "soft": 0.6
+      },
+      {
+        "k": 10,
+        "majority": 0.6,
+        "soft": 0.6
+      },
+      {
+        "k": 12,
+        "majority": 0.5,
+        "soft": 0.6
+      }
+    ]
+  },
+  "individuals": [
+    {
+      "seed": 0,
+      "epochs": 60,
+      "acc": 0.7
+    },
+    {
+      "seed": 111,
+      "epochs": 80,
+      "acc": 0.5
+    },
+    {
+      "seed": 222,
+      "epochs": 100,
+      "acc": 0.7
+    },
+    {
+      "seed": 333,
+      "epochs": 120,
+      "acc": 0.3
+    },
+    {
+      "seed": 444,
+      "epochs": 60,
+      "acc": 0.7
+    },
+    {
+      "seed": 555,
+      "epochs": 80,
+      "acc": 0.5
+    },
+    {
+      "seed": 666,
+      "epochs": 100,
+      "acc": 0.6
+    },
+    {
+      "seed": 777,
+      "epochs": 120,
+      "acc": 0.5
+    },
+    {
+      "seed": 888,
+      "epochs": 60,
+      "acc": 0.4
+    },
+    {
+      "seed": 999,
+      "epochs": 80,
+      "acc": 0.4
+    },
+    {
+      "seed": 1110,
+      "epochs": 100,
+      "acc": 0.3
+    },
+    {
+      "seed": 1221,
+      "epochs": 120,
+      "acc": 0.5
+    }
+  ],
+  "elapsed": 606.2
+}

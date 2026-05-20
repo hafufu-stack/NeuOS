@@ -1,0 +1,60 @@
+{
+  "phase": 104,
+  "name": "social_learning",
+  "teacher_accuracy": 0.9,
+  "student_accuracy": 0.9,
+  "baseline_accuracy": 0.9,
+  "random_accuracy": 0.4,
+  "cos_student_teacher": 0.0937,
+  "cos_baseline_teacher": -0.061,
+  "demo_ablation": [
+    {
+      "n_demos": 1,
+      "accuracy": 0.3
+    },
+    {
+      "n_demos": 3,
+      "accuracy": 0.6
+    },
+    {
+      "n_demos": 5,
+      "accuracy": 0.8
+    },
+    {
+      "n_demos": 10,
+      "accuracy": 0.9
+    },
+    {
+      "n_demos": 15,
+      "accuracy": 0.9
+    }
+  ],
+  "imitation_history": [
+    {
+      "epoch": 30,
+      "loss": 0.0,
+      "accuracy": 0.8
+    },
+    {
+      "epoch": 60,
+      "loss": 0.0,
+      "accuracy": 0.9
+    },
+    {
+      "epoch": 90,
+      "loss": 0.0,
+      "accuracy": 0.9
+    },
+    {
+      "epoch": 120,
+      "loss": 0.0,
+      "accuracy": 0.9
+    },
+    {
+      "epoch": 150,
+      "loss": 0.0,
+      "accuracy": 0.9
+    }
+  ],
+  "elapsed": 808.7
+}

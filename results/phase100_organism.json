@@ -1,0 +1,24 @@
+{
+  "phase": 100,
+  "name": "digital_organism",
+  "results": {
+    "bare_soul": 0.9,
+    "soul_immune": 0.2,
+    "infected_no_immune": 0.0,
+    "infected_with_immune": 0.6,
+    "soul_microbiome": 0.9,
+    "soul_microbiome_solo": 0.2,
+    "full_organism_infected": 0.9,
+    "full_organism_clean": 0.9,
+    "polymorphic_variants": [
+      0.6,
+      0.7,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "polymorphic_avg": 0.8,
+    "organism_score": 0.74
+  },
+  "elapsed": 643.2
+}

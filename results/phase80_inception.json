@@ -1,0 +1,48 @@
+{
+  "phase": 80,
+  "name": "autopoietic_inception",
+  "architecture": {
+    "host_layer": 16,
+    "guest_data_layer": 13,
+    "output_layer": 22,
+    "prog_layer": 8
+  },
+  "programs": {
+    "MIN": {
+      "direct_accuracy": 0.6667,
+      "vmm_cos_sim": 0.4648
+    },
+    "MAX": {
+      "direct_accuracy": 0.6667,
+      "vmm_cos_sim": 0.4659
+    }
+  },
+  "vmm_training": [
+    {
+      "epoch": 0,
+      "loss": 9.5876
+    },
+    {
+      "epoch": 20,
+      "loss": 0.0092
+    },
+    {
+      "epoch": 40,
+      "loss": 0.0048
+    },
+    {
+      "epoch": 60,
+      "loss": 0.003
+    },
+    {
+      "epoch": 80,
+      "loss": 0.0021
+    },
+    {
+      "epoch": 100,
+      "loss": 0.0015
+    }
+  ],
+  "guest_swap_test": "MAX guest with MIN-trained VMM",
+  "elapsed": 110.5
+}

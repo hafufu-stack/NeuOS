@@ -1,0 +1,75 @@
+{
+  "phase": 110,
+  "name": "red_queen",
+  "n_rounds": 8,
+  "history": [
+    {
+      "round": 1,
+      "attacker_acc": 0.625,
+      "cos_min": -0.0809,
+      "cos_max": 0.0137,
+      "defender_score": 0.0053,
+      "deception_success": false
+    },
+    {
+      "round": 2,
+      "attacker_acc": 0.75,
+      "cos_min": 0.3479,
+      "cos_max": -0.0006,
+      "defender_score": 0.0046,
+      "deception_success": false
+    },
+    {
+      "round": 3,
+      "attacker_acc": 0.75,
+      "cos_min": 0.4675,
+      "cos_max": -0.02,
+      "defender_score": 0.0038,
+      "deception_success": false
+    },
+    {
+      "round": 4,
+      "attacker_acc": 0.875,
+      "cos_min": 0.5232,
+      "cos_max": -0.0222,
+      "defender_score": 0.0027,
+      "deception_success": false
+    },
+    {
+      "round": 5,
+      "attacker_acc": 0.75,
+      "cos_min": 0.562,
+      "cos_max": 0.0106,
+      "defender_score": 0.003,
+      "deception_success": false
+    },
+    {
+      "round": 6,
+      "attacker_acc": 0.75,
+      "cos_min": 0.6024,
+      "cos_max": 0.0165,
+      "defender_score": 0.0037,
+      "deception_success": false
+    },
+    {
+      "round": 7,
+      "attacker_acc": 0.875,
+      "cos_min": 0.6377,
+      "cos_max": 0.0038,
+      "defender_score": 1.0,
+      "deception_success": true
+    },
+    {
+      "round": 8,
+      "attacker_acc": 0.875,
+      "cos_min": 0.5926,
+      "cos_max": 0.0305,
+      "defender_score": 1.0,
+      "deception_success": true
+    }
+  ],
+  "final_attacker_acc": 0.875,
+  "final_defender_score": 1.0,
+  "deception_rate": 0.25,
+  "elapsed": 513.7
+}

@@ -1,0 +1,36 @@
+{
+  "phase": 118,
+  "name": "immune_rosetta",
+  "acc_A_min": 1.0,
+  "acc_B_min": 1.0,
+  "acc_C_max": 1.0,
+  "acc_C_min": 0.0,
+  "msg_cos_AB": 0.4792,
+  "msg_cos_BC": 1.0,
+  "msg_cos_AC": 0.4792,
+  "cond_T_AB": 73.05,
+  "cond_T_BC": 506.01,
+  "roundtrip_err_honest": 0.9582,
+  "roundtrip_err_backdoor": 0.9563,
+  "svd_AB": [
+    0.3581,
+    0.0479,
+    0.0309,
+    0.0284,
+    0.0219,
+    0.0173,
+    0.0063,
+    0.0049
+  ],
+  "svd_BC": [
+    1.144,
+    0.0482,
+    0.0475,
+    0.0305,
+    0.0235,
+    0.0209,
+    0.0112,
+    0.0023
+  ],
+  "elapsed": 333.9
+}

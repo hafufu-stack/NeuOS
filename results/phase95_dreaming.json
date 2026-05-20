@@ -1,0 +1,128 @@
+{
+  "phase": 95,
+  "name": "soul_dreaming",
+  "avg_pre_test": 0.64,
+  "avg_post_test": 0.52,
+  "avg_pre_hard": 0.72,
+  "avg_post_hard": 0.52,
+  "dream_improvement_test": -0.12,
+  "dream_improvement_hard": -0.2,
+  "results": [
+    {
+      "seed": 0,
+      "pre": {
+        "train": 1.0,
+        "test": 1.0,
+        "hard": 0.6
+      },
+      "post": {
+        "train": 0.4,
+        "test": 0.6,
+        "hard": 0.6
+      },
+      "robustness_pre": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "robustness_post": [
+        0.2,
+        0.4,
+        0.4
+      ]
+    },
+    {
+      "seed": 100,
+      "pre": {
+        "train": 1.0,
+        "test": 0.6,
+        "hard": 0.8
+      },
+      "post": {
+        "train": 0.4,
+        "test": 0.4,
+        "hard": 0.4
+      },
+      "robustness_pre": [
+        0.2,
+        0.2,
+        0.0
+      ],
+      "robustness_post": [
+        0.2,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 200,
+      "pre": {
+        "train": 1.0,
+        "test": 0.6,
+        "hard": 0.8
+      },
+      "post": {
+        "train": 0.2,
+        "test": 0.6,
+        "hard": 0.6
+      },
+      "robustness_pre": [
+        0.2,
+        0.0,
+        0.4
+      ],
+      "robustness_post": [
+        0.4,
+        0.2,
+        0.4
+      ]
+    },
+    {
+      "seed": 300,
+      "pre": {
+        "train": 1.0,
+        "test": 0.4,
+        "hard": 0.8
+      },
+      "post": {
+        "train": 0.0,
+        "test": 0.4,
+        "hard": 0.4
+      },
+      "robustness_pre": [
+        0.2,
+        0.2,
+        0.4
+      ],
+      "robustness_post": [
+        0.2,
+        0.2,
+        0.4
+      ]
+    },
+    {
+      "seed": 400,
+      "pre": {
+        "train": 1.0,
+        "test": 0.6,
+        "hard": 0.6
+      },
+      "post": {
+        "train": 0.2,
+        "test": 0.6,
+        "hard": 0.6
+      },
+      "robustness_pre": [
+        0.2,
+        0.4,
+        0.0
+      ],
+      "robustness_post": [
+        0.2,
+        0.6,
+        0.0
+      ]
+    }
+  ],
+  "elapsed": 112.7
+}

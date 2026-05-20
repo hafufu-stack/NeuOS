@@ -1,0 +1,13 @@
+{
+  "phase": 115,
+  "name": "kernel_composition",
+  "task": "min(a,b)+1",
+  "pipeline_acc": 0.25,
+  "kernel_train": 1.0,
+  "kernel_test": 0.3333,
+  "kernel_all": 0.75,
+  "recurrent_train": 1.0,
+  "recurrent_test": 0.0,
+  "recurrent_all": 0.625,
+  "elapsed": 2144.6
+}

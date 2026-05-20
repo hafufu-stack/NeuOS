@@ -1,0 +1,123 @@
+{
+  "phase": 97,
+  "name": "soul_algebra",
+  "base_accuracies": {
+    "MIN_soul": {
+      "MIN": 0.9,
+      "MAX": 0.1,
+      "FIRST": 0.5
+    },
+    "MAX_soul": {
+      "MIN": 0.0,
+      "MAX": 0.8,
+      "FIRST": 0.5
+    },
+    "FIRST_soul": {
+      "MIN": 0.3,
+      "MAX": 0.6,
+      "FIRST": 0.9
+    }
+  },
+  "interpolation": [
+    {
+      "alpha": 0.0,
+      "MIN": 0.9,
+      "MAX": 0.1,
+      "FIRST": 0.5
+    },
+    {
+      "alpha": 0.1,
+      "MIN": 0.8,
+      "MAX": 0.2,
+      "FIRST": 0.6
+    },
+    {
+      "alpha": 0.2,
+      "MIN": 0.5,
+      "MAX": 0.4,
+      "FIRST": 0.6
+    },
+    {
+      "alpha": 0.3,
+      "MIN": 0.4,
+      "MAX": 0.5,
+      "FIRST": 0.5
+    },
+    {
+      "alpha": 0.4,
+      "MIN": 0.4,
+      "MAX": 0.5,
+      "FIRST": 0.7
+    },
+    {
+      "alpha": 0.5,
+      "MIN": 0.5,
+      "MAX": 0.4,
+      "FIRST": 0.6
+    },
+    {
+      "alpha": 0.6,
+      "MIN": 0.4,
+      "MAX": 0.4,
+      "FIRST": 0.8
+    },
+    {
+      "alpha": 0.7,
+      "MIN": 0.4,
+      "MAX": 0.4,
+      "FIRST": 0.8
+    },
+    {
+      "alpha": 0.8,
+      "MIN": 0.3,
+      "MAX": 0.5,
+      "FIRST": 0.7
+    },
+    {
+      "alpha": 0.9,
+      "MIN": 0.0,
+      "MAX": 0.8,
+      "FIRST": 0.4
+    },
+    {
+      "alpha": 1.0,
+      "MIN": 0.0,
+      "MAX": 0.8,
+      "FIRST": 0.5
+    }
+  ],
+  "arithmetic": {
+    "MIN+MAX": {
+      "MIN": 0.5,
+      "MAX": 0.4,
+      "FIRST": 0.6
+    },
+    "MIN-MAX+FIRST": {
+      "MIN": 0.4,
+      "MAX": 0.3,
+      "FIRST": 0.6
+    },
+    "AVG(all)": {
+      "MIN": 0.4,
+      "MAX": 0.5,
+      "FIRST": 0.7
+    },
+    "MIN_orthog_MAX": {
+      "MIN": 0.9,
+      "MAX": 0.1,
+      "FIRST": 0.5
+    }
+  },
+  "cosine_matrix": {
+    "MIN-MIN": 1.0,
+    "MIN-MAX": 0.2428,
+    "MIN-FIRST": 0.3623,
+    "MAX-MIN": 0.2428,
+    "MAX-MAX": 1.0,
+    "MAX-FIRST": 0.3363,
+    "FIRST-MIN": 0.3623,
+    "FIRST-MAX": 0.3363,
+    "FIRST-FIRST": 1.0
+  },
+  "elapsed": 192.4
+}

@@ -1,0 +1,31 @@
+{
+  "phase": 116,
+  "name": "convergent_evolution",
+  "n_per_method": 15,
+  "mean_accs": {
+    "Gradient": 0.85,
+    "GA": 0.8167,
+    "Iterated": 0.8167,
+    "Random": 0.725
+  },
+  "cross_method_cos": {
+    "Gradient_vs_Gradient": 0.0091,
+    "Gradient_vs_GA": -0.0001,
+    "Gradient_vs_Iterated": 0.014,
+    "Gradient_vs_Random": -0.0008,
+    "GA_vs_Gradient": -0.0001,
+    "GA_vs_GA": 0.001,
+    "GA_vs_Iterated": 0.0035,
+    "GA_vs_Random": 0.001,
+    "Iterated_vs_Gradient": 0.014,
+    "Iterated_vs_GA": 0.0035,
+    "Iterated_vs_Iterated": 0.0057,
+    "Iterated_vs_Random": -0.0017,
+    "Random_vs_Gradient": -0.0008,
+    "Random_vs_GA": 0.001,
+    "Random_vs_Iterated": -0.0017,
+    "Random_vs_Random": -0.0043
+  },
+  "pca_cumvar_5": 0.3453,
+  "elapsed": 2706.8
+}

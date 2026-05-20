@@ -1,0 +1,39 @@
+{
+  "phase": 111,
+  "name": "os_kernel",
+  "kernel_min": 1.0,
+  "kernel_max": 0.875,
+  "kernel_overall": 0.9375,
+  "specialist_min": 1.0,
+  "specialist_max": 0.875,
+  "wrong_cmd_obey_min": 0.0,
+  "wrong_cmd_obey_max": 0.0,
+  "history": [
+    {
+      "epoch": 40,
+      "min_acc": 1.0,
+      "max_acc": 0.875
+    },
+    {
+      "epoch": 80,
+      "min_acc": 1.0,
+      "max_acc": 0.875
+    },
+    {
+      "epoch": 120,
+      "min_acc": 1.0,
+      "max_acc": 0.875
+    },
+    {
+      "epoch": 160,
+      "min_acc": 1.0,
+      "max_acc": 0.875
+    },
+    {
+      "epoch": 200,
+      "min_acc": 1.0,
+      "max_acc": 0.875
+    }
+  ],
+  "elapsed": 716.3
+}

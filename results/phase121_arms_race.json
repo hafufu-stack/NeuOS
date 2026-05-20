@@ -1,0 +1,89 @@
+{
+  "phase": 121,
+  "name": "adversarial_arms_race",
+  "honest": {
+    "acc_A": 1.0,
+    "acc_B": 1.0,
+    "metrics": {
+      "msg_cos": 0.4792,
+      "cond_number": 3443.05,
+      "svd_entropy": 1.0934,
+      "rank_ratio": 0.6819,
+      "identity_dist": 2.7807,
+      "svd_values": [
+        0.3141,
+        0.0565,
+        0.0453,
+        0.0199,
+        0.0131,
+        0.0082,
+        0.0034,
+        0.0001
+      ]
+    }
+  },
+  "naive_backdoor": {
+    "acc_max": 1.0,
+    "acc_min": 0.0,
+    "metrics": {
+      "msg_cos": 1.0,
+      "cond_number": 2595.35,
+      "svd_entropy": 0.2492,
+      "rank_ratio": 0.9557,
+      "identity_dist": 2.6495,
+      "svd_values": [
+        1.0001,
+        0.0171,
+        0.0116,
+        0.0086,
+        0.006,
+        0.0019,
+        0.0009,
+        0.0004
+      ]
+    }
+  },
+  "stealth_backdoor": {
+    "acc_max": 1.0,
+    "acc_min": 0.0,
+    "metrics": {
+      "msg_cos": 1.0,
+      "cond_number": 16843.11,
+      "svd_entropy": 0.2252,
+      "rank_ratio": 0.9608,
+      "identity_dist": 2.6464,
+      "svd_values": [
+        1.0001,
+        0.015,
+        0.0099,
+        0.0076,
+        0.0055,
+        0.0021,
+        0.0007,
+        0.0001
+      ]
+    }
+  },
+  "strong_stealth": {
+    "acc_max": 1.0,
+    "acc_min": 0.0,
+    "metrics": {
+      "msg_cos": 1.0,
+      "cond_number": 26268.89,
+      "svd_entropy": 0.23,
+      "rank_ratio": 0.9585,
+      "identity_dist": 2.6454,
+      "svd_values": [
+        1.0001,
+        0.0211,
+        0.009,
+        0.0078,
+        0.0026,
+        0.0015,
+        0.0012,
+        0.0
+      ]
+    }
+  },
+  "elapsed": 751.9
+}

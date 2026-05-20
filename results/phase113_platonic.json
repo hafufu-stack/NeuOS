@@ -1,0 +1,16 @@
+{
+  "phase": 113,
+  "name": "platonic_form",
+  "n_seeds": 30,
+  "min_acc_mean": 0.825,
+  "max_acc_mean": 0.7958,
+  "within_min_cos": 0.0045,
+  "within_max_cos": 0.0055,
+  "cross_cos": -0.0043,
+  "pca_90_dims": 21,
+  "pca_95_dims": 21,
+  "mle_dim_min": 55.5,
+  "mle_dim_max": 61.9,
+  "mle_dim_all": 64.75,
+  "elapsed": 1598.5
+}

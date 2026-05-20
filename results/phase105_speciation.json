@@ -1,0 +1,259 @@
+{
+  "phase": 105,
+  "name": "soul_speciation",
+  "cosine_matrix": {
+    "MIN-MIN": 1.0,
+    "MIN-MAX": 0.5311,
+    "MIN-FIRST": 0.6411,
+    "MIN-LAST": 0.667,
+    "MAX-MIN": 0.5311,
+    "MAX-MAX": 1.0,
+    "MAX-FIRST": 0.4417,
+    "MAX-LAST": 0.4988,
+    "FIRST-MIN": 0.6411,
+    "FIRST-MAX": 0.4417,
+    "FIRST-FIRST": 1.0,
+    "FIRST-LAST": 0.5917,
+    "LAST-MIN": 0.667,
+    "LAST-MAX": 0.4988,
+    "LAST-FIRST": 0.5917,
+    "LAST-LAST": 1.0
+  },
+  "cross_performance": {
+    "MIN": {
+      "MIN": 0.9,
+      "MAX": 0.1,
+      "FIRST": 0.5,
+      "LAST": 0.5
+    },
+    "MAX": {
+      "MIN": 0.0,
+      "MAX": 0.9,
+      "FIRST": 0.5,
+      "LAST": 0.4
+    },
+    "FIRST": {
+      "MIN": 0.4,
+      "MAX": 0.6,
+      "FIRST": 0.8,
+      "LAST": 0.2
+    },
+    "LAST": {
+      "MIN": 0.6,
+      "MAX": 0.4,
+      "FIRST": 0.0,
+      "LAST": 1.0
+    }
+  },
+  "divergence_history": {
+    "MIN": [
+      {
+        "epoch": 10,
+        "cos_to_ancestor": 0.8114,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 20,
+        "cos_to_ancestor": 0.8103,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 30,
+        "cos_to_ancestor": 0.8106,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 40,
+        "cos_to_ancestor": 0.8107,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 50,
+        "cos_to_ancestor": 0.8107,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 60,
+        "cos_to_ancestor": 0.8107,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 70,
+        "cos_to_ancestor": 0.8106,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 80,
+        "cos_to_ancestor": 0.8106,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 90,
+        "cos_to_ancestor": 0.8105,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 100,
+        "cos_to_ancestor": 0.8104,
+        "accuracy": 0.9
+      }
+    ],
+    "MAX": [
+      {
+        "epoch": 10,
+        "cos_to_ancestor": 0.7091,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 20,
+        "cos_to_ancestor": 0.7042,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 30,
+        "cos_to_ancestor": 0.7043,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 40,
+        "cos_to_ancestor": 0.7044,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 50,
+        "cos_to_ancestor": 0.7045,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 60,
+        "cos_to_ancestor": 0.7046,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 70,
+        "cos_to_ancestor": 0.7046,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 80,
+        "cos_to_ancestor": 0.7047,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 90,
+        "cos_to_ancestor": 0.7047,
+        "accuracy": 0.9
+      },
+      {
+        "epoch": 100,
+        "cos_to_ancestor": 0.7048,
+        "accuracy": 0.9
+      }
+    ],
+    "FIRST": [
+      {
+        "epoch": 10,
+        "cos_to_ancestor": 0.7805,
+        "accuracy": 0.8
+      },
+      {
+        "epoch": 20,
+        "cos_to_ancestor": 0.7765,
+        "accuracy": 0.8
+      },
+      {
+        "epoch": 30,
+        "cos_to_ancestor": 0.7765,
+        "accuracy": 0.8
+      },
+      {
+        "epoch": 40,
+        "cos_to_ancestor": 0.7765,
+        "accuracy": 0.8
+      },
+      {
+        "epoch": 50,
+        "cos_to_ancestor": 0.7765,
+        "accuracy": 0.8
+      },
+      {
+        "epoch": 60,
+        "cos_to_ancestor": 0.7765,
+        "accuracy": 0.8
+      },
+      {
+        "epoch": 70,
+        "cos_to_ancestor": 0.7765,
+        "accuracy": 0.8
+      },
+      {
+        "epoch": 80,
+        "cos_to_ancestor": 0.7765,
+        "accuracy": 0.8
+      },
+      {
+        "epoch": 90,
+        "cos_to_ancestor": 0.7765,
+        "accuracy": 0.8
+      },
+      {
+        "epoch": 100,
+        "cos_to_ancestor": 0.7765,
+        "accuracy": 0.8
+      }
+    ],
+    "LAST": [
+      {
+        "epoch": 10,
+        "cos_to_ancestor": 0.7675,
+        "accuracy": 1.0
+      },
+      {
+        "epoch": 20,
+        "cos_to_ancestor": 0.7648,
+        "accuracy": 1.0
+      },
+      {
+        "epoch": 30,
+        "cos_to_ancestor": 0.7648,
+        "accuracy": 1.0
+      },
+      {
+        "epoch": 40,
+        "cos_to_ancestor": 0.7647,
+        "accuracy": 1.0
+      },
+      {
+        "epoch": 50,
+        "cos_to_ancestor": 0.7647,
+        "accuracy": 1.0
+      },
+      {
+        "epoch": 60,
+        "cos_to_ancestor": 0.7646,
+        "accuracy": 1.0
+      },
+      {
+        "epoch": 70,
+        "cos_to_ancestor": 0.7646,
+        "accuracy": 1.0
+      },
+      {
+        "epoch": 80,
+        "cos_to_ancestor": 0.7645,
+        "accuracy": 1.0
+      },
+      {
+        "epoch": 90,
+        "cos_to_ancestor": 0.7645,
+        "accuracy": 1.0
+      },
+      {
+        "epoch": 100,
+        "cos_to_ancestor": 0.7645,
+        "accuracy": 1.0
+      }
+    ]
+  },
+  "elapsed": 243.7
+}

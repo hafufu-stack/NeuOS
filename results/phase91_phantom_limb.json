@@ -1,0 +1,49 @@
+{
+  "phase": 91,
+  "name": "phantom_limb",
+  "body_layers": [
+    8,
+    12,
+    16
+  ],
+  "full_accuracy": 0.6,
+  "amputation_results": [
+    {
+      "amputated_layer": 8,
+      "accuracy": 0.6,
+      "pain_per_layer": {
+        "18": 0.0,
+        "20": 0.0,
+        "22": 0.0
+      },
+      "avg_pain": 0.0
+    },
+    {
+      "amputated_layer": 12,
+      "accuracy": 0.6,
+      "pain_per_layer": {
+        "18": 0.0,
+        "20": 0.0,
+        "22": 0.0
+      },
+      "avg_pain": 0.0
+    },
+    {
+      "amputated_layer": 16,
+      "accuracy": 0.2,
+      "pain_per_layer": {
+        "18": 0.0161,
+        "20": 0.0274,
+        "22": 0.0407
+      },
+      "avg_pain": 0.0281
+    }
+  ],
+  "control_accuracy": 0.6,
+  "normal_profile": {
+    "18": 33.4607,
+    "20": 41.2127,
+    "22": 62.6849
+  },
+  "elapsed": 68.9
+}

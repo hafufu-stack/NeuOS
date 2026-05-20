@@ -1,0 +1,27 @@
+{
+  "phase": 109,
+  "name": "division_of_labor",
+  "solo": {
+    "min": 0.875,
+    "max": 0.875,
+    "mixed": 0.875
+  },
+  "dual": {
+    "min": 0.875,
+    "max": 1.0,
+    "mixed": 0.9375
+  },
+  "soul_A_alone": {
+    "min": 0.375,
+    "max": 0.125
+  },
+  "soul_B_alone": {
+    "min": 0.875,
+    "max": 1.0
+  },
+  "specialization": {
+    "A": 0.25,
+    "B": 0.125
+  },
+  "elapsed": 1438.5
+}

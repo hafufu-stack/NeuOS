@@ -1,0 +1,150 @@
+{
+  "phase": 106,
+  "name": "emergent_language",
+  "bottleneck_results": [
+    {
+      "bottleneck_dim": 8,
+      "final_accuracy": 1.0
+    },
+    {
+      "bottleneck_dim": 32,
+      "final_accuracy": 1.0
+    },
+    {
+      "bottleneck_dim": 128,
+      "final_accuracy": 1.0
+    },
+    {
+      "bottleneck_dim": 512,
+      "final_accuracy": 0.9
+    }
+  ],
+  "solo_receiver_acc": 1.0,
+  "full_results": [
+    {
+      "bottleneck_dim": 8,
+      "final_accuracy": 1.0,
+      "history": [
+        {
+          "epoch": 30,
+          "loss": 0.0012,
+          "accuracy": 1.0
+        },
+        {
+          "epoch": 60,
+          "loss": 0.0004,
+          "accuracy": 1.0
+        },
+        {
+          "epoch": 90,
+          "loss": 0.0002,
+          "accuracy": 1.0
+        },
+        {
+          "epoch": 120,
+          "loss": 0.0001,
+          "accuracy": 1.0
+        },
+        {
+          "epoch": 150,
+          "loss": 0.0001,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "bottleneck_dim": 32,
+      "final_accuracy": 1.0,
+      "history": [
+        {
+          "epoch": 30,
+          "loss": 0.0067,
+          "accuracy": 1.0
+        },
+        {
+          "epoch": 60,
+          "loss": 0.001,
+          "accuracy": 1.0
+        },
+        {
+          "epoch": 90,
+          "loss": 0.0003,
+          "accuracy": 1.0
+        },
+        {
+          "epoch": 120,
+          "loss": 0.0002,
+          "accuracy": 1.0
+        },
+        {
+          "epoch": 150,
+          "loss": 0.0001,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "bottleneck_dim": 128,
+      "final_accuracy": 1.0,
+      "history": [
+        {
+          "epoch": 30,
+          "loss": 0.4834,
+          "accuracy": 0.8
+        },
+        {
+          "epoch": 60,
+          "loss": 0.0022,
+          "accuracy": 1.0
+        },
+        {
+          "epoch": 90,
+          "loss": 0.0004,
+          "accuracy": 1.0
+        },
+        {
+          "epoch": 120,
+          "loss": 0.0001,
+          "accuracy": 1.0
+        },
+        {
+          "epoch": 150,
+          "loss": 0.0001,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "bottleneck_dim": 512,
+      "final_accuracy": 0.9,
+      "history": [
+        {
+          "epoch": 30,
+          "loss": 0.7138,
+          "accuracy": 0.8
+        },
+        {
+          "epoch": 60,
+          "loss": 2.5823,
+          "accuracy": 0.5
+        },
+        {
+          "epoch": 90,
+          "loss": 2.2226,
+          "accuracy": 0.5
+        },
+        {
+          "epoch": 120,
+          "loss": 1.0781,
+          "accuracy": 0.7
+        },
+        {
+          "epoch": 150,
+          "loss": 0.6875,
+          "accuracy": 0.9
+        }
+      ]
+    }
+  ],
+  "elapsed": 614.2
+}

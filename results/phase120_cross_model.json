@@ -1,0 +1,32 @@
+{
+  "phase": 120,
+  "name": "cross_model_rosetta",
+  "model_a": "0.5B (896d, 24L)",
+  "model_b": "1.5B (1536d, 28L)",
+  "n_vectors": 15,
+  "native_0.5B_min": 0.85,
+  "native_0.5B_max": 0.8417,
+  "native_1.5B_min": 0.9667,
+  "native_1.5B_max": 0.925,
+  "translated_min_on_1.5B": 0.15,
+  "translated_max_on_1.5B": 0.0333,
+  "cross_T_shape": [
+    896,
+    1536
+  ],
+  "cross_T_svd_top10": [
+    1.6399,
+    1.6134,
+    1.5157,
+    1.4267,
+    1.4068,
+    1.3605,
+    1.3348,
+    1.3107,
+    1.2547,
+    1.1885
+  ],
+  "cross_T_cond": 16.63,
+  "roundtrip_error": 29.9256,
+  "elapsed": 1461.3
+}

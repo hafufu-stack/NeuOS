@@ -1,0 +1,130 @@
+{
+  "phase": 90,
+  "name": "autoimmune_disease",
+  "filter_results": [
+    {
+      "k": 1,
+      "min_narrow": 0.25,
+      "max_narrow": 0.125,
+      "first_narrow": 0.8,
+      "min_broad": 0.0,
+      "max_broad": 0.0,
+      "first_broad": 0.4
+    },
+    {
+      "k": 2,
+      "min_narrow": 0.375,
+      "max_narrow": 0.625,
+      "first_narrow": 0.6,
+      "min_broad": 0.25,
+      "max_broad": 0.5,
+      "first_broad": 0.2
+    },
+    {
+      "k": 3,
+      "min_narrow": 0.375,
+      "max_narrow": 0.5,
+      "first_narrow": 0.0,
+      "min_broad": 0.375,
+      "max_broad": 0.25,
+      "first_broad": 0.4
+    },
+    {
+      "k": 5,
+      "min_narrow": 0.375,
+      "max_narrow": 0.375,
+      "first_narrow": 0.0,
+      "min_broad": 0.375,
+      "max_broad": 0.375,
+      "first_broad": 0.8
+    },
+    {
+      "k": 10,
+      "min_narrow": 0.125,
+      "max_narrow": 0.25,
+      "first_narrow": 0.8,
+      "min_broad": 0.5,
+      "max_broad": 0.625,
+      "first_broad": 0.6
+    },
+    {
+      "k": 20,
+      "min_narrow": 0.125,
+      "max_narrow": 0.25,
+      "first_narrow": 0.8,
+      "min_broad": 0.25,
+      "max_broad": 0.375,
+      "first_broad": 0.4
+    },
+    {
+      "k": 50,
+      "min_narrow": 0.125,
+      "max_narrow": 0.25,
+      "first_narrow": 0.8,
+      "min_broad": 0.25,
+      "max_broad": 0.375,
+      "first_broad": 0.4
+    },
+    {
+      "k": 100,
+      "min_narrow": 0.125,
+      "max_narrow": 0.25,
+      "first_narrow": 0.8,
+      "min_broad": 0.25,
+      "max_broad": 0.375,
+      "first_broad": 0.4
+    }
+  ],
+  "malware_results": {
+    "k5_narrow": 0.5,
+    "k5_broad": 0.375,
+    "k10_narrow": 0.125,
+    "k10_broad": 0.375,
+    "k20_narrow": 0.125,
+    "k20_broad": 0.375
+  },
+  "autoimmune_severity": {
+    "1": {
+      "self_preserved": 0.25,
+      "other_rejected": 0.875,
+      "autoimmune_index": 0.875
+    },
+    "2": {
+      "self_preserved": 0.375,
+      "other_rejected": 0.375,
+      "autoimmune_index": 0.375
+    },
+    "3": {
+      "self_preserved": 0.375,
+      "other_rejected": 0.5,
+      "autoimmune_index": 0.5
+    },
+    "5": {
+      "self_preserved": 0.375,
+      "other_rejected": 0.625,
+      "autoimmune_index": 0.625
+    },
+    "10": {
+      "self_preserved": 0.125,
+      "other_rejected": 0.75,
+      "autoimmune_index": 0.75
+    },
+    "20": {
+      "self_preserved": 0.125,
+      "other_rejected": 0.75,
+      "autoimmune_index": 0.75
+    },
+    "50": {
+      "self_preserved": 0.125,
+      "other_rejected": 0.75,
+      "autoimmune_index": 0.75
+    },
+    "100": {
+      "self_preserved": 0.125,
+      "other_rejected": 0.75,
+      "autoimmune_index": 0.75
+    }
+  },
+  "conclusion": "Narrow immune training (MIN-only) causes autoimmune rejection of legitimate MAX programs. Broad training (MIN+MAX) preserves tolerance but may admit novel threats.",
+  "elapsed": 982.3
+}

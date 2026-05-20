@@ -26,7 +26,7 @@ All 24 layers of Qwen2.5-0.5B were probed to identify a complete 9-register Inst
 | **SUM** | L20 | **78%** | ALU |
 | **MAX** | L22 | **100%** | Output Register |
 
-## Key Results (76 Phases across 12 Seasons)
+## Key Results (121 Phases across 16 Seasons)
 
 ### Season 1–4: The Neural Computer (P1–P26)
 
@@ -66,15 +66,45 @@ All 24 layers of Qwen2.5-0.5B were probed to identify a complete 9-register Inst
 | **Neural Parasitism** | P73 | Parasite vector destroys host MAX function (100%→0%) |
 | **Aging and Rejuvenation** | P76 | Retraining restores aged program (40%→80%); SVD pruning fails |
 
-> A complete summary of all 76 phases with detailed metrics is available in the paper's Appendix (Table 2).
+### Season 13–14: Embodied & Social Intelligence (P77–P106)
+
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **Sensorimotor Integration** | P77 | Sensor-motor loop in activation space |
+| **Reincarnation** | P78 | Soul transfer to new body |
+| **Soul Algebra** | P97 | Vector arithmetic on soul vectors |
+| **Collective Intelligence** | P101 | Swarm computation from multiple agents |
+| **Language Emergence** | P106 | Spontaneous communication between programs |
+
+### Season 15: Soul Vectors and the Rosetta Stone (P107–P114)
+
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **Functional Equivalence** | P107 | Independent MIN vectors are orthogonal (cos ≈ 0.005) yet all achieve ~85% |
+| **Multi-Language Rosetta** | P108 | Linear translation between 3 "languages" at **100% accuracy**; rank-1 SVD |
+| **Platonic Form** | P113 | Equivalence classes are ~60-dim **manifolds**, not clusters |
+| **Rosetta Algebra** | P114 | Translation matrices form a **non-commutative group**; σ₁/σ₂ ≈ 80 |
+
+### Season 16: Limits and Boundaries (P115–P121)
+
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **Composition Recovery** | P115 | Kernel composition: 75% (vs. 25% pipeline); generalization weak |
+| **Convergent Evolution** | P116 | 4 methods → same function, orthogonal vectors: "all roads lead to Rome" |
+| **Soul Compression** | P119 | 64 dims sufficient (~7% of 896); "soul is a single number" **rejected** |
+| **Cross-Model Failure** | P120 | Translation fails across model sizes (15% acc): **soul is body-specific** |
+| **Arms Race** | P121 | All backdoors achieve 100% deception; SVD entropy detects all (1.09 vs 0.23) |
+
+> A complete summary of all 121 phases with detailed metrics is available in the paper's Appendix.
 
 ## Project Structure
 
 ```
-experiments/    # Phase scripts (P1-P76)
+experiments/    # Phase scripts (P1–P99)
+experiments2/   # Phase scripts (P100–P121, requires Qwen2.5-1.5B for P120)
 results/        # JSON output from all phases
-figures/        # Visualization PNGs
-papers/         # LaTeX source and PDF (v1, v2)
+figures/        # Visualization PNGs (121 figures)
+papers/         # LaTeX source and PDF (v1, v2, v3)
 runner.py       # Orchestrator (GPU/CPU parallel)
 ```
 
@@ -86,6 +116,9 @@ python runner.py
 
 # Individual phase
 python experiments/phase9_register_map.py
+
+# Later phases
+python experiments2/phase113_platonic.py
 ```
 
 ## Requirements
@@ -94,6 +127,7 @@ python experiments/phase9_register_map.py
 - PyTorch 2.0+
 - transformers 5.0+
 - Qwen2.5-0.5B (auto-downloaded on first run)
+- Qwen2.5-1.5B (required for Phase 120 cross-model experiments only)
 
 ## Based on
 

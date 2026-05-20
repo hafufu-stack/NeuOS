@@ -1,0 +1,100 @@
+{
+  "phase": 85,
+  "name": "neural_blood_brain_barrier",
+  "hidden_size": 896,
+  "soul_dims": 10,
+  "clean_accuracy": 0.9,
+  "random_noise_results": {
+    "0.1": {
+      "raw": 0.9,
+      "bbb": 0.5,
+      "noise_in_soul": 0.0144,
+      "noise_in_body": 0.099,
+      "removal_pct": 0.9896
+    },
+    "0.5": {
+      "raw": 0.8,
+      "bbb": 0.5,
+      "noise_in_soul": 0.0718,
+      "noise_in_body": 0.4948,
+      "removal_pct": 0.9896
+    },
+    "1.0": {
+      "raw": 0.7,
+      "bbb": 0.4,
+      "noise_in_soul": 0.1437,
+      "noise_in_body": 0.9896,
+      "removal_pct": 0.9896
+    },
+    "2.0": {
+      "raw": 0.3,
+      "bbb": 0.4,
+      "noise_in_soul": 0.2874,
+      "noise_in_body": 1.9792,
+      "removal_pct": 0.9896
+    },
+    "5.0": {
+      "raw": 0.4,
+      "bbb": 0.4,
+      "noise_in_soul": 0.7184,
+      "noise_in_body": 4.9481,
+      "removal_pct": 0.9896
+    },
+    "10.0": {
+      "raw": 0.5,
+      "bbb": 0.5,
+      "noise_in_soul": 1.4369,
+      "noise_in_body": 9.8962,
+      "removal_pct": 0.9896
+    },
+    "20.0": {
+      "raw": 0.5,
+      "bbb": 0.4,
+      "noise_in_soul": 2.8737,
+      "noise_in_body": 19.7925,
+      "removal_pct": 0.9896
+    },
+    "50.0": {
+      "raw": 0.6,
+      "bbb": 0.5,
+      "noise_in_soul": 7.1843,
+      "noise_in_body": 49.4812,
+      "removal_pct": 0.9896
+    }
+  },
+  "targeted_attack": {
+    "adv_soul_ratio": 0.2561,
+    "raw": [
+      0.8,
+      0.6,
+      0.6,
+      0.5,
+      0.0,
+      0.0,
+      0.2,
+      0.1
+    ],
+    "bbb": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.4,
+      0.5,
+      0.2,
+      0.5
+    ]
+  },
+  "epsilons": [
+    0.1,
+    0.5,
+    1.0,
+    2.0,
+    5.0,
+    10.0,
+    20.0,
+    50.0
+  ],
+  "bbb_protection_rate": 0.0,
+  "elapsed": 557.9
+}

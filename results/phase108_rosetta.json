@@ -1,0 +1,22 @@
+{
+  "phase": 108,
+  "name": "rosetta_stone",
+  "language_A_acc": 1.0,
+  "language_B_acc": 1.0,
+  "translated_acc": 1.0,
+  "random_T_acc": 0.1,
+  "identity_T_acc": 0.1,
+  "singular_values": [
+    0.4183,
+    0.0413,
+    0.0355,
+    0.0255,
+    0.0211,
+    0.0137,
+    0.008,
+    0.0004
+  ],
+  "condition_number": 1017.558,
+  "translation_success": true,
+  "elapsed": 1209.4
+}

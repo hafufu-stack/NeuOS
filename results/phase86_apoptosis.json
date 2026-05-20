@@ -1,0 +1,72 @@
+{
+  "phase": 86,
+  "name": "viral_apoptosis_reincarnation",
+  "original_accuracy": 0.9,
+  "avg_infected_accuracy": 0.5333,
+  "avg_reincarnated_accuracy": 0.7833,
+  "detection_rate": 1.0,
+  "soul_dims": 10,
+  "results": [
+    {
+      "epsilon": 0.5,
+      "infected_acc": 0.9,
+      "detected": true,
+      "residual": 0.9845,
+      "reincarnated_acc": 0.6,
+      "cos_sim_to_original": -0.1498,
+      "re_infected_acc": 0.7,
+      "reincarnation_seed": 1000
+    },
+    {
+      "epsilon": 1.0,
+      "infected_acc": 0.6,
+      "detected": true,
+      "residual": 0.9846,
+      "reincarnated_acc": 0.7,
+      "cos_sim_to_original": -0.0677,
+      "re_infected_acc": 0.6,
+      "reincarnation_seed": 1001
+    },
+    {
+      "epsilon": 2.0,
+      "infected_acc": 0.6,
+      "detected": true,
+      "residual": 0.9892,
+      "reincarnated_acc": 0.9,
+      "cos_sim_to_original": 0.0015,
+      "re_infected_acc": 0.1,
+      "reincarnation_seed": 1002
+    },
+    {
+      "epsilon": 5.0,
+      "infected_acc": 0.5,
+      "detected": true,
+      "residual": 0.9893,
+      "reincarnated_acc": 0.8,
+      "cos_sim_to_original": 0.0673,
+      "re_infected_acc": 0.3,
+      "reincarnation_seed": 1003
+    },
+    {
+      "epsilon": 10.0,
+      "infected_acc": 0.3,
+      "detected": true,
+      "residual": 0.9949,
+      "reincarnated_acc": 0.9,
+      "cos_sim_to_original": 0.0411,
+      "re_infected_acc": 0.2,
+      "reincarnation_seed": 1004
+    },
+    {
+      "epsilon": 20.0,
+      "infected_acc": 0.3,
+      "detected": true,
+      "residual": 0.9972,
+      "reincarnated_acc": 0.8,
+      "cos_sim_to_original": 0.0096,
+      "re_infected_acc": 0.4,
+      "reincarnation_seed": 1005
+    }
+  ],
+  "elapsed": 842.3
+}

@@ -1,0 +1,44 @@
+{
+  "phase": 93,
+  "name": "neural_microbiome",
+  "main_layer": 8,
+  "results": [
+    {
+      "config": "solo",
+      "accuracy_full": 0.9,
+      "accuracy_solo": 0.9,
+      "accuracy_microbe_only": 0.0,
+      "symbiosis_bonus": 0.0
+    },
+    {
+      "config": "L12",
+      "accuracy_full": 0.6,
+      "accuracy_solo": 0.2,
+      "accuracy_microbe_only": 0.6,
+      "symbiosis_bonus": 0.4
+    },
+    {
+      "config": "L12+L14",
+      "accuracy_full": 0.9,
+      "accuracy_solo": 0.2,
+      "accuracy_microbe_only": 0.2,
+      "symbiosis_bonus": 0.7
+    },
+    {
+      "config": "L12+L14+L16",
+      "accuracy_full": 0.8,
+      "accuracy_solo": 0.2,
+      "accuracy_microbe_only": 0.2,
+      "symbiosis_bonus": 0.6
+    },
+    {
+      "config": "L10+L12+L14",
+      "accuracy_full": 0.7,
+      "accuracy_solo": 0.2,
+      "accuracy_microbe_only": 0.3,
+      "symbiosis_bonus": 0.5
+    }
+  ],
+  "best_config": "solo",
+  "elapsed": 206.5
+}

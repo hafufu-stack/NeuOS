@@ -1,0 +1,114 @@
+{
+  "phase": 89,
+  "name": "immune_memory_vaccination",
+  "clean_accuracy": 0.9,
+  "n_antibodies": 5,
+  "first_exposure": [
+    {
+      "strain": 0,
+      "method": "innate",
+      "acc": 0.1,
+      "resp_time": 0.0008,
+      "recomp_time": 46.15
+    },
+    {
+      "strain": 1,
+      "method": "innate",
+      "acc": 0.3,
+      "resp_time": 0.0005,
+      "recomp_time": 45.25
+    },
+    {
+      "strain": 2,
+      "method": "innate",
+      "acc": 0.4,
+      "resp_time": 0.0007,
+      "recomp_time": 45.21
+    },
+    {
+      "strain": 3,
+      "method": "innate",
+      "acc": 0.7,
+      "resp_time": 0.0007,
+      "recomp_time": 46.57
+    },
+    {
+      "strain": 4,
+      "method": "innate",
+      "acc": 0.4,
+      "resp_time": 0.001,
+      "recomp_time": 49.77
+    }
+  ],
+  "second_exposure": [
+    {
+      "strain": 0,
+      "method": "memory",
+      "acc": 0.9,
+      "resp_time": 0.0004,
+      "sim": 1.0
+    },
+    {
+      "strain": 1,
+      "method": "memory",
+      "acc": 0.8,
+      "resp_time": 0.0003,
+      "sim": 1.0
+    },
+    {
+      "strain": 2,
+      "method": "memory",
+      "acc": 0.9,
+      "resp_time": 0.0005,
+      "sim": 1.0
+    },
+    {
+      "strain": 3,
+      "method": "memory",
+      "acc": 0.9,
+      "resp_time": 0.0006,
+      "sim": 1.0
+    },
+    {
+      "strain": 4,
+      "method": "memory",
+      "acc": 0.7,
+      "resp_time": 0.0005,
+      "sim": 1.0
+    }
+  ],
+  "mutant_exposure": [
+    {
+      "strain": 0,
+      "method": "innate",
+      "acc": 0.3,
+      "sim": 0.1482
+    },
+    {
+      "strain": 1,
+      "method": "innate",
+      "acc": 0.6,
+      "sim": 0.1534
+    },
+    {
+      "strain": 2,
+      "method": "innate",
+      "acc": 0.5,
+      "sim": 0.1519
+    },
+    {
+      "strain": 3,
+      "method": "innate",
+      "acc": 0.3,
+      "sim": 0.1884
+    },
+    {
+      "strain": 4,
+      "method": "innate",
+      "acc": 0.4,
+      "sim": 0.1519
+    }
+  ],
+  "speedup": 101280.4,
+  "elapsed": 724.1
+}
