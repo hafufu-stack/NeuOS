@@ -1,0 +1,237 @@
+{
+  "phase": 136,
+  "name": "thermodynamic_autopoiesis",
+  "layer": 8,
+  "sigma": 0.3,
+  "thresholds": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    "inf"
+  ],
+  "step_counts": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "n_per_length": 20,
+  "autopoiesis_results": {
+    "0.5": {
+      "2": 0.7,
+      "3": 0.4,
+      "4": 0.45,
+      "5": 0.25
+    },
+    "1.0": {
+      "2": 0.55,
+      "3": 0.45,
+      "4": 0.35,
+      "5": 0.2
+    },
+    "1.5": {
+      "2": 0.55,
+      "3": 0.45,
+      "4": 0.35,
+      "5": 0.2
+    },
+    "2.0": {
+      "2": 0.55,
+      "3": 0.45,
+      "4": 0.35,
+      "5": 0.2
+    },
+    "2.5": {
+      "2": 0.55,
+      "3": 0.45,
+      "4": 0.35,
+      "5": 0.2
+    },
+    "3.0": {
+      "2": 0.55,
+      "3": 0.45,
+      "4": 0.35,
+      "5": 0.2
+    },
+    "inf": {
+      "2": 0.55,
+      "3": 0.45,
+      "4": 0.35,
+      "5": 0.2
+    }
+  },
+  "entropy_log": {
+    "0.5": {
+      "2": {
+        "mean_entropy": 0.23199250607595293,
+        "noise_applied": 6,
+        "total_steps": 37
+      },
+      "3": {
+        "mean_entropy": 0.3766597431637753,
+        "noise_applied": 12,
+        "total_steps": 48
+      },
+      "4": {
+        "mean_entropy": 0.3594342082398966,
+        "noise_applied": 11,
+        "total_steps": 53
+      },
+      "5": {
+        "mean_entropy": 0.21501648378406366,
+        "noise_applied": 9,
+        "total_steps": 52
+      }
+    },
+    "1.0": {
+      "2": {
+        "mean_entropy": 0.24183439865836118,
+        "noise_applied": 0,
+        "total_steps": 35
+      },
+      "3": {
+        "mean_entropy": 0.3573014540493649,
+        "noise_applied": 1,
+        "total_steps": 46
+      },
+      "4": {
+        "mean_entropy": 0.3496811765691948,
+        "noise_applied": 2,
+        "total_steps": 54
+      },
+      "5": {
+        "mean_entropy": 0.2290376762610788,
+        "noise_applied": 0,
+        "total_steps": 50
+      }
+    },
+    "1.5": {
+      "2": {
+        "mean_entropy": 0.24183439865836118,
+        "noise_applied": 0,
+        "total_steps": 35
+      },
+      "3": {
+        "mean_entropy": 0.3573014540493649,
+        "noise_applied": 1,
+        "total_steps": 46
+      },
+      "4": {
+        "mean_entropy": 0.35563167308975846,
+        "noise_applied": 2,
+        "total_steps": 53
+      },
+      "5": {
+        "mean_entropy": 0.2290376762610788,
+        "noise_applied": 0,
+        "total_steps": 50
+      }
+    },
+    "2.0": {
+      "2": {
+        "mean_entropy": 0.24183439865836118,
+        "noise_applied": 0,
+        "total_steps": 35
+      },
+      "3": {
+        "mean_entropy": 0.3538009142599365,
+        "noise_applied": 1,
+        "total_steps": 47
+      },
+      "4": {
+        "mean_entropy": 0.3430843931755755,
+        "noise_applied": 2,
+        "total_steps": 55
+      },
+      "5": {
+        "mean_entropy": 0.2290376762610788,
+        "noise_applied": 0,
+        "total_steps": 50
+      }
+    },
+    "2.5": {
+      "2": {
+        "mean_entropy": 0.24183439865836118,
+        "noise_applied": 0,
+        "total_steps": 35
+      },
+      "3": {
+        "mean_entropy": 0.3573014540493649,
+        "noise_applied": 1,
+        "total_steps": 46
+      },
+      "4": {
+        "mean_entropy": 0.3375704729577852,
+        "noise_applied": 1,
+        "total_steps": 56
+      },
+      "5": {
+        "mean_entropy": 0.2290376762610788,
+        "noise_applied": 0,
+        "total_steps": 50
+      }
+    },
+    "3.0": {
+      "2": {
+        "mean_entropy": 0.24183439865836118,
+        "noise_applied": 0,
+        "total_steps": 35
+      },
+      "3": {
+        "mean_entropy": 0.3538009142599365,
+        "noise_applied": 1,
+        "total_steps": 47
+      },
+      "4": {
+        "mean_entropy": 0.3430843931755755,
+        "noise_applied": 1,
+        "total_steps": 55
+      },
+      "5": {
+        "mean_entropy": 0.2290376762610788,
+        "noise_applied": 0,
+        "total_steps": 50
+      }
+    },
+    "inf": {
+      "2": {
+        "mean_entropy": 0.24183439865836118,
+        "noise_applied": 0,
+        "total_steps": 35
+      },
+      "3": {
+        "mean_entropy": 0.3573014540493649,
+        "noise_applied": 0,
+        "total_steps": 46
+      },
+      "4": {
+        "mean_entropy": 0.3430843931755755,
+        "noise_applied": 0,
+        "total_steps": 55
+      },
+      "5": {
+        "mean_entropy": 0.2290376762610788,
+        "noise_applied": 0,
+        "total_steps": 50
+      }
+    }
+  },
+  "baseline_no_noise": {
+    "2": 0.55,
+    "3": 0.45,
+    "4": 0.35,
+    "5": 0.2
+  },
+  "baseline_constant_noise": {
+    "2": 0.35,
+    "3": 0.2,
+    "4": 0.2,
+    "5": 0.0
+  },
+  "best_threshold": "0.5",
+  "best_avg_accuracy": 0.45,
+  "elapsed": 104.5
+}

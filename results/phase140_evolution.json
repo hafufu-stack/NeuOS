@@ -1,0 +1,70 @@
+{
+  "phase": 140,
+  "name": "recursive_soul_evolution",
+  "layer": 8,
+  "n_generations": 6,
+  "gen_results": [
+    {
+      "train": 1.0,
+      "test": 0.8,
+      "hard": 0.6
+    },
+    {
+      "train": 1.0,
+      "test": 0.4,
+      "hard": 0.4,
+      "method": "warm",
+      "cos_to_prev": 0.5534,
+      "pseudo_correct": 14
+    },
+    {
+      "train": 1.0,
+      "test": 0.6,
+      "hard": 0.8,
+      "method": "warm",
+      "cos_to_prev": 0.7692,
+      "pseudo_correct": 14
+    },
+    {
+      "train": 1.0,
+      "test": 0.6,
+      "hard": 0.6,
+      "method": "warm",
+      "cos_to_prev": 0.9707,
+      "pseudo_correct": 14
+    },
+    {
+      "train": 1.0,
+      "test": 0.8,
+      "hard": 0.6,
+      "method": "warm",
+      "cos_to_prev": 0.9293,
+      "pseudo_correct": 14
+    },
+    {
+      "train": 1.0,
+      "test": 0.8,
+      "hard": 0.6,
+      "method": "warm",
+      "cos_to_prev": 0.9577,
+      "pseudo_correct": 14
+    }
+  ],
+  "cos_to_origin": [
+    1.0,
+    0.5534,
+    0.3926,
+    0.3843,
+    0.3204,
+    0.2868
+  ],
+  "cos_to_prev": [
+    0,
+    0.5534,
+    0.7692,
+    0.9707,
+    0.9293,
+    0.9577
+  ],
+  "elapsed": 2401.2
+}

@@ -1,0 +1,218 @@
+{
+  "phase": 123,
+  "name": "stochastic_memory_palace",
+  "base_accuracy": 0.875,
+  "inject_layer": 16,
+  "sigmas": [
+    0.0,
+    0.01,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "step_counts": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "n_test_cases": 20,
+  "results_by_sigma_steps": [
+    {
+      "sigma": 0.0,
+      "steps": 1,
+      "accuracy": 0.5,
+      "n_trials": 4
+    },
+    {
+      "sigma": 0.0,
+      "steps": 2,
+      "accuracy": 0.6667,
+      "n_trials": 6
+    },
+    {
+      "sigma": 0.0,
+      "steps": 3,
+      "accuracy": 1.0,
+      "n_trials": 5
+    },
+    {
+      "sigma": 0.0,
+      "steps": 4,
+      "accuracy": 0.4,
+      "n_trials": 5
+    },
+    {
+      "sigma": 0.01,
+      "steps": 1,
+      "accuracy": 0.5,
+      "n_trials": 20
+    },
+    {
+      "sigma": 0.01,
+      "steps": 2,
+      "accuracy": 0.6667,
+      "n_trials": 30
+    },
+    {
+      "sigma": 0.01,
+      "steps": 3,
+      "accuracy": 1.0,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.01,
+      "steps": 4,
+      "accuracy": 0.4,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.05,
+      "steps": 1,
+      "accuracy": 0.5,
+      "n_trials": 20
+    },
+    {
+      "sigma": 0.05,
+      "steps": 2,
+      "accuracy": 0.6667,
+      "n_trials": 30
+    },
+    {
+      "sigma": 0.05,
+      "steps": 3,
+      "accuracy": 0.96,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.05,
+      "steps": 4,
+      "accuracy": 0.44,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.1,
+      "steps": 1,
+      "accuracy": 0.5,
+      "n_trials": 20
+    },
+    {
+      "sigma": 0.1,
+      "steps": 2,
+      "accuracy": 0.6667,
+      "n_trials": 30
+    },
+    {
+      "sigma": 0.1,
+      "steps": 3,
+      "accuracy": 0.92,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.1,
+      "steps": 4,
+      "accuracy": 0.4,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.15,
+      "steps": 1,
+      "accuracy": 0.5,
+      "n_trials": 20
+    },
+    {
+      "sigma": 0.15,
+      "steps": 2,
+      "accuracy": 0.6667,
+      "n_trials": 30
+    },
+    {
+      "sigma": 0.15,
+      "steps": 3,
+      "accuracy": 0.92,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.15,
+      "steps": 4,
+      "accuracy": 0.4,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.2,
+      "steps": 1,
+      "accuracy": 0.5,
+      "n_trials": 20
+    },
+    {
+      "sigma": 0.2,
+      "steps": 2,
+      "accuracy": 0.6667,
+      "n_trials": 30
+    },
+    {
+      "sigma": 0.2,
+      "steps": 3,
+      "accuracy": 0.84,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.2,
+      "steps": 4,
+      "accuracy": 0.6,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.3,
+      "steps": 1,
+      "accuracy": 0.5,
+      "n_trials": 20
+    },
+    {
+      "sigma": 0.3,
+      "steps": 2,
+      "accuracy": 0.6,
+      "n_trials": 30
+    },
+    {
+      "sigma": 0.3,
+      "steps": 3,
+      "accuracy": 0.96,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.3,
+      "steps": 4,
+      "accuracy": 0.44,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.5,
+      "steps": 1,
+      "accuracy": 0.5,
+      "n_trials": 20
+    },
+    {
+      "sigma": 0.5,
+      "steps": 2,
+      "accuracy": 0.6667,
+      "n_trials": 30
+    },
+    {
+      "sigma": 0.5,
+      "steps": 3,
+      "accuracy": 0.8,
+      "n_trials": 25
+    },
+    {
+      "sigma": 0.5,
+      "steps": 4,
+      "accuracy": 0.68,
+      "n_trials": 25
+    }
+  ],
+  "elapsed": 277.9
+}

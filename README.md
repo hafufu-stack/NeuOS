@@ -26,7 +26,7 @@ All 24 layers of Qwen2.5-0.5B were probed to identify a complete 9-register Inst
 | **SUM** | L20 | **78%** | ALU |
 | **MAX** | L22 | **100%** | Output Register |
 
-## Key Results (121 Phases across 16 Seasons)
+## Key Results (145 Phases across 21 Seasons)
 
 ### Season 1–4: The Neural Computer (P1–P26)
 
@@ -95,16 +95,29 @@ All 24 layers of Qwen2.5-0.5B were probed to identify a complete 9-register Inst
 | **Cross-Model Failure** | P120 | Translation fails across model sizes (15% acc): **soul is body-specific** |
 | **Arms Race** | P121 | All backdoors achieve 100% deception; SVD entropy detects all (1.09 vs 0.23) |
 
-> A complete summary of all 121 phases with detailed metrics is available in the paper's Appendix.
+### Season 17–21: Cross-Project Unification (P122–P145)
+
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **Rosetta Soul Compiler** | P122 | Text→soul compilation with cos = 1.0 (exact match) |
+| **Aletheia Firmware** | P124 | L8 is optimal injection point (90%, +10pp over L16) |
+| **Holographic Soul** | P131 | Direction determines function; 0.5–2× scaling preserves accuracy |
+| **Thermodynamic Autopoiesis** | P136 | Entropy-gated noise: +15pp over no-noise baseline |
+| **Data Scaling Laws** | P138 | MIN/MAX saturate at n=10; ADD/SUB require n=35 (3.5× gap) |
+| **Dual Execution Pathways** | P143 | **L6 = arithmetic (ADD/SUB), L8 = comparison (MIN/MAX)** |
+| **Temperature Robustness** | P144 | Stable T=0–1.5; phase transition collapse at T≥2.0 |
+| **Format Invariance** | P145 | 8/12 prompt formats ≥60%; `min()` format = **100%** |
+
+> A complete summary of all 145 phases with detailed metrics is available in the paper's Appendix.
 
 ## Project Structure
 
 ```
 experiments/    # Phase scripts (P1–P99)
-experiments2/   # Phase scripts (P100–P121, requires Qwen2.5-1.5B for P120)
+experiments2/   # Phase scripts (P100–P145)
 results/        # JSON output from all phases
-figures/        # Visualization PNGs (121 figures)
-papers/         # LaTeX source and PDF (v1, v2, v3)
+figures/        # Visualization PNGs (145 figures)
+papers/         # LaTeX source and PDF (v1–v4)
 runner.py       # Orchestrator (GPU/CPU parallel)
 ```
 

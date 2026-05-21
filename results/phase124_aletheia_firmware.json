@@ -1,0 +1,105 @@
+{
+  "phase": 124,
+  "name": "aletheia_firmware",
+  "target_layers": [
+    4,
+    8,
+    12,
+    16,
+    20
+  ],
+  "single_layer_accs": {
+    "L4": {
+      "train": 1.0,
+      "test": 0.4,
+      "all": 0.7
+    },
+    "L8": {
+      "train": 1.0,
+      "test": 0.8,
+      "all": 0.9
+    },
+    "L12": {
+      "train": 1.0,
+      "test": 0.6,
+      "all": 0.8
+    },
+    "L16": {
+      "train": 1.0,
+      "test": 0.6,
+      "all": 0.8
+    },
+    "L20": {
+      "train": 1.0,
+      "test": 0.6,
+      "all": 0.8
+    }
+  },
+  "multi_layer_accs": {
+    "L4+L16": {
+      "layers": [
+        4,
+        16
+      ],
+      "train": 1.0,
+      "test": 0.6,
+      "all": 0.8
+    },
+    "L8+L16": {
+      "layers": [
+        8,
+        16
+      ],
+      "train": 1.0,
+      "test": 0.6,
+      "all": 0.8
+    },
+    "L4+L8+L16": {
+      "layers": [
+        4,
+        8,
+        16
+      ],
+      "train": 1.0,
+      "test": 0.6,
+      "all": 0.8
+    },
+    "All 5 layers": {
+      "layers": [
+        4,
+        8,
+        12,
+        16,
+        20
+      ],
+      "train": 1.0,
+      "test": 0.6,
+      "all": 0.8
+    }
+  },
+  "multi_configs": {
+    "L4+L16": [
+      4,
+      16
+    ],
+    "L8+L16": [
+      8,
+      16
+    ],
+    "L4+L8+L16": [
+      4,
+      8,
+      16
+    ],
+    "All 5 layers": [
+      4,
+      8,
+      12,
+      16,
+      20
+    ]
+  },
+  "train_size": 5,
+  "test_size": 5,
+  "elapsed": 668.8
+}

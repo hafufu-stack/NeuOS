@@ -1,0 +1,213 @@
+{
+  "phase": 134,
+  "name": "cross_layer_dual_firmware",
+  "layers": {
+    "comparison": 8,
+    "arithmetic": 16
+  },
+  "single_task_accuracy": {
+    "MIN@L8": {
+      "train": 1.0,
+      "test": 1.0
+    },
+    "ADD@L8": {
+      "train": 1.0,
+      "test": 0.0
+    },
+    "ADD@L16": {
+      "train": 1.0,
+      "test": 0.0
+    },
+    "MAX@L8": {
+      "train": 1.0,
+      "test": 0.6667
+    },
+    "SUB@L8": {
+      "train": 1.0,
+      "test": 0.0
+    },
+    "SUB@L16": {
+      "train": 1.0,
+      "test": 0.0
+    }
+  },
+  "compound_dynamic": {
+    "MIN->ADD": {
+      "total": 5,
+      "correct": 1,
+      "step1_correct": 5,
+      "accuracy": 0.2,
+      "details": [
+        {
+          "input": "(3,7)->MIN->(3,2)->ADD",
+          "pred1": "3",
+          "pred2": "5",
+          "expected": "5",
+          "correct": true
+        },
+        {
+          "input": "(5,2)->MIN->(2,4)->ADD",
+          "pred1": "2",
+          "pred2": "8",
+          "expected": "6",
+          "correct": false
+        },
+        {
+          "input": "(8,1)->MIN->(1,3)->ADD",
+          "pred1": "1",
+          "pred2": "5",
+          "expected": "4",
+          "correct": false
+        },
+        {
+          "input": "(9,3)->MIN->(3,1)->ADD",
+          "pred1": "3",
+          "pred2": "5",
+          "expected": "4",
+          "correct": false
+        },
+        {
+          "input": "(4,6)->MIN->(4,5)->ADD",
+          "pred1": "4",
+          "pred2": "5",
+          "expected": "9",
+          "correct": false
+        }
+      ]
+    },
+    "MAX->SUB": {
+      "total": 5,
+      "correct": 1,
+      "step1_correct": 5,
+      "accuracy": 0.2,
+      "details": [
+        {
+          "input": "(3,7)->MAX->(7,2)->SUB",
+          "pred1": "7",
+          "pred2": "4",
+          "expected": "5",
+          "correct": false
+        },
+        {
+          "input": "(5,2)->MAX->(5,1)->SUB",
+          "pred1": "5",
+          "pred2": "3",
+          "expected": "4",
+          "correct": false
+        },
+        {
+          "input": "(8,1)->MAX->(8,3)->SUB",
+          "pred1": "8",
+          "pred2": "5",
+          "expected": "5",
+          "correct": true
+        },
+        {
+          "input": "(4,6)->MAX->(6,2)->SUB",
+          "pred1": "6",
+          "pred2": "2",
+          "expected": "4",
+          "correct": false
+        },
+        {
+          "input": "(9,3)->MAX->(9,4)->SUB",
+          "pred1": "9",
+          "pred2": "8",
+          "expected": "5",
+          "correct": false
+        }
+      ]
+    }
+  },
+  "compound_fixed": {
+    "MIN->ADD": {
+      "total": 5,
+      "correct": 1,
+      "step1_correct": 5,
+      "accuracy": 0.2,
+      "details": [
+        {
+          "input": "(3,7)->MIN->(3,2)->ADD",
+          "pred1": "3",
+          "pred2": "5",
+          "expected": "5",
+          "correct": true
+        },
+        {
+          "input": "(5,2)->MIN->(2,4)->ADD",
+          "pred1": "2",
+          "pred2": "8",
+          "expected": "6",
+          "correct": false
+        },
+        {
+          "input": "(8,1)->MIN->(1,3)->ADD",
+          "pred1": "1",
+          "pred2": "5",
+          "expected": "4",
+          "correct": false
+        },
+        {
+          "input": "(9,3)->MIN->(3,1)->ADD",
+          "pred1": "3",
+          "pred2": "5",
+          "expected": "4",
+          "correct": false
+        },
+        {
+          "input": "(4,6)->MIN->(4,5)->ADD",
+          "pred1": "4",
+          "pred2": "5",
+          "expected": "9",
+          "correct": false
+        }
+      ]
+    },
+    "MAX->SUB": {
+      "total": 5,
+      "correct": 1,
+      "step1_correct": 5,
+      "accuracy": 0.2,
+      "details": [
+        {
+          "input": "(3,7)->MAX->(7,2)->SUB",
+          "pred1": "7",
+          "pred2": "4",
+          "expected": "5",
+          "correct": false
+        },
+        {
+          "input": "(5,2)->MAX->(5,1)->SUB",
+          "pred1": "5",
+          "pred2": "3",
+          "expected": "4",
+          "correct": false
+        },
+        {
+          "input": "(8,1)->MAX->(8,3)->SUB",
+          "pred1": "8",
+          "pred2": "5",
+          "expected": "5",
+          "correct": true
+        },
+        {
+          "input": "(4,6)->MAX->(6,2)->SUB",
+          "pred1": "6",
+          "pred2": "2",
+          "expected": "4",
+          "correct": false
+        },
+        {
+          "input": "(9,3)->MAX->(9,4)->SUB",
+          "pred1": "9",
+          "pred2": "8",
+          "expected": "5",
+          "correct": false
+        }
+      ]
+    }
+  },
+  "dynamic_overall_acc": 0.2,
+  "fixed_overall_acc": 0.2,
+  "elapsed": 328.9
+}

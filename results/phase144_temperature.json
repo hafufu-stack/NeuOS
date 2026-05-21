@@ -1,0 +1,196 @@
+{
+  "phase": 144,
+  "name": "temperature_sensitivity",
+  "layer": 8,
+  "temperatures": [
+    0,
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    5.0
+  ],
+  "results": {
+    "MIN": [
+      {
+        "temp": 0,
+        "acc": 0.8,
+        "entropy": 0.2284,
+        "prob_correct": 0.8492
+      },
+      {
+        "temp": 0.1,
+        "acc": 0.8,
+        "entropy": 0.0003,
+        "prob_correct": 0.8
+      },
+      {
+        "temp": 0.3,
+        "acc": 0.8,
+        "entropy": 0.0502,
+        "prob_correct": 0.8084
+      },
+      {
+        "temp": 0.5,
+        "acc": 0.8,
+        "entropy": 0.1146,
+        "prob_correct": 0.8264
+      },
+      {
+        "temp": 0.7,
+        "acc": 0.8,
+        "entropy": 0.159,
+        "prob_correct": 0.8402
+      },
+      {
+        "temp": 1.0,
+        "acc": 0.8,
+        "entropy": 0.2284,
+        "prob_correct": 0.8492
+      },
+      {
+        "temp": 1.5,
+        "acc": 1.0,
+        "entropy": 0.9271,
+        "prob_correct": 0.8107
+      },
+      {
+        "temp": 2.0,
+        "acc": 0.4,
+        "entropy": 4.9946,
+        "prob_correct": 0.5888
+      },
+      {
+        "temp": 3.0,
+        "acc": 0.0,
+        "entropy": 15.0453,
+        "prob_correct": 0.1001
+      },
+      {
+        "temp": 5.0,
+        "acc": 0.0,
+        "entropy": 16.954,
+        "prob_correct": 0.0024
+      }
+    ],
+    "MAX": [
+      {
+        "temp": 0,
+        "acc": 0.6,
+        "entropy": 1.5938,
+        "prob_correct": 0.5989
+      },
+      {
+        "temp": 0.1,
+        "acc": 0.6,
+        "entropy": 0.1382,
+        "prob_correct": 0.6
+      },
+      {
+        "temp": 0.3,
+        "acc": 0.6,
+        "entropy": 0.3664,
+        "prob_correct": 0.6
+      },
+      {
+        "temp": 0.5,
+        "acc": 0.6,
+        "entropy": 0.5895,
+        "prob_correct": 0.6
+      },
+      {
+        "temp": 0.7,
+        "acc": 0.6,
+        "entropy": 0.8656,
+        "prob_correct": 0.5999
+      },
+      {
+        "temp": 1.0,
+        "acc": 0.6,
+        "entropy": 1.5938,
+        "prob_correct": 0.5989
+      },
+      {
+        "temp": 1.5,
+        "acc": 0.6,
+        "entropy": 4.3394,
+        "prob_correct": 0.5756
+      },
+      {
+        "temp": 2.0,
+        "acc": 0.2,
+        "entropy": 9.4404,
+        "prob_correct": 0.3819
+      },
+      {
+        "temp": 3.0,
+        "acc": 0.0,
+        "entropy": 15.2178,
+        "prob_correct": 0.0857
+      },
+      {
+        "temp": 5.0,
+        "acc": 0.0,
+        "entropy": 16.9209,
+        "prob_correct": 0.0019
+      }
+    ],
+    "no_soul": [
+      {
+        "temp": 0,
+        "acc": 0.2,
+        "entropy": 0.8752
+      },
+      {
+        "temp": 0.1,
+        "acc": 0.2,
+        "entropy": 0.0277
+      },
+      {
+        "temp": 0.3,
+        "acc": 0.2,
+        "entropy": 0.2695
+      },
+      {
+        "temp": 0.5,
+        "acc": 0.0,
+        "entropy": 0.3959
+      },
+      {
+        "temp": 0.7,
+        "acc": 0.2,
+        "entropy": 0.4789
+      },
+      {
+        "temp": 1.0,
+        "acc": 0.2,
+        "entropy": 0.8752
+      },
+      {
+        "temp": 1.5,
+        "acc": 0.0,
+        "entropy": 5.3721
+      },
+      {
+        "temp": 2.0,
+        "acc": 0.0,
+        "entropy": 10.5377
+      },
+      {
+        "temp": 3.0,
+        "acc": 0.0,
+        "entropy": 16.0017
+      },
+      {
+        "temp": 5.0,
+        "acc": 0.0,
+        "entropy": 16.9541
+      }
+    ]
+  },
+  "elapsed": 164.0
+}

@@ -1,0 +1,42 @@
+{
+  "phase": 133,
+  "name": "superposition_computing",
+  "layer": 8,
+  "min_max_cosine": 0.2431,
+  "individual_accs": {
+    "MIN": 1.0,
+    "MAX": 0.875
+  },
+  "superposition_results": {
+    "Equal (1:1)": {
+      "MIN": 0.625,
+      "MAX": 0.25
+    },
+    "MIN-heavy (1:0.5)": {
+      "MIN": 0.5,
+      "MAX": 0.375
+    },
+    "MAX-heavy (0.5:1)": {
+      "MIN": 0.375,
+      "MAX": 0.375
+    },
+    "MIN-dominant (1:0.1)": {
+      "MIN": 1.0,
+      "MAX": 0.0
+    },
+    "MAX-dominant (0.1:1)": {
+      "MIN": 0.0,
+      "MAX": 0.875
+    },
+    "Amplified (2:2)": {
+      "MIN": 0.5,
+      "MAX": 0.375
+    }
+  },
+  "both_in_top5_rate": 1.0,
+  "projection_surgery": {
+    "remove_MAX_get_MIN": 0.875,
+    "remove_MIN_get_MAX": 0.625
+  },
+  "elapsed": 125.4
+}

@@ -1,0 +1,65 @@
+{
+  "phase": 132,
+  "name": "stem_cell_soul",
+  "layer": 8,
+  "stem_results": {
+    "P129 max-chaos (t=0.15,s=0.0)": {
+      "MIN": 0.4,
+      "MAX": 0.6,
+      "ADD": 0.0,
+      "SUB": 0.0
+    },
+    "Center (t=0.5,s=0.5)": {
+      "MIN": 0.2,
+      "MAX": 0.4,
+      "ADD": 0.0,
+      "SUB": 0.0
+    },
+    "Equal mix (mean)": {
+      "MIN": 0.2,
+      "MAX": 0.4,
+      "ADD": 0.0,
+      "SUB": 0.0
+    },
+    "Zero vector": {
+      "MIN": 0.0,
+      "MAX": 0.8,
+      "ADD": 0.0,
+      "SUB": 0.0
+    },
+    "Random vector": {
+      "MIN": 0.4,
+      "MAX": 0.4,
+      "ADD": 0.0,
+      "SUB": 0.0
+    }
+  },
+  "stem_entropies": {
+    "P129 max-chaos (t=0.15,s=0.0)": 0.3689,
+    "Center (t=0.5,s=0.5)": 3.5426,
+    "Equal mix (mean)": 3.5426,
+    "Zero vector": 1.5584,
+    "Random vector": 0.4174
+  },
+  "differentiation": {
+    "MIN": {
+      "0.0": 0.4,
+      "0.01": 0.4,
+      "0.05": 0.4,
+      "0.1": 0.4,
+      "0.2": 0.8,
+      "0.5": 0.4,
+      "1.0": 0.4
+    },
+    "MAX": {
+      "0.0": 0.6,
+      "0.01": 0.6,
+      "0.05": 0.4,
+      "0.1": 0.4,
+      "0.2": 0.4,
+      "0.5": 0.6,
+      "1.0": 0.4
+    }
+  },
+  "elapsed": 187.7
+}

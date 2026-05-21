@@ -1,0 +1,126 @@
+{
+  "phase": 138,
+  "name": "arithmetic_data_scaling",
+  "default_layer": 8,
+  "n_trains": [
+    5,
+    10,
+    20,
+    35
+  ],
+  "results": {
+    "MIN": {
+      "5": {
+        "train": 1.0,
+        "test": 0.4
+      },
+      "10": {
+        "train": 1.0,
+        "test": 1.0
+      },
+      "20": {
+        "train": 1.0,
+        "test": 1.0
+      },
+      "35": {
+        "train": 1.0,
+        "test": 1.0
+      }
+    },
+    "MAX": {
+      "5": {
+        "train": 1.0,
+        "test": 0.7
+      },
+      "10": {
+        "train": 1.0,
+        "test": 1.0
+      },
+      "20": {
+        "train": 1.0,
+        "test": 1.0
+      },
+      "35": {
+        "train": 1.0,
+        "test": 1.0
+      }
+    },
+    "ADD": {
+      "5": {
+        "train": 1.0,
+        "test": 0.2
+      },
+      "10": {
+        "train": 1.0,
+        "test": 0.3
+      },
+      "20": {
+        "train": 1.0,
+        "test": 0.7
+      },
+      "35": {
+        "train": 1.0,
+        "test": 1.0
+      },
+      "5_bestL": {
+        "train": 1.0,
+        "test": 0.1,
+        "layer": 5
+      },
+      "10_bestL": {
+        "train": 1.0,
+        "test": 0.3,
+        "layer": 5
+      },
+      "20_bestL": {
+        "train": 1.0,
+        "test": 0.7,
+        "layer": 5
+      },
+      "35_bestL": {
+        "train": 1.0,
+        "test": 1.0,
+        "layer": 5
+      }
+    },
+    "SUB": {
+      "5": {
+        "train": 1.0,
+        "test": 0.2
+      },
+      "10": {
+        "train": 0.9,
+        "test": 0.4
+      },
+      "20": {
+        "train": 1.0,
+        "test": 0.7
+      },
+      "35": {
+        "train": 0.9429,
+        "test": 0.9
+      },
+      "5_bestL": {
+        "train": 1.0,
+        "test": 0.3,
+        "layer": 0
+      },
+      "10_bestL": {
+        "train": 1.0,
+        "test": 0.4,
+        "layer": 0
+      },
+      "20_bestL": {
+        "train": 1.0,
+        "test": 0.7,
+        "layer": 0
+      },
+      "35_bestL": {
+        "train": 1.0,
+        "test": 1.0,
+        "layer": 0
+      }
+    }
+  },
+  "elapsed": 5456.3
+}
