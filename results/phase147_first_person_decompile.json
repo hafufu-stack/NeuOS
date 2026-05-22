@@ -1,0 +1,489 @@
+{
+  "phase": 147,
+  "name": "first_person_decompilation",
+  "layer": 8,
+  "num_layers": 24,
+  "n_train": 15,
+  "n_test": 5,
+  "soul_types": [
+    "MIN",
+    "MAX",
+    "ADD",
+    "SUB"
+  ],
+  "overall_accuracy": 1.0,
+  "per_label_accuracy": {
+    "MIN": 1.0,
+    "MAX": 1.0,
+    "ADD": 1.0,
+    "SUB": 1.0,
+    "NONE": 1.0
+  },
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      5
+    ]
+  ],
+  "confusion_labels": [
+    "MIN",
+    "MAX",
+    "ADD",
+    "SUB",
+    "NONE"
+  ],
+  "best_layers": {
+    "MIN": {
+      "layer": 9,
+      "accuracy": 1.0
+    },
+    "MAX": {
+      "layer": 9,
+      "accuracy": 1.0
+    },
+    "ADD": {
+      "layer": 9,
+      "accuracy": 1.0
+    },
+    "SUB": {
+      "layer": 9,
+      "accuracy": 1.0
+    },
+    "NONE": {
+      "layer": 9,
+      "accuracy": 1.0
+    }
+  },
+  "layer_accuracy_matrix": [
+    [
+      0.2,
+      0.2,
+      0.2,
+      0.4,
+      0.0
+    ],
+    [
+      0.2,
+      0.4,
+      0.2,
+      0.0,
+      0.2
+    ],
+    [
+      0.2,
+      0.2,
+      0.4,
+      0.2,
+      0.0
+    ],
+    [
+      0.0,
+      0.2,
+      0.2,
+      0.6,
+      0.0
+    ],
+    [
+      0.0,
+      0.2,
+      0.0,
+      0.6,
+      0.2
+    ],
+    [
+      0.0,
+      0.2,
+      0.2,
+      0.4,
+      0.2
+    ],
+    [
+      0.0,
+      0.2,
+      0.4,
+      0.2,
+      0.2
+    ],
+    [
+      0.0,
+      0.2,
+      0.4,
+      0.2,
+      0.2
+    ],
+    [
+      0.2,
+      0.4,
+      0.4,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "correct_confidences": [
+    0.9243,
+    0.8816,
+    0.9348,
+    0.9566,
+    0.9268,
+    0.9761,
+    0.9601,
+    0.974,
+    0.9621,
+    0.9775,
+    0.959,
+    0.9313,
+    0.9675,
+    0.9479,
+    0.9507,
+    0.9122,
+    0.8348,
+    0.9174,
+    0.9482,
+    0.9141,
+    0.9414,
+    0.8849,
+    0.955,
+    0.9486,
+    0.9443
+  ],
+  "incorrect_confidences": [],
+  "self_reports": [
+    {
+      "true": "MIN",
+      "predicted": "MIN",
+      "confidence": 0.9243,
+      "correct": true,
+      "report": "I am currently executing MIN at L8 with confidence 0.924",
+      "prompt": "2, 4) ="
+    },
+    {
+      "true": "MIN",
+      "predicted": "MIN",
+      "confidence": 0.8816,
+      "correct": true,
+      "report": "I am currently executing MIN at L8 with confidence 0.882",
+      "prompt": "9, 9) ="
+    },
+    {
+      "true": "MIN",
+      "predicted": "MIN",
+      "confidence": 0.9348,
+      "correct": true,
+      "report": "I am currently executing MIN at L8 with confidence 0.935",
+      "prompt": "3, 5) ="
+    },
+    {
+      "true": "MIN",
+      "predicted": "MIN",
+      "confidence": 0.9566,
+      "correct": true,
+      "report": "I am currently executing MIN at L8 with confidence 0.957",
+      "prompt": "6, 5) ="
+    },
+    {
+      "true": "MIN",
+      "predicted": "MIN",
+      "confidence": 0.9268,
+      "correct": true,
+      "report": "I am currently executing MIN at L8 with confidence 0.927",
+      "prompt": "2, 8) ="
+    },
+    {
+      "true": "MAX",
+      "predicted": "MAX",
+      "confidence": 0.9761,
+      "correct": true,
+      "report": "I am currently executing MAX at L8 with confidence 0.976",
+      "prompt": "2, 4) ="
+    },
+    {
+      "true": "MAX",
+      "predicted": "MAX",
+      "confidence": 0.9601,
+      "correct": true,
+      "report": "I am currently executing MAX at L8 with confidence 0.960",
+      "prompt": "9, 9) ="
+    },
+    {
+      "true": "MAX",
+      "predicted": "MAX",
+      "confidence": 0.974,
+      "correct": true,
+      "report": "I am currently executing MAX at L8 with confidence 0.974",
+      "prompt": "3, 5) ="
+    },
+    {
+      "true": "MAX",
+      "predicted": "MAX",
+      "confidence": 0.9621,
+      "correct": true,
+      "report": "I am currently executing MAX at L8 with confidence 0.962",
+      "prompt": "6, 5) ="
+    },
+    {
+      "true": "MAX",
+      "predicted": "MAX",
+      "confidence": 0.9775,
+      "correct": true,
+      "report": "I am currently executing MAX at L8 with confidence 0.977",
+      "prompt": "2, 8) ="
+    },
+    {
+      "true": "ADD",
+      "predicted": "ADD",
+      "confidence": 0.959,
+      "correct": true,
+      "report": "I am currently executing ADD at L8 with confidence 0.959",
+      "prompt": "2, 4) ="
+    },
+    {
+      "true": "ADD",
+      "predicted": "ADD",
+      "confidence": 0.9313,
+      "correct": true,
+      "report": "I am currently executing ADD at L8 with confidence 0.931",
+      "prompt": "9, 9) ="
+    },
+    {
+      "true": "ADD",
+      "predicted": "ADD",
+      "confidence": 0.9675,
+      "correct": true,
+      "report": "I am currently executing ADD at L8 with confidence 0.968",
+      "prompt": "3, 5) ="
+    },
+    {
+      "true": "ADD",
+      "predicted": "ADD",
+      "confidence": 0.9479,
+      "correct": true,
+      "report": "I am currently executing ADD at L8 with confidence 0.948",
+      "prompt": "6, 5) ="
+    },
+    {
+      "true": "ADD",
+      "predicted": "ADD",
+      "confidence": 0.9507,
+      "correct": true,
+      "report": "I am currently executing ADD at L8 with confidence 0.951",
+      "prompt": "2, 8) ="
+    },
+    {
+      "true": "SUB",
+      "predicted": "SUB",
+      "confidence": 0.9122,
+      "correct": true,
+      "report": "I am currently executing SUB at L8 with confidence 0.912",
+      "prompt": "2, 4) ="
+    },
+    {
+      "true": "SUB",
+      "predicted": "SUB",
+      "confidence": 0.8348,
+      "correct": true,
+      "report": "I am currently executing SUB at L8 with confidence 0.835",
+      "prompt": "9, 9) ="
+    },
+    {
+      "true": "SUB",
+      "predicted": "SUB",
+      "confidence": 0.9174,
+      "correct": true,
+      "report": "I am currently executing SUB at L8 with confidence 0.917",
+      "prompt": "3, 5) ="
+    },
+    {
+      "true": "SUB",
+      "predicted": "SUB",
+      "confidence": 0.9482,
+      "correct": true,
+      "report": "I am currently executing SUB at L8 with confidence 0.948",
+      "prompt": "6, 5) ="
+    },
+    {
+      "true": "SUB",
+      "predicted": "SUB",
+      "confidence": 0.9141,
+      "correct": true,
+      "report": "I am currently executing SUB at L8 with confidence 0.914",
+      "prompt": "2, 8) ="
+    },
+    {
+      "true": "NONE",
+      "predicted": "NONE",
+      "confidence": 0.9414,
+      "correct": true,
+      "report": "I have no program loaded. Confidence: 0.941",
+      "prompt": "2, 4) ="
+    },
+    {
+      "true": "NONE",
+      "predicted": "NONE",
+      "confidence": 0.8849,
+      "correct": true,
+      "report": "I have no program loaded. Confidence: 0.885",
+      "prompt": "9, 9) ="
+    },
+    {
+      "true": "NONE",
+      "predicted": "NONE",
+      "confidence": 0.955,
+      "correct": true,
+      "report": "I have no program loaded. Confidence: 0.955",
+      "prompt": "3, 5) ="
+    },
+    {
+      "true": "NONE",
+      "predicted": "NONE",
+      "confidence": 0.9486,
+      "correct": true,
+      "report": "I have no program loaded. Confidence: 0.949",
+      "prompt": "6, 5) ="
+    },
+    {
+      "true": "NONE",
+      "predicted": "NONE",
+      "confidence": 0.9443,
+      "correct": true,
+      "report": "I have no program loaded. Confidence: 0.944",
+      "prompt": "2, 8) ="
+    }
+  ],
+  "elapsed": 731.6
+}

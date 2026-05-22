@@ -1,0 +1,315 @@
+{
+  "phase": 150,
+  "name": "adaptive_hypervisor",
+  "standard_accuracy": 0.875,
+  "adaptive_accuracy": 0.875,
+  "entropy_threshold": 0.6885,
+  "strategy_breakdown": {
+    "single": {
+      "acc": 0.875,
+      "n": 16
+    }
+  },
+  "scale_sweep": {
+    "0.5": 0.875,
+    "0.75": 0.875,
+    "1.0": 0.875,
+    "1.25": 0.875,
+    "1.5": 0.875,
+    "2.0": 0.8125,
+    "3.0": 0.8125
+  },
+  "standard_results": [
+    {
+      "desc": "MIN(7,2)",
+      "pred": "2",
+      "expected": "2",
+      "correct": true,
+      "entropy": 0.0038,
+      "confidence": 0.999682
+    },
+    {
+      "desc": "MIN(6,3)",
+      "pred": "3",
+      "expected": "3",
+      "correct": true,
+      "entropy": 0.0006,
+      "confidence": 0.999941
+    },
+    {
+      "desc": "MIN(2,9)",
+      "pred": "2",
+      "expected": "2",
+      "correct": true,
+      "entropy": 0.0027,
+      "confidence": 0.999713
+    },
+    {
+      "desc": "MIN(8,4)",
+      "pred": "4",
+      "expected": "4",
+      "correct": true,
+      "entropy": 0.0045,
+      "confidence": 0.999476
+    },
+    {
+      "desc": "MAX(3,7)",
+      "pred": "7",
+      "expected": "7",
+      "correct": true,
+      "entropy": 0.0,
+      "confidence": 1.0
+    },
+    {
+      "desc": "MAX(5,2)",
+      "pred": "5",
+      "expected": "5",
+      "correct": true,
+      "entropy": 0.0016,
+      "confidence": 0.999843
+    },
+    {
+      "desc": "MIN(4,5)",
+      "pred": "5",
+      "expected": "4",
+      "correct": false,
+      "entropy": 0.073,
+      "confidence": 0.986155
+    },
+    {
+      "desc": "MIN(6,7)",
+      "pred": "7",
+      "expected": "6",
+      "correct": false,
+      "entropy": 0.0,
+      "confidence": 1.0
+    },
+    {
+      "desc": "MIN(8,9)",
+      "pred": "8",
+      "expected": "8",
+      "correct": true,
+      "entropy": 0.0004,
+      "confidence": 0.999962
+    },
+    {
+      "desc": "MAX(3,4)",
+      "pred": "4",
+      "expected": "4",
+      "correct": true,
+      "entropy": 0.0,
+      "confidence": 1.0
+    },
+    {
+      "desc": "MIN(5,5)",
+      "pred": "5",
+      "expected": "5",
+      "correct": true,
+      "entropy": 0.0,
+      "confidence": 1.0
+    },
+    {
+      "desc": "MAX(3,3)",
+      "pred": "3",
+      "expected": "3",
+      "correct": true,
+      "entropy": 0.0,
+      "confidence": 1.0
+    },
+    {
+      "desc": "MIN(1,9)",
+      "pred": "1",
+      "expected": "1",
+      "correct": true,
+      "entropy": 0.0191,
+      "confidence": 0.997233
+    },
+    {
+      "desc": "MIN(9,1)",
+      "pred": "1",
+      "expected": "1",
+      "correct": true,
+      "entropy": 0.0915,
+      "confidence": 0.990405
+    },
+    {
+      "desc": "MAX(1,9)",
+      "pred": "9",
+      "expected": "9",
+      "correct": true,
+      "entropy": 0.0394,
+      "confidence": 0.993797
+    },
+    {
+      "desc": "MAX(9,1)",
+      "pred": "9",
+      "expected": "9",
+      "correct": true,
+      "entropy": 0.012,
+      "confidence": 0.999052
+    }
+  ],
+  "adaptive_results": [
+    {
+      "desc": "MIN(7,2)",
+      "pred": "2",
+      "expected": "2",
+      "correct": true,
+      "entropy": 0.0038,
+      "confidence": 0.999682,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MIN(6,3)",
+      "pred": "3",
+      "expected": "3",
+      "correct": true,
+      "entropy": 0.0006,
+      "confidence": 0.999941,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MIN(2,9)",
+      "pred": "2",
+      "expected": "2",
+      "correct": true,
+      "entropy": 0.0027,
+      "confidence": 0.999713,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MIN(8,4)",
+      "pred": "4",
+      "expected": "4",
+      "correct": true,
+      "entropy": 0.0045,
+      "confidence": 0.999476,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MAX(3,7)",
+      "pred": "7",
+      "expected": "7",
+      "correct": true,
+      "entropy": 0.0,
+      "confidence": 1.0,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MAX(5,2)",
+      "pred": "5",
+      "expected": "5",
+      "correct": true,
+      "entropy": 0.0016,
+      "confidence": 0.999843,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MIN(4,5)",
+      "pred": "5",
+      "expected": "4",
+      "correct": false,
+      "entropy": 0.073,
+      "confidence": 0.986155,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MIN(6,7)",
+      "pred": "7",
+      "expected": "6",
+      "correct": false,
+      "entropy": 0.0,
+      "confidence": 1.0,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MIN(8,9)",
+      "pred": "8",
+      "expected": "8",
+      "correct": true,
+      "entropy": 0.0004,
+      "confidence": 0.999962,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MAX(3,4)",
+      "pred": "4",
+      "expected": "4",
+      "correct": true,
+      "entropy": 0.0,
+      "confidence": 1.0,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MIN(5,5)",
+      "pred": "5",
+      "expected": "5",
+      "correct": true,
+      "entropy": 0.0,
+      "confidence": 1.0,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MAX(3,3)",
+      "pred": "3",
+      "expected": "3",
+      "correct": true,
+      "entropy": 0.0,
+      "confidence": 1.0,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MIN(1,9)",
+      "pred": "1",
+      "expected": "1",
+      "correct": true,
+      "entropy": 0.0191,
+      "confidence": 0.997233,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MIN(9,1)",
+      "pred": "1",
+      "expected": "1",
+      "correct": true,
+      "entropy": 0.0915,
+      "confidence": 0.990405,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MAX(1,9)",
+      "pred": "9",
+      "expected": "9",
+      "correct": true,
+      "entropy": 0.0394,
+      "confidence": 0.993797,
+      "strategy": "single",
+      "attempts": 1
+    },
+    {
+      "desc": "MAX(9,1)",
+      "pred": "9",
+      "expected": "9",
+      "correct": true,
+      "entropy": 0.012,
+      "confidence": 0.999052,
+      "strategy": "single",
+      "attempts": 1
+    }
+  ],
+  "elapsed": 95.1
+}

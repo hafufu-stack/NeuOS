@@ -1,0 +1,225 @@
+{
+  "phase": 149,
+  "name": "time_space_hypervisor",
+  "single_pass_accuracy": 1.0,
+  "double_pass_text_intermediate_accuracy": 0.8,
+  "double_pass_text_final_accuracy": 0.6,
+  "latent_transfer_accuracy": 1.0,
+  "single_results": [
+    {
+      "desc": "MIN(7,2)",
+      "pred": "2",
+      "expected": "2",
+      "correct": true
+    },
+    {
+      "desc": "MIN(6,3)",
+      "pred": "3",
+      "expected": "3",
+      "correct": true
+    },
+    {
+      "desc": "MIN(2,9)",
+      "pred": "2",
+      "expected": "2",
+      "correct": true
+    },
+    {
+      "desc": "MIN(1,5)",
+      "pred": "1",
+      "expected": "1",
+      "correct": true
+    },
+    {
+      "desc": "MIN(8,4)",
+      "pred": "4",
+      "expected": "4",
+      "correct": true
+    },
+    {
+      "desc": "MAX(7,2)",
+      "pred": "7",
+      "expected": "7",
+      "correct": true
+    },
+    {
+      "desc": "MAX(6,3)",
+      "pred": "6",
+      "expected": "6",
+      "correct": true
+    },
+    {
+      "desc": "MAX(2,9)",
+      "pred": "9",
+      "expected": "9",
+      "correct": true
+    },
+    {
+      "desc": "MAX(1,5)",
+      "pred": "5",
+      "expected": "5",
+      "correct": true
+    },
+    {
+      "desc": "MAX(8,4)",
+      "pred": "8",
+      "expected": "8",
+      "correct": true
+    }
+  ],
+  "double_text_results": [
+    {
+      "desc": "min(max(3,7),5)",
+      "intermediate": "7",
+      "final": ")",
+      "expected_int": "7",
+      "expected_final": "5",
+      "int_correct": true,
+      "final_correct": false
+    },
+    {
+      "desc": "min(max(2,8),6)",
+      "intermediate": "8",
+      "final": "6",
+      "expected_int": "8",
+      "expected_final": "6",
+      "int_correct": true,
+      "final_correct": true
+    },
+    {
+      "desc": "min(max(4,1),3)",
+      "intermediate": "4",
+      "final": "4",
+      "expected_int": "4",
+      "expected_final": "3",
+      "int_correct": true,
+      "final_correct": false
+    },
+    {
+      "desc": "min(max(6,9),7)",
+      "intermediate": "6",
+      "final": "7",
+      "expected_int": "9",
+      "expected_final": "7",
+      "int_correct": false,
+      "final_correct": true
+    },
+    {
+      "desc": "min(max(5,3),4)",
+      "intermediate": "3",
+      "final": "3",
+      "expected_int": "5",
+      "expected_final": "4",
+      "int_correct": false,
+      "final_correct": false
+    },
+    {
+      "desc": "min(max(1,8),2)",
+      "intermediate": "8",
+      "final": "2",
+      "expected_int": "8",
+      "expected_final": "2",
+      "int_correct": true,
+      "final_correct": true
+    },
+    {
+      "desc": "min(max(7,2),9)",
+      "intermediate": "7",
+      "final": "9",
+      "expected_int": "7",
+      "expected_final": "7",
+      "int_correct": true,
+      "final_correct": false
+    },
+    {
+      "desc": "min(max(3,5),1)",
+      "intermediate": "5",
+      "final": "1",
+      "expected_int": "5",
+      "expected_final": "1",
+      "int_correct": true,
+      "final_correct": true
+    },
+    {
+      "desc": "min(max(9,4),6)",
+      "intermediate": "9",
+      "final": "6",
+      "expected_int": "9",
+      "expected_final": "6",
+      "int_correct": true,
+      "final_correct": true
+    },
+    {
+      "desc": "min(max(2,6),3)",
+      "intermediate": "6",
+      "final": "3",
+      "expected_int": "6",
+      "expected_final": "3",
+      "int_correct": true,
+      "final_correct": true
+    }
+  ],
+  "latent_results": [
+    {
+      "desc": "MIN(7,2)",
+      "pred": "2",
+      "expected": "2",
+      "correct": true
+    },
+    {
+      "desc": "MIN(6,3)",
+      "pred": "3",
+      "expected": "3",
+      "correct": true
+    },
+    {
+      "desc": "MIN(2,9)",
+      "pred": "2",
+      "expected": "2",
+      "correct": true
+    },
+    {
+      "desc": "MIN(1,5)",
+      "pred": "1",
+      "expected": "1",
+      "correct": true
+    },
+    {
+      "desc": "MIN(8,4)",
+      "pred": "4",
+      "expected": "4",
+      "correct": true
+    },
+    {
+      "desc": "MAX(7,2)",
+      "pred": "7",
+      "expected": "7",
+      "correct": true
+    },
+    {
+      "desc": "MAX(6,3)",
+      "pred": "6",
+      "expected": "6",
+      "correct": true
+    },
+    {
+      "desc": "MAX(2,9)",
+      "pred": "9",
+      "expected": "9",
+      "correct": true
+    },
+    {
+      "desc": "MAX(1,5)",
+      "pred": "5",
+      "expected": "5",
+      "correct": true
+    },
+    {
+      "desc": "MAX(8,4)",
+      "pred": "8",
+      "expected": "8",
+      "correct": true
+    }
+  ],
+  "elapsed": 397.1
+}

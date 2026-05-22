@@ -1,0 +1,482 @@
+{
+  "phase": 152,
+  "name": "soul_immune_system",
+  "healthy_accuracy": 1.0,
+  "results_by_noise": {
+    "0.1": {
+      "corrupted_accuracy": 0.375,
+      "healed_accuracy": 0.5,
+      "recovery": 0.125,
+      "details": [
+        {
+          "prompt": "7, 2) =",
+          "expected": "2",
+          "corrupted_pred": "1",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.026087818667292595,
+          "final_entropy": 4.1606534068705514e-05
+        },
+        {
+          "prompt": "6, 3) =",
+          "expected": "3",
+          "corrupted_pred": "3",
+          "healed_pred": "3",
+          "steps": 15,
+          "initial_entropy": 1.8244421653434983e-06,
+          "final_entropy": 8.459808374661204e-12
+        },
+        {
+          "prompt": "2, 9) =",
+          "expected": "2",
+          "corrupted_pred": "9",
+          "healed_pred": "3",
+          "steps": 15,
+          "initial_entropy": 0.3568800389766693,
+          "final_entropy": 4.630293460650137e-06
+        },
+        {
+          "prompt": "1, 5) =",
+          "expected": "1",
+          "corrupted_pred": "1",
+          "healed_pred": "1",
+          "steps": 15,
+          "initial_entropy": 4.446288221515715e-05,
+          "final_entropy": 6.672463914725313e-09
+        },
+        {
+          "prompt": "8, 4) =",
+          "expected": "4",
+          "corrupted_pred": "8",
+          "healed_pred": "8",
+          "steps": 15,
+          "initial_entropy": 0.5928188562393188,
+          "final_entropy": 3.0999469749886135e-19
+        },
+        {
+          "prompt": "4, 7) =",
+          "expected": "4",
+          "corrupted_pred": "7",
+          "healed_pred": "7",
+          "steps": 15,
+          "initial_entropy": 0.0031242521945387125,
+          "final_entropy": 1.1915562936337665e-06
+        },
+        {
+          "prompt": "9, 6) =",
+          "expected": "6",
+          "corrupted_pred": "3",
+          "healed_pred": "3",
+          "steps": 15,
+          "initial_entropy": 0.8366082906723022,
+          "final_entropy": 4.463674985188959e-10
+        },
+        {
+          "prompt": "3, 8) =",
+          "expected": "3",
+          "corrupted_pred": "3",
+          "healed_pred": "3",
+          "steps": 15,
+          "initial_entropy": 0.02317669987678528,
+          "final_entropy": 5.8730485363867047e-08
+        }
+      ]
+    },
+    "0.2": {
+      "corrupted_accuracy": 0.5,
+      "healed_accuracy": 0.5,
+      "recovery": 0.0,
+      "details": [
+        {
+          "prompt": "7, 2) =",
+          "expected": "2",
+          "corrupted_pred": "1",
+          "healed_pred": "1",
+          "steps": 15,
+          "initial_entropy": 1.6521472930908203,
+          "final_entropy": 3.0527427408047567e-15
+        },
+        {
+          "prompt": "6, 3) =",
+          "expected": "3",
+          "corrupted_pred": "3",
+          "healed_pred": "3",
+          "steps": 15,
+          "initial_entropy": 0.003342063631862402,
+          "final_entropy": 1.1030958368962729e-09
+        },
+        {
+          "prompt": "2, 9) =",
+          "expected": "2",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.315425306558609,
+          "final_entropy": 1.1946350468861056e-06
+        },
+        {
+          "prompt": "1, 5) =",
+          "expected": "1",
+          "corrupted_pred": "1",
+          "healed_pred": "1",
+          "steps": 15,
+          "initial_entropy": 0.002101914957165718,
+          "final_entropy": 3.643395132257865e-07
+        },
+        {
+          "prompt": "8, 4) =",
+          "expected": "4",
+          "corrupted_pred": "8",
+          "healed_pred": "8",
+          "steps": 15,
+          "initial_entropy": 0.016892800107598305,
+          "final_entropy": 1.4314795822225473e-13
+        },
+        {
+          "prompt": "4, 7) =",
+          "expected": "4",
+          "corrupted_pred": "7",
+          "healed_pred": "7",
+          "steps": 15,
+          "initial_entropy": 0.003340878989547491,
+          "final_entropy": 5.560047156905057e-06
+        },
+        {
+          "prompt": "9, 6) =",
+          "expected": "6",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.05545104295015335,
+          "final_entropy": 2.371189793848316e-06
+        },
+        {
+          "prompt": "3, 8) =",
+          "expected": "3",
+          "corrupted_pred": "3",
+          "healed_pred": "3",
+          "steps": 15,
+          "initial_entropy": 0.7503123879432678,
+          "final_entropy": 9.750124263518956e-06
+        }
+      ]
+    },
+    "0.3": {
+      "corrupted_accuracy": 0.375,
+      "healed_accuracy": 0.375,
+      "recovery": 0.0,
+      "details": [
+        {
+          "prompt": "7, 2) =",
+          "expected": "2",
+          "corrupted_pred": "1",
+          "healed_pred": "1",
+          "steps": 15,
+          "initial_entropy": 0.2562151551246643,
+          "final_entropy": 1.7800939531298354e-05
+        },
+        {
+          "prompt": "6, 3) =",
+          "expected": "3",
+          "corrupted_pred": "6",
+          "healed_pred": "6",
+          "steps": 15,
+          "initial_entropy": 0.08732671290636063,
+          "final_entropy": 2.3221095034386963e-05
+        },
+        {
+          "prompt": "2, 9) =",
+          "expected": "2",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.0022958775516599417,
+          "final_entropy": 2.191931748954379e-12
+        },
+        {
+          "prompt": "1, 5) =",
+          "expected": "1",
+          "corrupted_pred": "1",
+          "healed_pred": "1",
+          "steps": 15,
+          "initial_entropy": 0.034339312463998795,
+          "final_entropy": 4.466157577098784e-08
+        },
+        {
+          "prompt": "8, 4) =",
+          "expected": "4",
+          "corrupted_pred": "8",
+          "healed_pred": "8",
+          "steps": 15,
+          "initial_entropy": 0.00038550683530047536,
+          "final_entropy": 1.2087129848904234e-20
+        },
+        {
+          "prompt": "4, 7) =",
+          "expected": "4",
+          "corrupted_pred": "4",
+          "healed_pred": "4",
+          "steps": 15,
+          "initial_entropy": 0.018637893721461296,
+          "final_entropy": 1.9602030112611914e-15
+        },
+        {
+          "prompt": "9, 6) =",
+          "expected": "6",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.17360864579677582,
+          "final_entropy": 5.9961250371998176e-05
+        },
+        {
+          "prompt": "3, 8) =",
+          "expected": "3",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.1538926512002945,
+          "final_entropy": 4.956560132995946e-06
+        }
+      ]
+    },
+    "0.5": {
+      "corrupted_accuracy": 0.625,
+      "healed_accuracy": 0.625,
+      "recovery": 0.0,
+      "details": [
+        {
+          "prompt": "7, 2) =",
+          "expected": "2",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.1799827367067337,
+          "final_entropy": 1.4860520727174816e-15
+        },
+        {
+          "prompt": "6, 3) =",
+          "expected": "3",
+          "corrupted_pred": "3",
+          "healed_pred": "3",
+          "steps": 15,
+          "initial_entropy": 0.0019458758179098368,
+          "final_entropy": 7.138313423565474e-20
+        },
+        {
+          "prompt": "2, 9) =",
+          "expected": "2",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 1.586244070495013e-05,
+          "final_entropy": 1.0385243961455112e-13
+        },
+        {
+          "prompt": "1, 5) =",
+          "expected": "1",
+          "corrupted_pred": "1",
+          "healed_pred": "1",
+          "steps": 15,
+          "initial_entropy": 0.41114649176597595,
+          "final_entropy": 8.145811802862113e-11
+        },
+        {
+          "prompt": "8, 4) =",
+          "expected": "4",
+          "corrupted_pred": "8",
+          "healed_pred": "8",
+          "steps": 15,
+          "initial_entropy": 1.3290041067648417e-07,
+          "final_entropy": 1.3290512760428738e-14
+        },
+        {
+          "prompt": "4, 7) =",
+          "expected": "4",
+          "corrupted_pred": "4",
+          "healed_pred": "4",
+          "steps": 15,
+          "initial_entropy": 8.141805807326818e-08,
+          "final_entropy": 1.257620452221886e-09
+        },
+        {
+          "prompt": "9, 6) =",
+          "expected": "6",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 1.512681683379924e-05,
+          "final_entropy": 4.4676802433764825e-17
+        },
+        {
+          "prompt": "3, 8) =",
+          "expected": "3",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.0003191789728589356,
+          "final_entropy": 1.822051017008608e-11
+        }
+      ]
+    },
+    "0.7": {
+      "corrupted_accuracy": 0.5,
+      "healed_accuracy": 0.5,
+      "recovery": 0.0,
+      "details": [
+        {
+          "prompt": "7, 2) =",
+          "expected": "2",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.00013660412514582276,
+          "final_entropy": 2.0892617719134666e-20
+        },
+        {
+          "prompt": "6, 3) =",
+          "expected": "3",
+          "corrupted_pred": "3",
+          "healed_pred": "3",
+          "steps": 15,
+          "initial_entropy": 0.11017357558012009,
+          "final_entropy": 1.1624391118124767e-15
+        },
+        {
+          "prompt": "2, 9) =",
+          "expected": "2",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.000533193931914866,
+          "final_entropy": 1.6997110641701896e-13
+        },
+        {
+          "prompt": "1, 5) =",
+          "expected": "1",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.0802885890007019,
+          "final_entropy": 1.367247981498565e-09
+        },
+        {
+          "prompt": "8, 4) =",
+          "expected": "4",
+          "corrupted_pred": "8",
+          "healed_pred": "8",
+          "steps": 15,
+          "initial_entropy": 0.0008055030484683812,
+          "final_entropy": 2.1616134229796025e-11
+        },
+        {
+          "prompt": "4, 7) =",
+          "expected": "4",
+          "corrupted_pred": "4",
+          "healed_pred": "4",
+          "steps": 15,
+          "initial_entropy": 0.6074402332305908,
+          "final_entropy": 4.73065250167215e-12
+        },
+        {
+          "prompt": "9, 6) =",
+          "expected": "6",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 1.9667089873109944e-05,
+          "final_entropy": 1.0598293076480303e-14
+        },
+        {
+          "prompt": "3, 8) =",
+          "expected": "3",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.0015285760164260864,
+          "final_entropy": 3.018896244100233e-10
+        }
+      ]
+    },
+    "1.0": {
+      "corrupted_accuracy": 0.25,
+      "healed_accuracy": 0.25,
+      "recovery": 0.0,
+      "details": [
+        {
+          "prompt": "7, 2) =",
+          "expected": "2",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 6.697930984955747e-06,
+          "final_entropy": 4.0617765625729544e-16
+        },
+        {
+          "prompt": "6, 3) =",
+          "expected": "3",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.45501908659935,
+          "final_entropy": 2.2236764607441728e-07
+        },
+        {
+          "prompt": "2, 9) =",
+          "expected": "2",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.03427824005484581,
+          "final_entropy": 1.238130292735562e-10
+        },
+        {
+          "prompt": "1, 5) =",
+          "expected": "1",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.15143664181232452,
+          "final_entropy": 1.5520974505633944e-09
+        },
+        {
+          "prompt": "8, 4) =",
+          "expected": "4",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.00038240518188104033,
+          "final_entropy": 3.634294471269173e-14
+        },
+        {
+          "prompt": "4, 7) =",
+          "expected": "4",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.003557843156158924,
+          "final_entropy": 1.6726770793104584e-12
+        },
+        {
+          "prompt": "9, 6) =",
+          "expected": "6",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.014510017819702625,
+          "final_entropy": 3.4699159778134314e-12
+        },
+        {
+          "prompt": "3, 8) =",
+          "expected": "3",
+          "corrupted_pred": "2",
+          "healed_pred": "2",
+          "steps": 15,
+          "initial_entropy": 0.05194009095430374,
+          "final_entropy": 3.997389919074834e-10
+        }
+      ]
+    }
+  },
+  "elapsed": 131.4
+}
