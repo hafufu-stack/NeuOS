@@ -1,0 +1,88 @@
+{
+  "phase": 164,
+  "name": "universal_instruction_set",
+  "n_components": 8,
+  "instruction_set": [
+    {
+      "opcode": "PC0",
+      "variance": 0.2166,
+      "interpretation": "+SECOND / -MAX axis",
+      "positive_behavior": "second",
+      "negative_behavior": "max"
+    },
+    {
+      "opcode": "PC1",
+      "variance": 0.1717,
+      "interpretation": "+MAX / -MIN axis",
+      "positive_behavior": "max",
+      "negative_behavior": "min"
+    },
+    {
+      "opcode": "PC2",
+      "variance": 0.1635,
+      "interpretation": "unclear",
+      "positive_behavior": "min",
+      "negative_behavior": "min"
+    },
+    {
+      "opcode": "PC3",
+      "variance": 0.1317,
+      "interpretation": "+FIRST / -MIN axis",
+      "positive_behavior": "first",
+      "negative_behavior": "min"
+    },
+    {
+      "opcode": "PC4",
+      "variance": 0.1192,
+      "interpretation": "unclear",
+      "positive_behavior": "first",
+      "negative_behavior": "first"
+    },
+    {
+      "opcode": "PC5",
+      "variance": 0.107,
+      "interpretation": "+FIRST / -SECOND axis",
+      "positive_behavior": "first",
+      "negative_behavior": "second"
+    },
+    {
+      "opcode": "PC6",
+      "variance": 0.0902,
+      "interpretation": "+FIRST / -SECOND axis",
+      "positive_behavior": "first",
+      "negative_behavior": "second"
+    },
+    {
+      "opcode": "PC7",
+      "variance": 0.0,
+      "interpretation": "+SECOND / -FIRST axis",
+      "positive_behavior": "second",
+      "negative_behavior": "first"
+    }
+  ],
+  "soul_decompositions": {
+    "MIN_s42": {
+      "coords": [
+        0.75,
+        0.78,
+        0.01,
+        0.63,
+        0.09
+      ],
+      "dominant_component": 5,
+      "dominant_value": -1.06
+    },
+    "MAX_s42": {
+      "coords": [
+        0.52,
+        0.87,
+        -0.02,
+        0.5,
+        0.31
+      ],
+      "dominant_component": 5,
+      "dominant_value": 1.18
+    }
+  },
+  "elapsed": 600
+}
