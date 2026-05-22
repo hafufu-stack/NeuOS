@@ -1,0 +1,56 @@
+{
+  "phase": 170,
+  "name": "soul_persistence",
+  "jar_path": "C:\\Users\\kyjan\\\u7814\u7a76\\NeuOS\\experiments2\\..\\results\\soul_jar.npz",
+  "jar_size_bytes": 31997,
+  "raw_size_bytes": 14336,
+  "compression_ratio": 0.4,
+  "n_souls": 4,
+  "verification": {
+    "MIN_trained": {
+      "accuracy": 1.0,
+      "predictions": [
+        "2",
+        "3",
+        "2",
+        "1",
+        "4"
+      ]
+    },
+    "MAX_trained": {
+      "accuracy": 1.0,
+      "predictions": [
+        "7",
+        "6",
+        "9",
+        "5",
+        "8"
+      ]
+    },
+    "MIN_compiled": {
+      "accuracy": 0.6,
+      "predictions": [
+        "2",
+        "3",
+        "2",
+        "5",
+        "8"
+      ]
+    },
+    "MAX_compiled": {
+      "accuracy": 1.0,
+      "predictions": [
+        "7",
+        "6",
+        "9",
+        "5",
+        "8"
+      ]
+    }
+  },
+  "fidelity": {
+    "min_cosine": 1.0,
+    "max_cosine": 1.0
+  },
+  "elapsed": 367.7
+}

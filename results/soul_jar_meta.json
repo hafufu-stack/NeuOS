@@ -1,0 +1,14 @@
+{
+  "model": "Qwen2.5-0.5B-Instruct",
+  "hidden_size": 896,
+  "injection_layer": 8,
+  "n_pca_components": 8,
+  "effective_dimensions": 7,
+  "created": "2026-05-23 00:45:02",
+  "soul_names": [
+    "MIN_trained",
+    "MAX_trained",
+    "MIN_compiled",
+    "MAX_compiled"
+  ]
+}

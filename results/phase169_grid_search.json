@@ -1,0 +1,73 @@
+{
+  "phase": 169,
+  "name": "7d_gradient_free_optimization",
+  "grid_shape": [
+    13,
+    13
+  ],
+  "total_evaluations": 169,
+  "results": {
+    "grid_2d": {
+      "best_min": {
+        "acc": 0.8,
+        "pc1": -2.5,
+        "pc5": -3.0
+      },
+      "best_max": {
+        "acc": 1.0,
+        "pc1": 1.0,
+        "pc5": 1.0
+      }
+    },
+    "refined_min": {
+      "acc": 0.8,
+      "pc1": -2.5,
+      "pc5": -3.0
+    },
+    "refined_max": {
+      "acc": 1.0,
+      "pc1": 1.0,
+      "pc5": 1.0
+    },
+    "comparison": {
+      "gradient_trained": {
+        "min_acc": 1.0,
+        "max_acc": 1.0,
+        "method": "100 epochs Adam"
+      },
+      "grid_search": {
+        "min_acc": 0.8,
+        "max_acc": 1.0,
+        "method": "169 grid points (0 gradient)"
+      },
+      "coordinate_direct": {
+        "min_acc": 0.6,
+        "max_acc": 1.0,
+        "method": "P166 combined coords"
+      }
+    }
+  },
+  "trained_coords": {
+    "min": [
+      0.7499,
+      0.7772,
+      0.0061,
+      0.634,
+      0.0862,
+      -1.0614,
+      0.3855,
+      0.0
+    ],
+    "max": [
+      0.5229,
+      0.8699,
+      -0.0194,
+      0.4955,
+      0.3137,
+      1.1793,
+      0.0657,
+      -0.0
+    ]
+  },
+  "elapsed": 680.2
+}
