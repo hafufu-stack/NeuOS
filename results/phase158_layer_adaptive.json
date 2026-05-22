@@ -1,0 +1,121 @@
+{
+  "phase": 158,
+  "name": "layer_adaptive_autopoiesis",
+  "task_best_layers": {
+    "MIN": 8,
+    "MAX": 4,
+    "ADD": 4,
+    "SUB": 4
+  },
+  "results": {
+    "MIN": {
+      "best_layer": 8,
+      "val_accuracy": 1.0,
+      "test_accuracy": 0.8,
+      "test_accuracy_L8": 0.8,
+      "improvement": 0.0,
+      "layer_scan": {
+        "4": {
+          "accuracy": 0.3333
+        },
+        "6": {
+          "accuracy": 0.3333
+        },
+        "8": {
+          "accuracy": 1.0
+        },
+        "10": {
+          "accuracy": 0.0
+        },
+        "12": {
+          "accuracy": 0.0
+        },
+        "16": {
+          "accuracy": 0.0
+        }
+      }
+    },
+    "MAX": {
+      "best_layer": 4,
+      "val_accuracy": 0.3333,
+      "test_accuracy": 0.8,
+      "test_accuracy_L8": 1.0,
+      "improvement": -0.2,
+      "layer_scan": {
+        "4": {
+          "accuracy": 0.3333
+        },
+        "6": {
+          "accuracy": 0.0
+        },
+        "8": {
+          "accuracy": 0.3333
+        },
+        "10": {
+          "accuracy": 0.3333
+        },
+        "12": {
+          "accuracy": 0.3333
+        },
+        "16": {
+          "accuracy": 0.0
+        }
+      }
+    },
+    "ADD": {
+      "best_layer": 4,
+      "val_accuracy": 0.0,
+      "test_accuracy": 0.2,
+      "test_accuracy_L8": 0.0,
+      "improvement": 0.2,
+      "layer_scan": {
+        "4": {
+          "accuracy": 0.0
+        },
+        "6": {
+          "accuracy": 0.0
+        },
+        "8": {
+          "accuracy": 0.0
+        },
+        "10": {
+          "accuracy": 0.0
+        },
+        "12": {
+          "accuracy": 0.0
+        },
+        "16": {
+          "accuracy": 0.0
+        }
+      }
+    },
+    "SUB": {
+      "best_layer": 4,
+      "val_accuracy": 0.0,
+      "test_accuracy": 0.0,
+      "test_accuracy_L8": 0.0,
+      "improvement": 0.0,
+      "layer_scan": {
+        "4": {
+          "accuracy": 0.0
+        },
+        "6": {
+          "accuracy": 0.0
+        },
+        "8": {
+          "accuracy": 0.0
+        },
+        "10": {
+          "accuracy": 0.0
+        },
+        "12": {
+          "accuracy": 0.0
+        },
+        "16": {
+          "accuracy": 0.0
+        }
+      }
+    }
+  },
+  "elapsed": 786.8
+}

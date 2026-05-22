@@ -1,0 +1,19 @@
+{
+  "phase": 159,
+  "name": "full_stack_os",
+  "known_ops_accuracy": 0.75,
+  "add_auto_learned": false,
+  "add_best_layer": null,
+  "add_accuracy": 0.0,
+  "final_library": {
+    "MIN": {
+      "layer": 8,
+      "accuracy": 1.0
+    },
+    "MAX": {
+      "layer": 8,
+      "accuracy": 1.0
+    }
+  },
+  "elapsed": 206.2
+}
