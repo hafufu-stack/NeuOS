@@ -1,0 +1,89 @@
+{
+  "phase": 165,
+  "name": "7d_semantic_firewall",
+  "results": {
+    "firewall_1d": {
+      "n_dims": 1,
+      "min_acc": 0.4,
+      "max_acc": 0.6
+    },
+    "firewall_2d": {
+      "n_dims": 2,
+      "min_acc": 0.6,
+      "max_acc": 0.0
+    },
+    "firewall_3d": {
+      "n_dims": 3,
+      "min_acc": 0.6,
+      "max_acc": 0.0
+    },
+    "firewall_4d": {
+      "n_dims": 4,
+      "min_acc": 0.6,
+      "max_acc": 0.2
+    },
+    "firewall_5d": {
+      "n_dims": 5,
+      "min_acc": 0.6,
+      "max_acc": 0.4
+    },
+    "firewall_6d": {
+      "n_dims": 6,
+      "min_acc": 0.8,
+      "max_acc": 1.0
+    },
+    "firewall_7d": {
+      "n_dims": 7,
+      "min_acc": 1.0,
+      "max_acc": 1.0
+    },
+    "firewall_8d": {
+      "n_dims": 8,
+      "min_acc": 1.0,
+      "max_acc": 1.0
+    },
+    "baseline": {
+      "min_acc": 1.0,
+      "max_acc": 1.0
+    }
+  },
+  "noise_resistance": {
+    "0.0": {
+      "noise_scale": 0.0,
+      "raw_acc": 1.0,
+      "firewall_acc": 1.0,
+      "protection": 0.0
+    },
+    "0.5": {
+      "noise_scale": 0.5,
+      "raw_acc": 0.4,
+      "firewall_acc": 0.4,
+      "protection": 0.0
+    },
+    "1.0": {
+      "noise_scale": 1.0,
+      "raw_acc": 0.4,
+      "firewall_acc": 0.4,
+      "protection": 0.0
+    },
+    "2.0": {
+      "noise_scale": 2.0,
+      "raw_acc": 0.2,
+      "firewall_acc": 0.4,
+      "protection": 0.2
+    },
+    "5.0": {
+      "noise_scale": 5.0,
+      "raw_acc": 0.2,
+      "firewall_acc": 0.4,
+      "protection": 0.2
+    },
+    "10.0": {
+      "noise_scale": 10.0,
+      "raw_acc": 0.2,
+      "firewall_acc": 0.4,
+      "protection": 0.2
+    }
+  },
+  "elapsed": 635.2
+}

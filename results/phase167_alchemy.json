@@ -1,0 +1,344 @@
+{
+  "phase": 167,
+  "name": "zero_shot_alchemy",
+  "n_recipes": 14,
+  "recipe_results": {
+    "MIN_2x": {
+      "description": "MIN overclocked 2x",
+      "predictions": [
+        "3",
+        "2",
+        "1",
+        "4",
+        "2",
+        "4",
+        "2",
+        "1"
+      ],
+      "scores": {
+        "MIN": 0.875,
+        "MAX": 0.0,
+        "FIRST": 0.375,
+        "SECOND": 0.5,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "MIN",
+      "best_score": 0.875,
+      "avg_entropy": 0.1807
+    },
+    "MAX_2x": {
+      "description": "MAX overclocked 2x",
+      "predictions": [
+        "3",
+        "5",
+        "8",
+        "6",
+        "(",
+        "7",
+        "8",
+        "6"
+      ],
+      "scores": {
+        "MIN": 0.125,
+        "MAX": 0.75,
+        "FIRST": 0.625,
+        "SECOND": 0.25,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "MAX",
+      "best_score": 0.75,
+      "avg_entropy": 1.0419
+    },
+    "midpoint": {
+      "description": "(MIN + MAX) / 2 = ???",
+      "predictions": [
+        "3",
+        "5",
+        "8",
+        "4",
+        "1",
+        "4",
+        "8",
+        "1"
+      ],
+      "scores": {
+        "MIN": 0.5,
+        "MAX": 0.375,
+        "FIRST": 0.5,
+        "SECOND": 0.375,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "MIN",
+      "best_score": 0.5,
+      "avg_entropy": 0.4291
+    },
+    "diff_direction": {
+      "description": "MAX - MIN direction",
+      "predictions": [
+        "3",
+        "2",
+        "1",
+        "6",
+        "7",
+        "1",
+        "2",
+        "1"
+      ],
+      "scores": {
+        "MIN": 0.625,
+        "MAX": 0.125,
+        "FIRST": 0.25,
+        "SECOND": 0.5,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "MIN",
+      "best_score": 0.625,
+      "avg_entropy": 0.8299
+    },
+    "anti_diff": {
+      "description": "MIN - MAX direction",
+      "predictions": [
+        "3",
+        "5",
+        "8",
+        "6",
+        "C",
+        "4",
+        "2",
+        "6"
+      ],
+      "scores": {
+        "MIN": 0.375,
+        "MAX": 0.5,
+        "FIRST": 0.625,
+        "SECOND": 0.25,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "FIRST",
+      "best_score": 0.625,
+      "avg_entropy": 0.4927
+    },
+    "only_PC0_pos": {
+      "description": "PC0=+3 only",
+      "predictions": [
+        "7",
+        "2",
+        "8",
+        "6",
+        "1",
+        "4",
+        "8",
+        "1"
+      ],
+      "scores": {
+        "MIN": 0.375,
+        "MAX": 0.5,
+        "FIRST": 0.125,
+        "SECOND": 0.75,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "SECOND",
+      "best_score": 0.75,
+      "avg_entropy": 0.3196
+    },
+    "only_PC1_pos": {
+      "description": "PC1=+3 only",
+      "predictions": [
+        "7",
+        "5",
+        "8",
+        "4",
+        "1",
+        "1",
+        "3",
+        "1"
+      ],
+      "scores": {
+        "MIN": 0.25,
+        "MAX": 0.375,
+        "FIRST": 0.375,
+        "SECOND": 0.25,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "MAX",
+      "best_score": 0.375,
+      "avg_entropy": 0.7949
+    },
+    "only_PC5_neg": {
+      "description": "PC5=-3 only (strong MIN)",
+      "predictions": [
+        "1",
+        "5",
+        "1",
+        "6",
+        "1",
+        "4",
+        "8",
+        "1"
+      ],
+      "scores": {
+        "MIN": 0.375,
+        "MAX": 0.375,
+        "FIRST": 0.125,
+        "SECOND": 0.625,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "SECOND",
+      "best_score": 0.625,
+      "avg_entropy": 0.2456
+    },
+    "only_PC5_pos": {
+      "description": "PC5=+3 only (strong MAX)",
+      "predictions": [
+        "3",
+        "5",
+        "8",
+        "4",
+        "1",
+        "2",
+        "2",
+        "6"
+      ],
+      "scores": {
+        "MIN": 0.375,
+        "MAX": 0.375,
+        "FIRST": 0.75,
+        "SECOND": 0.0,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "FIRST",
+      "best_score": 0.75,
+      "avg_entropy": 0.4438
+    },
+    "attempt_mean": {
+      "description": "PC2+PC3 = mean attempt",
+      "predictions": [
+        "3",
+        "5",
+        "8",
+        "6",
+        "3",
+        "1",
+        "2",
+        "6"
+      ],
+      "scores": {
+        "MIN": 0.375,
+        "MAX": 0.5,
+        "FIRST": 0.625,
+        "SECOND": 0.25,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "FIRST",
+      "best_score": 0.625,
+      "avg_entropy": 1.0285
+    },
+    "attempt_diff": {
+      "description": "PC1+PC4 = diff attempt",
+      "predictions": [
+        "7",
+        "5",
+        "8",
+        "6",
+        "is",
+        "1",
+        "a",
+        "1"
+      ],
+      "scores": {
+        "MIN": 0.125,
+        "MAX": 0.5,
+        "FIRST": 0.25,
+        "SECOND": 0.375,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "MAX",
+      "best_score": 0.5,
+      "avg_entropy": 1.8052
+    },
+    "all_positive": {
+      "description": "All axes at +1.0",
+      "predictions": [
+        "3",
+        "5",
+        "8",
+        "6",
+        "1",
+        "<|endoftext|>",
+        "2",
+        "6"
+      ],
+      "scores": {
+        "MIN": 0.25,
+        "MAX": 0.5,
+        "FIRST": 0.625,
+        "SECOND": 0.125,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "FIRST",
+      "best_score": 0.625,
+      "avg_entropy": 1.0897
+    },
+    "all_negative": {
+      "description": "All axes at -1.0",
+      "predictions": [
+        "3",
+        "2",
+        "8",
+        "6",
+        "1",
+        "1",
+        "8",
+        "6"
+      ],
+      "scores": {
+        "MIN": 0.25,
+        "MAX": 0.5,
+        "FIRST": 0.375,
+        "SECOND": 0.375,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "MAX",
+      "best_score": 0.5,
+      "avg_entropy": 0.2955
+    },
+    "orthogonal": {
+      "description": "Orthogonal to MIN-MAX plane",
+      "predictions": [
+        "7",
+        "5",
+        "8",
+        "6",
+        "7",
+        ",",
+        "7",
+        "6"
+      ],
+      "scores": {
+        "MIN": 0.0,
+        "MAX": 0.625,
+        "FIRST": 0.375,
+        "SECOND": 0.25,
+        "DIFF": 0.0,
+        "MEAN": 0.0
+      },
+      "best_op": "MAX",
+      "best_score": 0.625,
+      "avg_entropy": 0.6851
+    }
+  },
+  "elapsed": 618.7
+}

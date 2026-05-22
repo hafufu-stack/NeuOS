@@ -1,0 +1,195 @@
+{
+  "phase": 168,
+  "name": "control_room_ui",
+  "pc_meanings": [
+    "SECOND <-> MAX",
+    "MIN <-> MAX",
+    "unclear",
+    "MIN <-> FIRST",
+    "FIRST (both)",
+    "SECOND <-> FIRST",
+    "SECOND <-> FIRST",
+    "FIRST <-> SECOND"
+  ],
+  "presets": {
+    "MIN (trained)": {
+      "coords": [
+        0.75,
+        0.777,
+        0.006,
+        0.634,
+        0.086,
+        -1.061,
+        0.385,
+        0.0
+      ]
+    },
+    "MAX (trained)": {
+      "coords": [
+        0.523,
+        0.87,
+        -0.019,
+        0.495,
+        0.314,
+        1.179,
+        0.066,
+        -0.0
+      ]
+    },
+    "Zero (origin)": {
+      "coords": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Pure PC5-": {
+      "coords": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -2.5,
+        0,
+        0
+      ]
+    },
+    "Pure PC5+": {
+      "coords": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2.5,
+        0,
+        0
+      ]
+    },
+    "Pure PC1+": {
+      "coords": [
+        0,
+        2.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Combined MIN": {
+      "coords": [
+        0,
+        -1.5,
+        0,
+        0,
+        0,
+        -1.5,
+        0,
+        0
+      ]
+    },
+    "Combined MAX": {
+      "coords": [
+        0,
+        1.5,
+        0,
+        0,
+        0,
+        1.5,
+        0,
+        0
+      ]
+    }
+  },
+  "dashboard_data": {
+    "MIN (trained)": {
+      "scores": {
+        "MIN": 1.0,
+        "MAX": 0.0,
+        "FIRST": 0.4,
+        "SECOND": 0.6
+      },
+      "avg_entropy": 0.0078,
+      "avg_conf": 0.9991
+    },
+    "MAX (trained)": {
+      "scores": {
+        "MIN": 0.0,
+        "MAX": 1.0,
+        "FIRST": 0.6,
+        "SECOND": 0.4
+      },
+      "avg_entropy": 0.0016,
+      "avg_conf": 0.9999
+    },
+    "Zero (origin)": {
+      "scores": {
+        "MIN": 0.4,
+        "MAX": 0.6,
+        "FIRST": 0.6,
+        "SECOND": 0.4
+      },
+      "avg_entropy": 0.8642,
+      "avg_conf": 0.8709
+    },
+    "Pure PC5-": {
+      "scores": {
+        "MIN": 0.2,
+        "MAX": 0.4,
+        "FIRST": 0.2,
+        "SECOND": 0.4
+      },
+      "avg_entropy": 0.3501,
+      "avg_conf": 0.9469
+    },
+    "Pure PC5+": {
+      "scores": {
+        "MIN": 0.4,
+        "MAX": 0.4,
+        "FIRST": 0.8,
+        "SECOND": 0.0
+      },
+      "avg_entropy": 0.3321,
+      "avg_conf": 0.8831
+    },
+    "Pure PC1+": {
+      "scores": {
+        "MIN": 0.4,
+        "MAX": 0.2,
+        "FIRST": 0.4,
+        "SECOND": 0.2
+      },
+      "avg_entropy": 1.5511,
+      "avg_conf": 0.6291
+    },
+    "Combined MIN": {
+      "scores": {
+        "MIN": 0.2,
+        "MAX": 0.6,
+        "FIRST": 0.6,
+        "SECOND": 0.2
+      },
+      "avg_entropy": 1.2569,
+      "avg_conf": 0.7962
+    },
+    "Combined MAX": {
+      "scores": {
+        "MIN": 0.2,
+        "MAX": 0.6,
+        "FIRST": 0.6,
+        "SECOND": 0.2
+      },
+      "avg_entropy": 1.6109,
+      "avg_conf": 0.742
+    }
+  },
+  "elapsed": 633.0
+}
