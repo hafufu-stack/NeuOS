@@ -1,0 +1,109 @@
+{
+  "phase": 161,
+  "name": "soul_compression",
+  "n_souls": 8,
+  "pca_explained_variance": [
+    0.224563,
+    0.164413,
+    0.151062,
+    0.146259,
+    0.119761,
+    0.110028,
+    0.083915,
+    0.0
+  ],
+  "pca_cumulative_90pct": 6,
+  "compression_results": {
+    "MIN": {
+      "original_acc": 1.0,
+      "compressed": {
+        "1": {
+          "accuracy": 0.4,
+          "recon_error": 1.6956,
+          "cosine": 0.4062
+        },
+        "2": {
+          "accuracy": 0.2,
+          "recon_error": 1.6312,
+          "cosine": 0.4758
+        },
+        "3": {
+          "accuracy": 0.4,
+          "recon_error": 1.6234,
+          "cosine": 0.4834
+        },
+        "4": {
+          "accuracy": 0.6,
+          "recon_error": 1.2093,
+          "cosine": 0.7579
+        },
+        "5": {
+          "accuracy": 0.8,
+          "recon_error": 0.6207,
+          "cosine": 0.9423
+        },
+        "6": {
+          "accuracy": 0.8,
+          "recon_error": 0.4115,
+          "cosine": 0.9751
+        },
+        "7": {
+          "accuracy": 1.0,
+          "recon_error": 0.0,
+          "cosine": 1.0
+        },
+        "8": {
+          "accuracy": 1.0,
+          "recon_error": 0.0,
+          "cosine": 1.0
+        }
+      }
+    },
+    "MAX": {
+      "original_acc": 0.8,
+      "compressed": {
+        "1": {
+          "accuracy": 0.4,
+          "recon_error": 1.4457,
+          "cosine": 0.7781
+        },
+        "2": {
+          "accuracy": 0.6,
+          "recon_error": 0.5969,
+          "cosine": 0.9658
+        },
+        "3": {
+          "accuracy": 0.8,
+          "recon_error": 0.4302,
+          "cosine": 0.9824
+        },
+        "4": {
+          "accuracy": 0.8,
+          "recon_error": 0.1178,
+          "cosine": 0.9987
+        },
+        "5": {
+          "accuracy": 0.8,
+          "recon_error": 0.1174,
+          "cosine": 0.9987
+        },
+        "6": {
+          "accuracy": 1.0,
+          "recon_error": 0.0641,
+          "cosine": 0.9996
+        },
+        "7": {
+          "accuracy": 0.8,
+          "recon_error": 0.0,
+          "cosine": 1.0
+        },
+        "8": {
+          "accuracy": 0.8,
+          "recon_error": 0.0,
+          "cosine": 1.0
+        }
+      }
+    }
+  },
+  "elapsed": 351.9
+}

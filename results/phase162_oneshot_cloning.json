@@ -1,0 +1,42 @@
+{
+  "phase": 162,
+  "name": "one_shot_soul_cloning",
+  "min_baseline": 1.0,
+  "nshot_results": {
+    "1": {
+      "cold_acc": 0.2,
+      "warm_acc": 0.4,
+      "gentle_acc": 0.6,
+      "full_acc": 0.6
+    },
+    "2": {
+      "cold_acc": 0.4,
+      "warm_acc": 0.4,
+      "gentle_acc": 0.2,
+      "full_acc": 0.2
+    },
+    "3": {
+      "cold_acc": 0.6,
+      "warm_acc": 0.6,
+      "gentle_acc": 0.6,
+      "full_acc": 0.6
+    },
+    "5": {
+      "cold_acc": 0.8,
+      "warm_acc": 0.4,
+      "gentle_acc": 0.6,
+      "full_acc": 0.2
+    },
+    "10": {
+      "cold_acc": 1.0,
+      "warm_acc": 0.6,
+      "gentle_acc": 0.8,
+      "full_acc": 0.8
+    }
+  },
+  "transfer_retention": {
+    "min_retention": 0.6,
+    "max_learned": 0.4
+  },
+  "elapsed": 276.8
+}
