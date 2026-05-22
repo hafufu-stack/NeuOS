@@ -67,9 +67,7 @@ def main():
     print("  Completion action: %s" % action)
 
     if action == 'hibernate':
-        print("  Hibernating in 10 seconds...")
-        time.sleep(10)
-        os.system("shutdown /h")
+        print("  Hibernate requested. (disabled in public repo)")
     else:
         # Beep
         try:

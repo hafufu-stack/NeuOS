@@ -26,7 +26,7 @@ All 24 layers of Qwen2.5-0.5B were probed to identify a complete 9-register Inst
 | **SUM** | L20 | **78%** | ALU |
 | **MAX** | L22 | **100%** | Output Register |
 
-## Key Results (145 Phases across 21 Seasons)
+## Key Results (170 Phases across 24 Seasons)
 
 ### Season 1–4: The Neural Computer (P1–P26)
 
@@ -108,16 +108,50 @@ All 24 layers of Qwen2.5-0.5B were probed to identify a complete 9-register Inst
 | **Temperature Robustness** | P144 | Stable T=0–1.5; phase transition collapse at T≥2.0 |
 | **Format Invariance** | P145 | 8/12 prompt formats ≥60%; `min()` format = **100%** |
 
-> A complete summary of all 145 phases with detailed metrics is available in the paper's Appendix.
+### Season 22: GlassBox Dashboard (P146–P152) 🆕
+
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **Hardware Proprioception** | P146 | AI self-diagnoses its own parameters (896d, 24L) with **100% accuracy** |
+| **First-Person Decompiler** | P147 | Real-time self-report of running program (MIN/MAX): **100%** |
+| **Scaling Oracle** | P148 | Self-predicts capacity limits: **100% accuracy** |
+| **GlassBox Dashboard** | P151 | All self-diagnosis in a **single inference pass** — full white-box AI |
+| **Soul Immune System** | P152 | Corrupted soul detection + unsupervised self-repair: **+12pp** |
+
+### Season 23: The Homoiconic Mind (P153–P164) 🆕
+
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **NL→Soul Compilation** | P154 | "pick the smaller one" → soul seed → 3 examples: **0%→40%** |
+| **Pipeline Rewiring** | P155 | All 24 layers essential — no skip tolerance |
+| **Skill Discovery** | P157 | Novel task detection: **perfect**; meta-cognition works |
+| **Soul Algebra** | P160 | MIN/MAX cosine=0.07 (orthogonal); smooth interpolation |
+| **7D Soul Compression** | P161 | 896D → **7D with zero accuracy loss** (128× compression) 🏆 |
+| **One-Shot Cloning** | P162 | Warm start 1-shot: **60%** (3× faster than cold start) |
+| **Soul Cartography** | P163 | 4 primitives (MIN/MAX/FIRST/SECOND) equally distributed in soul space |
+| **Universal Instruction Set** | P164 | PCA basis vectors decoded as **assembly opcodes** 🏆 |
+
+### Season 24: The 7D Rosetta Engine (P165–P170) 🆕
+
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **7D Semantic Firewall** | P165 | 7D projection preserves **100% accuracy**; +20pp noise protection |
+| **Rosetta Compiler** | P166 | Coords `[0,1.5,0,0,0,1.5,0,0]` = **MAX 100%** — zero gradient, zero data 🏆 |
+| **Zero-Shot Alchemy** | P167 | MIN×2 overclock = **88%**; single-axis programming = **75%** |
+| **Control Room** | P168 | 7D slider dashboard with 8 presets visualized |
+| **7D Grid Search** | P169 | 169-point search: **MAX=100%** without any gradient descent |
+| **Soul Persistence** | P170 | Save/load soul jar (31KB): cosine fidelity = **1.000000** |
+
+> A complete summary of all 170 phases with detailed metrics is available in the paper's Appendix.
 
 ## Project Structure
 
 ```
 experiments/    # Phase scripts (P1–P99)
-experiments2/   # Phase scripts (P100–P145)
+experiments2/   # Phase scripts (P100–P170)
 results/        # JSON output from all phases
-figures/        # Visualization PNGs (145 figures)
-papers/         # LaTeX source and PDF (v1–v4)
+figures/        # Visualization PNGs (170 figures)
+papers/         # LaTeX source and PDF (v1–v5)
 runner.py       # Orchestrator (GPU/CPU parallel)
 ```
 
@@ -131,7 +165,10 @@ python runner.py
 python experiments/phase9_register_map.py
 
 # Later phases
-python experiments2/phase113_platonic.py
+python experiments2/phase161_soul_compression.py
+
+# Season 24 (P165–P170)
+python experiments2/run_season24.py
 ```
 
 ## Requirements
