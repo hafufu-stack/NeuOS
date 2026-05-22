@@ -1,0 +1,140 @@
+{
+  "phase": 155,
+  "name": "dynamic_pipeline_rewiring",
+  "results": {
+    "normal": {
+      "desc": "Standard (all 24 layers)",
+      "accuracy": 1.0,
+      "avg_entropy": 0.0808
+    },
+    "skip_12_15": {
+      "desc": "Skip L12-L15 (grammar bypass)",
+      "accuracy": 0.2,
+      "avg_entropy": 0.5028
+    },
+    "skip_18_21": {
+      "desc": "Skip L18-L21 (late bypass)",
+      "accuracy": 0.1,
+      "avg_entropy": 3.9756
+    },
+    "skip_0_3": {
+      "desc": "Skip L0-L3 (early bypass)",
+      "accuracy": 0.2,
+      "avg_entropy": 1.7208
+    },
+    "warp_11_16": {
+      "desc": "Warp L11->L16 (GSF bypass)",
+      "accuracy": 0.5,
+      "avg_entropy": 0.1268
+    },
+    "warp_8_16": {
+      "desc": "Warp L8->L16 (max bypass)",
+      "accuracy": 0.4,
+      "avg_entropy": 1.2502
+    },
+    "adaptive": {
+      "desc": "Adaptive (entropy-minimizing)",
+      "accuracy": 0.5,
+      "details": [
+        {
+          "task": "MIN",
+          "prompt": "7, 2) =",
+          "chosen_config": "warp_8_16",
+          "pred": "2",
+          "expected": "2",
+          "entropy": 0.0004,
+          "correct": true
+        },
+        {
+          "task": "MIN",
+          "prompt": "6, 3) =",
+          "chosen_config": "skip_12_15",
+          "pred": "6",
+          "expected": "3",
+          "entropy": 0.0,
+          "correct": false
+        },
+        {
+          "task": "MIN",
+          "prompt": "2, 9) =",
+          "chosen_config": "normal",
+          "pred": "2",
+          "expected": "2",
+          "entropy": 0.0027,
+          "correct": true
+        },
+        {
+          "task": "MIN",
+          "prompt": "1, 5) =",
+          "chosen_config": "warp_11_16",
+          "pred": "5",
+          "expected": "1",
+          "entropy": 0.0001,
+          "correct": false
+        },
+        {
+          "task": "MIN",
+          "prompt": "8, 4) =",
+          "chosen_config": "skip_12_15",
+          "pred": "8",
+          "expected": "4",
+          "entropy": 0.0,
+          "correct": false
+        },
+        {
+          "task": "MAX",
+          "prompt": "3, 7) =",
+          "chosen_config": "normal",
+          "pred": "7",
+          "expected": "7",
+          "entropy": 0.0,
+          "correct": true
+        },
+        {
+          "task": "MAX",
+          "prompt": "5, 2) =",
+          "chosen_config": "normal",
+          "pred": "5",
+          "expected": "5",
+          "entropy": 0.0016,
+          "correct": true
+        },
+        {
+          "task": "MAX",
+          "prompt": "1, 8) =",
+          "chosen_config": "skip_12_15",
+          "pred": "1",
+          "expected": "8",
+          "entropy": 0.0,
+          "correct": false
+        },
+        {
+          "task": "MAX",
+          "prompt": "4, 6) =",
+          "chosen_config": "normal",
+          "pred": "6",
+          "expected": "6",
+          "entropy": 0.0,
+          "correct": true
+        },
+        {
+          "task": "MAX",
+          "prompt": "9, 1) =",
+          "chosen_config": "skip_12_15",
+          "pred": "1",
+          "expected": "9",
+          "entropy": 0.0019,
+          "correct": false
+        }
+      ]
+    }
+  },
+  "adaptive_accuracy": 0.5,
+  "config_usage": {
+    "warp_8_16": 1,
+    "skip_12_15": 4,
+    "normal": 4,
+    "warp_11_16": 1
+  },
+  "elapsed": 145.8
+}

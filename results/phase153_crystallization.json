@@ -1,0 +1,19 @@
+{
+  "phase": 153,
+  "name": "conscious_crystallization",
+  "results": {
+    "MIN": {
+      "n_successes": 49,
+      "crystal_acc": 0.4,
+      "gradient_acc": 1.0,
+      "crystal_gradient_cos": 0.0328
+    },
+    "MAX": {
+      "n_successes": 91,
+      "crystal_acc": 0.2,
+      "gradient_acc": 1.0,
+      "crystal_gradient_cos": -0.0529
+    }
+  },
+  "elapsed": 164.7
+}

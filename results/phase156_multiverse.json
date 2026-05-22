@@ -1,0 +1,454 @@
+{
+  "phase": 156,
+  "name": "multiverse_state_forking",
+  "oracle_accuracy": 1.0,
+  "multiverse_accuracy": 0.4167,
+  "soul_selection_accuracy": 0.4167,
+  "fork_details": [
+    {
+      "prompt": "7, 2) =",
+      "desc": "Take the smaller",
+      "expected": "2",
+      "true_soul": "MIN",
+      "chosen_soul": "MIN",
+      "pred": "2",
+      "entropy": 0.0038,
+      "correct": true,
+      "soul_correct": true,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "2",
+          "entropy": 0.0038,
+          "conf": 0.999682
+        },
+        {
+          "soul": "MAX",
+          "pred": "1",
+          "entropy": 0.8029,
+          "conf": 0.821909
+        },
+        {
+          "soul": "ADD",
+          "pred": "7",
+          "entropy": 0.0045,
+          "conf": 0.999616
+        },
+        {
+          "soul": "SUB",
+          "pred": "5",
+          "entropy": 0.0053,
+          "conf": 0.999429
+        }
+      ]
+    },
+    {
+      "prompt": "6, 3) =",
+      "desc": "Take the smaller",
+      "expected": "3",
+      "true_soul": "MIN",
+      "chosen_soul": "MIN",
+      "pred": "3",
+      "entropy": 0.0006,
+      "correct": true,
+      "soul_correct": true,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "3",
+          "entropy": 0.0006,
+          "conf": 0.999941
+        },
+        {
+          "soul": "MAX",
+          "pred": "6",
+          "entropy": 0.2472,
+          "conf": 0.932488
+        },
+        {
+          "soul": "ADD",
+          "pred": "5",
+          "entropy": 0.0755,
+          "conf": 0.991723
+        },
+        {
+          "soul": "SUB",
+          "pred": "3",
+          "entropy": 0.0159,
+          "conf": 0.997776
+        }
+      ]
+    },
+    {
+      "prompt": "2, 9) =",
+      "desc": "Take the smaller",
+      "expected": "2",
+      "true_soul": "MIN",
+      "chosen_soul": "MAX",
+      "pred": "9",
+      "entropy": 0.0023,
+      "correct": false,
+      "soul_correct": false,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "2",
+          "entropy": 0.0027,
+          "conf": 0.999713
+        },
+        {
+          "soul": "MAX",
+          "pred": "9",
+          "entropy": 0.0023,
+          "conf": 0.999825
+        },
+        {
+          "soul": "ADD",
+          "pred": "9",
+          "entropy": 0.3768,
+          "conf": 0.93843
+        },
+        {
+          "soul": "SUB",
+          "pred": "2",
+          "entropy": 0.0381,
+          "conf": 0.994935
+        }
+      ]
+    },
+    {
+      "prompt": "3, 7) =",
+      "desc": "Take the larger",
+      "expected": "7",
+      "true_soul": "MAX",
+      "chosen_soul": "MAX",
+      "pred": "7",
+      "entropy": 0.0,
+      "correct": true,
+      "soul_correct": true,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "3",
+          "entropy": 0.0087,
+          "conf": 0.998978
+        },
+        {
+          "soul": "MAX",
+          "pred": "7",
+          "entropy": 0.0,
+          "conf": 1.0
+        },
+        {
+          "soul": "ADD",
+          "pred": "9",
+          "entropy": 0.8652,
+          "conf": 0.59697
+        },
+        {
+          "soul": "SUB",
+          "pred": "1",
+          "entropy": 0.0251,
+          "conf": 0.997268
+        }
+      ]
+    },
+    {
+      "prompt": "5, 2) =",
+      "desc": "Take the larger",
+      "expected": "5",
+      "true_soul": "MAX",
+      "chosen_soul": "MAX",
+      "pred": "5",
+      "entropy": 0.0016,
+      "correct": true,
+      "soul_correct": true,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "2",
+          "entropy": 0.0109,
+          "conf": 0.998557
+        },
+        {
+          "soul": "MAX",
+          "pred": "5",
+          "entropy": 0.0016,
+          "conf": 0.999843
+        },
+        {
+          "soul": "ADD",
+          "pred": "8",
+          "entropy": 0.0119,
+          "conf": 0.998415
+        },
+        {
+          "soul": "SUB",
+          "pred": "4",
+          "entropy": 0.0035,
+          "conf": 0.999608
+        }
+      ]
+    },
+    {
+      "prompt": "1, 8) =",
+      "desc": "Take the larger",
+      "expected": "8",
+      "true_soul": "MAX",
+      "chosen_soul": "SUB",
+      "pred": "1",
+      "entropy": 0.0094,
+      "correct": false,
+      "soul_correct": false,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "1",
+          "entropy": 0.1828,
+          "conf": 0.95573
+        },
+        {
+          "soul": "MAX",
+          "pred": "8",
+          "entropy": 0.0942,
+          "conf": 0.983322
+        },
+        {
+          "soul": "ADD",
+          "pred": "7",
+          "entropy": 0.1535,
+          "conf": 0.969557
+        },
+        {
+          "soul": "SUB",
+          "pred": "1",
+          "entropy": 0.0094,
+          "conf": 0.998778
+        }
+      ]
+    },
+    {
+      "prompt": "3, 4) =",
+      "desc": "Add them",
+      "expected": "7",
+      "true_soul": "ADD",
+      "chosen_soul": "MAX",
+      "pred": "4",
+      "entropy": 0.0,
+      "correct": false,
+      "soul_correct": false,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "3",
+          "entropy": 0.317,
+          "conf": 0.904626
+        },
+        {
+          "soul": "MAX",
+          "pred": "4",
+          "entropy": 0.0,
+          "conf": 1.0
+        },
+        {
+          "soul": "ADD",
+          "pred": "7",
+          "entropy": 0.0218,
+          "conf": 0.997614
+        },
+        {
+          "soul": "SUB",
+          "pred": "4",
+          "entropy": 1.1838,
+          "conf": 0.345936
+        }
+      ]
+    },
+    {
+      "prompt": "2, 5) =",
+      "desc": "Add them",
+      "expected": "7",
+      "true_soul": "ADD",
+      "chosen_soul": "SUB",
+      "pred": "2",
+      "entropy": 0.0056,
+      "correct": false,
+      "soul_correct": false,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "2",
+          "entropy": 0.693,
+          "conf": 0.509452
+        },
+        {
+          "soul": "MAX",
+          "pred": "5",
+          "entropy": 0.0127,
+          "conf": 0.99895
+        },
+        {
+          "soul": "ADD",
+          "pred": "7",
+          "entropy": 1.5037,
+          "conf": 0.537387
+        },
+        {
+          "soul": "SUB",
+          "pred": "2",
+          "entropy": 0.0056,
+          "conf": 0.99934
+        }
+      ]
+    },
+    {
+      "prompt": "1, 6) =",
+      "desc": "Add them",
+      "expected": "7",
+      "true_soul": "ADD",
+      "chosen_soul": "MIN",
+      "pred": "1",
+      "entropy": 0.0028,
+      "correct": false,
+      "soul_correct": false,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "1",
+          "entropy": 0.0028,
+          "conf": 0.999721
+        },
+        {
+          "soul": "MAX",
+          "pred": "6",
+          "entropy": 0.0062,
+          "conf": 0.999267
+        },
+        {
+          "soul": "ADD",
+          "pred": "7",
+          "entropy": 0.0113,
+          "conf": 0.998825
+        },
+        {
+          "soul": "SUB",
+          "pred": "1",
+          "entropy": 0.0043,
+          "conf": 0.999501
+        }
+      ]
+    },
+    {
+      "prompt": "9, 3) =",
+      "desc": "Subtract",
+      "expected": "6",
+      "true_soul": "SUB",
+      "chosen_soul": "SUB",
+      "pred": "6",
+      "entropy": 0.0057,
+      "correct": true,
+      "soul_correct": true,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "3",
+          "entropy": 0.0097,
+          "conf": 0.999199
+        },
+        {
+          "soul": "MAX",
+          "pred": "9",
+          "entropy": 0.0097,
+          "conf": 0.999296
+        },
+        {
+          "soul": "ADD",
+          "pred": "3",
+          "entropy": 0.085,
+          "conf": 0.983395
+        },
+        {
+          "soul": "SUB",
+          "pred": "6",
+          "entropy": 0.0057,
+          "conf": 0.999483
+        }
+      ]
+    },
+    {
+      "prompt": "7, 2) =",
+      "desc": "Subtract",
+      "expected": "5",
+      "true_soul": "SUB",
+      "chosen_soul": "MIN",
+      "pred": "2",
+      "entropy": 0.0038,
+      "correct": false,
+      "soul_correct": false,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "2",
+          "entropy": 0.0038,
+          "conf": 0.999682
+        },
+        {
+          "soul": "MAX",
+          "pred": "1",
+          "entropy": 0.8029,
+          "conf": 0.821909
+        },
+        {
+          "soul": "ADD",
+          "pred": "7",
+          "entropy": 0.0045,
+          "conf": 0.999616
+        },
+        {
+          "soul": "SUB",
+          "pred": "5",
+          "entropy": 0.0053,
+          "conf": 0.999429
+        }
+      ]
+    },
+    {
+      "prompt": "8, 5) =",
+      "desc": "Subtract",
+      "expected": "3",
+      "true_soul": "SUB",
+      "chosen_soul": "ADD",
+      "pred": "8",
+      "entropy": 0.0,
+      "correct": false,
+      "soul_correct": false,
+      "forks": [
+        {
+          "soul": "MIN",
+          "pred": "8",
+          "entropy": 0.2796,
+          "conf": 0.921732
+        },
+        {
+          "soul": "MAX",
+          "pred": "8",
+          "entropy": 0.0,
+          "conf": 0.999999
+        },
+        {
+          "soul": "ADD",
+          "pred": "8",
+          "entropy": 0.0,
+          "conf": 1.0
+        },
+        {
+          "soul": "SUB",
+          "pred": "3",
+          "entropy": 0.0307,
+          "conf": 0.997176
+        }
+      ]
+    }
+  ],
+  "elapsed": 283.9
+}

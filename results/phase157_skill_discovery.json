@@ -1,0 +1,81 @@
+{
+  "phase": 157,
+  "name": "emergent_skill_discovery",
+  "initial_library": [
+    "MIN",
+    "MAX"
+  ],
+  "final_library": [
+    "MIN",
+    "MAX"
+  ],
+  "novel_discovered": 2,
+  "existing_reused": 1,
+  "results": {
+    "ADD": {
+      "display_name": "Unknown Operation Alpha",
+      "diagnosis": {
+        "best_existing_soul": null,
+        "best_existing_acc": 0,
+        "all_match_results": {
+          "MIN": 0.0,
+          "MAX": 0.0
+        },
+        "is_novel": true,
+        "new_soul_acc": 0.0,
+        "new_preds": [
+          "3",
+          "3",
+          "4",
+          "5",
+          "7"
+        ],
+        "action": "LEARN_FAILED",
+        "cos_to_existing": {
+          "MIN": 0.1877,
+          "MAX": 0.005
+        }
+      }
+    },
+    "SUB": {
+      "display_name": "Unknown Operation Beta",
+      "diagnosis": {
+        "best_existing_soul": null,
+        "best_existing_acc": 0,
+        "all_match_results": {
+          "MIN": 0.0,
+          "MAX": 0.0
+        },
+        "is_novel": true,
+        "new_soul_acc": 0.0,
+        "new_preds": [
+          "3",
+          "2",
+          "3",
+          "3",
+          "4"
+        ],
+        "action": "LEARN_FAILED",
+        "cos_to_existing": {
+          "MIN": -0.0559,
+          "MAX": 0.0199
+        }
+      }
+    },
+    "MIN_KNOWN": {
+      "display_name": "Redundant Operation Gamma",
+      "diagnosis": {
+        "best_existing_soul": "MIN",
+        "best_existing_acc": 1.0,
+        "all_match_results": {
+          "MIN": 1.0,
+          "MAX": 0.0
+        },
+        "is_novel": false,
+        "action": "REUSE_EXISTING",
+        "new_soul_acc": null
+      }
+    }
+  },
+  "elapsed": 283.7
+}
