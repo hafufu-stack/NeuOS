@@ -26,7 +26,7 @@ All 24 layers of Qwen2.5-0.5B were probed to identify a complete 9-register Inst
 | **SUM** | L20 | **78%** | ALU |
 | **MAX** | L22 | **100%** | Output Register |
 
-## Key Results (170 Phases across 24 Seasons)
+## Key Results (186 Phases across 25 Seasons)
 
 ### Season 1–4: The Neural Computer (P1–P26)
 
@@ -142,16 +142,30 @@ All 24 layers of Qwen2.5-0.5B were probed to identify a complete 9-register Inst
 | **7D Grid Search** | P169 | 169-point search: **MAX=100%** without any gradient descent |
 | **Soul Persistence** | P170 | Save/load soul jar (31KB): cosine fidelity = **1.000000** |
 
-> A complete summary of all 170 phases with detailed metrics is available in the paper's Appendix.
+### Season 25: Theoretical Foundations and the Security Arms Race (P171–P186) 🆕
+
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **Data Scaling Theory** | P172 | Exponential fits: τ_MIN=5.4 vs τ_ADD=11.8; ADD capped at **20%** |
+| **SVD Entropy Broken** | P175 | All 8 settings: **100% backdoor acc, entropy gap = 0.000** |
+| **Multi-Token Soul** | P178 | Position 1 & 5 = **100%**; multi-position → interference |
+| **Neural Firewall** | P180 | Norm-based detection: **AUC=0.979, TPR=92%, FPR=0%** |
+| **LoRA ≠ Soul** | P182 | cos(LoRA, Soul) ≈ **0** — orthogonal mechanisms, identical accuracy 🏆 |
+| **SAE Decomposition** | P183 | 315 shared, 239 MIN-unique, 530 MAX-unique features |
+| **Firewall Evasion** | P184 | Norm ratio = **1.015** at max evasion; nearly undetectable |
+| **Capacity Bottleneck** | P185 | ADD **20% cap** is epoch/LR/multi-layer independent 🏆 |
+| **Causal Layer Attribution** | P186 | L2–L20 injection works; **L9, L13, L17** causally critical 🏆 |
+
+> A complete summary of all 186 phases with detailed metrics is available in the paper's Appendix.
 
 ## Project Structure
 
 ```
 experiments/    # Phase scripts (P1–P99)
-experiments2/   # Phase scripts (P100–P170)
+experiments2/   # Phase scripts (P100–P186)
 results/        # JSON output from all phases
-figures/        # Visualization PNGs (170 figures)
-papers/         # LaTeX source and PDF (v1–v5)
+figures/        # Visualization PNGs (186 figures)
+papers/         # LaTeX source and PDF (v1–v6)
 runner.py       # Orchestrator (GPU/CPU parallel)
 ```
 
@@ -167,8 +181,8 @@ python experiments/phase9_register_map.py
 # Later phases
 python experiments2/phase161_soul_compression.py
 
-# Season 24 (P165–P170)
-python experiments2/run_season24.py
+# Season 25 (P171–P186)
+python experiments2/run_season25_all.py
 ```
 
 ## Requirements

@@ -1,0 +1,22 @@
+{
+  "phase": 174,
+  "name": "multistep_composition",
+  "results": {
+    "sequential": {
+      "sort_accuracy": 0.8,
+      "range_accuracy": 0.8
+    },
+    "kv_chain": {
+      "sort_accuracy": 0.7
+    },
+    "dual_layer": {
+      "any_correct": 1.0,
+      "dominant_behavior": "check details"
+    },
+    "chain_prompt": {
+      "sort_accuracy": 0.4,
+      "range_accuracy": 0.4
+    }
+  },
+  "elapsed": 157.8
+}

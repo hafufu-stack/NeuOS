@@ -1,0 +1,11 @@
+{
+  "phase": 180,
+  "name": "neural_firewall",
+  "roc_auc": 0.9787,
+  "best_threshold": 44767.889,
+  "best_tpr": 0.92,
+  "best_fpr": 0.0,
+  "n_benign": 15,
+  "n_adversarial": 50,
+  "elapsed": 147.3
+}

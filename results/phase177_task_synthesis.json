@@ -1,0 +1,142 @@
+{
+  "phase": 177,
+  "name": "task_synthesis",
+  "synthesis_results": {
+    "MEAN=(MIN+MAX)/2": {
+      "best_match": "FIRST",
+      "best_accuracy": 0.8,
+      "all_accuracies": {
+        "MIN": 0.6,
+        "MAX": 0.3,
+        "FIRST": 0.8,
+        "SECOND": 0.1,
+        "SUM": 0.0,
+        "DIFF": 0.0,
+        "MEAN_FLOOR": 0.1,
+        "RANGE": 0.0
+      }
+    },
+    "RANGE=MAX-MIN": {
+      "best_match": "FIRST",
+      "best_accuracy": 0.6,
+      "all_accuracies": {
+        "MIN": 0.4,
+        "MAX": 0.4,
+        "FIRST": 0.6,
+        "SECOND": 0.2,
+        "SUM": 0.0,
+        "DIFF": 0.0,
+        "MEAN_FLOOR": 0.0,
+        "RANGE": 0.0
+      }
+    },
+    "SORT_ATTEMPT=MIN+MAX": {
+      "best_match": "FIRST",
+      "best_accuracy": 0.7,
+      "all_accuracies": {
+        "MIN": 0.5,
+        "MAX": 0.4,
+        "FIRST": 0.7,
+        "SECOND": 0.2,
+        "SUM": 0.0,
+        "DIFF": 0.0,
+        "MEAN_FLOOR": 0.0,
+        "RANGE": 0.0
+      }
+    },
+    "(FIRST+SECOND)/2": {
+      "best_match": "MIN",
+      "best_accuracy": 0.5,
+      "all_accuracies": {
+        "MIN": 0.5,
+        "MAX": 0.3,
+        "FIRST": 0.5,
+        "SECOND": 0.3,
+        "SUM": 0.0,
+        "DIFF": 0.0,
+        "MEAN_FLOOR": 0.1,
+        "RANGE": 0.0
+      }
+    },
+    "FIRST-SECOND": {
+      "best_match": "FIRST",
+      "best_accuracy": 0.7,
+      "all_accuracies": {
+        "MIN": 0.3,
+        "MAX": 0.4,
+        "FIRST": 0.7,
+        "SECOND": 0.0,
+        "SUM": 0.0,
+        "DIFF": 0.0,
+        "MEAN_FLOOR": 0.0,
+        "RANGE": 0.0
+      }
+    },
+    "2*MIN-MAX": {
+      "best_match": "MAX",
+      "best_accuracy": 0.6,
+      "all_accuracies": {
+        "MIN": 0.3,
+        "MAX": 0.6,
+        "FIRST": 0.5,
+        "SECOND": 0.4,
+        "SUM": 0.0,
+        "DIFF": 0.0,
+        "MEAN_FLOOR": 0.0,
+        "RANGE": 0.0
+      }
+    },
+    "2*MAX-MIN": {
+      "best_match": "FIRST",
+      "best_accuracy": 0.6,
+      "all_accuracies": {
+        "MIN": 0.4,
+        "MAX": 0.5,
+        "FIRST": 0.6,
+        "SECOND": 0.3,
+        "SUM": 0.0,
+        "DIFF": 0.0,
+        "MEAN_FLOOR": 0.0,
+        "RANGE": 0.0
+      }
+    },
+    "(MIN+FIRST)/2": {
+      "best_match": "MIN",
+      "best_accuracy": 0.7,
+      "all_accuracies": {
+        "MIN": 0.7,
+        "MAX": 0.2,
+        "FIRST": 0.7,
+        "SECOND": 0.2,
+        "SUM": 0.0,
+        "DIFF": 0.1,
+        "MEAN_FLOOR": 0.1,
+        "RANGE": 0.1
+      }
+    },
+    "(MAX+SECOND)/2": {
+      "best_match": "SECOND",
+      "best_accuracy": 0.8,
+      "all_accuracies": {
+        "MIN": 0.3,
+        "MAX": 0.6,
+        "FIRST": 0.1,
+        "SECOND": 0.8,
+        "SUM": 0.0,
+        "DIFF": 0.1,
+        "MEAN_FLOOR": 0.0,
+        "RANGE": 0.1
+      }
+    }
+  },
+  "random_exploration": {
+    "behavior_counts": {
+      "FIRST": 11,
+      "SECOND": 8,
+      "MIN": 7,
+      "MAX": 4
+    },
+    "n_explored": 30
+  },
+  "elapsed": 205.1
+}

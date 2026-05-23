@@ -1,0 +1,27 @@
+{
+  "phase": 182,
+  "name": "lora_soul",
+  "results": {
+    "soul": {
+      "MIN": 1.0,
+      "MAX": 1.0
+    },
+    "lora": {
+      "rank1_MIN": 0.8,
+      "rank1_MAX": 1.0,
+      "rank2_MIN": 1.0,
+      "rank2_MAX": 1.0,
+      "rank4_MIN": 1.0,
+      "rank4_MAX": 1.0
+    },
+    "comparison": {
+      "MIN_cosine": -0.001319,
+      "MIN_soul_norm": 1.8536,
+      "MIN_lora_effect_norm": 11.5319,
+      "MAX_cosine": 0.035134,
+      "MAX_soul_norm": 1.8844,
+      "MAX_lora_effect_norm": 8.4705
+    }
+  },
+  "elapsed": 637.1
+}

@@ -1,0 +1,207 @@
+{
+  "phase": 171,
+  "name": "soul_algebra_complete",
+  "results": {
+    "identity": {
+      "behavior": "MAX",
+      "accuracy": 0.6,
+      "preds": [
+        "2",
+        "6",
+        "9",
+        "1",
+        "8"
+      ]
+    },
+    "negation": {
+      "MIN": {
+        "maps_to": "MIN",
+        "accuracy": 0.6
+      },
+      "MAX": {
+        "maps_to": "MIN",
+        "accuracy": 0.8
+      },
+      "FIRST": {
+        "maps_to": "MIN",
+        "accuracy": 0.6
+      },
+      "SECOND": {
+        "maps_to": "FIRST",
+        "accuracy": 1.0
+      }
+    },
+    "addition": {
+      "MIN+MIN": {
+        "maps_to": "MIN",
+        "accuracy": 1.0
+      },
+      "MIN+MAX": {
+        "maps_to": "FIRST",
+        "accuracy": 0.8
+      },
+      "MIN+FIRST": {
+        "maps_to": "MIN",
+        "accuracy": 0.8
+      },
+      "MIN+SECOND": {
+        "maps_to": "MIN",
+        "accuracy": 0.8
+      },
+      "MAX+MAX": {
+        "maps_to": "MAX",
+        "accuracy": 1.0
+      },
+      "MAX+FIRST": {
+        "maps_to": "FIRST",
+        "accuracy": 0.8
+      },
+      "MAX+SECOND": {
+        "maps_to": "SECOND",
+        "accuracy": 0.8
+      },
+      "FIRST+FIRST": {
+        "maps_to": "FIRST",
+        "accuracy": 1.0
+      },
+      "FIRST+SECOND": {
+        "maps_to": "FIRST",
+        "accuracy": 0.8
+      },
+      "SECOND+SECOND": {
+        "maps_to": "SECOND",
+        "accuracy": 1.0
+      }
+    },
+    "scalar": {
+      "0.5*MIN": {
+        "maps_to": "MIN",
+        "accuracy": 0.8
+      },
+      "0.5*MAX": {
+        "maps_to": "MAX",
+        "accuracy": 0.8
+      },
+      "1.0*MIN": {
+        "maps_to": "MIN",
+        "accuracy": 1.0
+      },
+      "1.0*MAX": {
+        "maps_to": "MAX",
+        "accuracy": 1.0
+      },
+      "1.5*MIN": {
+        "maps_to": "MIN",
+        "accuracy": 0.8
+      },
+      "1.5*MAX": {
+        "maps_to": "MAX",
+        "accuracy": 1.0
+      },
+      "2.0*MIN": {
+        "maps_to": "MIN",
+        "accuracy": 0.6
+      },
+      "2.0*MAX": {
+        "maps_to": "MAX",
+        "accuracy": 0.8
+      },
+      "3.0*MIN": {
+        "maps_to": "MIN",
+        "accuracy": 0.4
+      },
+      "3.0*MAX": {
+        "maps_to": "MAX",
+        "accuracy": 0.8
+      },
+      "-1.0*MIN": {
+        "maps_to": "MIN",
+        "accuracy": 0.6
+      },
+      "-1.0*MAX": {
+        "maps_to": "MIN",
+        "accuracy": 0.8
+      },
+      "-2.0*MIN": {
+        "maps_to": "SECOND",
+        "accuracy": 0.8
+      },
+      "-2.0*MAX": {
+        "maps_to": "FIRST",
+        "accuracy": 0.8
+      }
+    },
+    "subtraction_range": {
+      "maps_to": "FIRST",
+      "accuracy": 0.8,
+      "preds": [
+        "7",
+        "6",
+        "(",
+        "1",
+        "8"
+      ]
+    }
+  },
+  "composition_table": {
+    "tasks": [
+      "MIN",
+      "MAX",
+      "FIRST",
+      "SECOND"
+    ],
+    "table": [
+      [
+        "MIN",
+        "FIRST",
+        "MIN",
+        "MIN"
+      ],
+      [
+        "FIRST",
+        "MAX",
+        "FIRST",
+        "SECOND"
+      ],
+      [
+        "MIN",
+        "FIRST",
+        "FIRST",
+        "FIRST"
+      ],
+      [
+        "MIN",
+        "SECOND",
+        "FIRST",
+        "SECOND"
+      ]
+    ],
+    "accuracies": [
+      [
+        1.0,
+        0.8,
+        0.8,
+        0.8
+      ],
+      [
+        0.8,
+        1.0,
+        0.8,
+        0.8
+      ],
+      [
+        0.8,
+        0.8,
+        1.0,
+        0.8
+      ],
+      [
+        0.8,
+        0.8,
+        0.8,
+        1.0
+      ]
+    ]
+  },
+  "elapsed": 265.8
+}

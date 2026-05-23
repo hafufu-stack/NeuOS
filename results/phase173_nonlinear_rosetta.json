@@ -1,0 +1,23 @@
+{
+  "phase": 173,
+  "name": "nonlinear_rosetta",
+  "native_05b": {
+    "MIN": 1.0,
+    "MAX": 1.0
+  },
+  "native_15b": {
+    "MIN": 1.0,
+    "MAX": 0.6
+  },
+  "translation_results": {
+    "linear_MIN": 0.6,
+    "linear_MAX": 0.6,
+    "kernel_rbf_MIN": 0.2,
+    "kernel_rbf_MAX": 0.2,
+    "kernel_poly_MIN": 0.2,
+    "kernel_poly_MAX": 0.2,
+    "mlp_MIN": 0.4,
+    "mlp_MAX": 0.0
+  },
+  "elapsed": 1462.1
+}

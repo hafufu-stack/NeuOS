@@ -1,0 +1,28 @@
+{
+  "phase": 185,
+  "name": "soul_capacity_bottleneck",
+  "results": {
+    "more_epochs": {
+      "100": 0.2,
+      "200": 0.2,
+      "300": 0.2
+    },
+    "multi_layer": {
+      "L6": 0.0,
+      "L8": 0.2,
+      "L6+L8": 0.2,
+      "L4+L6+L8": 0.1,
+      "L6+L7+L8+L9": 0.3
+    },
+    "learning_rates": {
+      "lr_0.001": 0.2,
+      "lr_0.005": 0.1,
+      "lr_0.010": 0.2,
+      "lr_0.050": 0.3,
+      "lr_0.100": 0.0
+    },
+    "min_control": 1.0,
+    "conclusion": "ADD caps at 20-30%% regardless of epochs, multi-layer injection, or learning rate. This is a fundamental information capacity limit of soul vectors."
+  },
+  "elapsed": 4020.0
+}

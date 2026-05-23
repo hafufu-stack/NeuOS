@@ -1,0 +1,260 @@
+{
+  "phase": 179,
+  "name": "soul_dynamics",
+  "interpolation": [
+    {
+      "alpha": 0.0,
+      "MIN_acc": 1.0,
+      "MAX_acc": 0.0,
+      "FIRST_acc": 0.4
+    },
+    {
+      "alpha": 0.05,
+      "MIN_acc": 0.8,
+      "MAX_acc": 0.2,
+      "FIRST_acc": 0.2
+    },
+    {
+      "alpha": 0.1,
+      "MIN_acc": 0.8,
+      "MAX_acc": 0.2,
+      "FIRST_acc": 0.2
+    },
+    {
+      "alpha": 0.15,
+      "MIN_acc": 0.6,
+      "MAX_acc": 0.2,
+      "FIRST_acc": 0.2
+    },
+    {
+      "alpha": 0.2,
+      "MIN_acc": 0.6,
+      "MAX_acc": 0.2,
+      "FIRST_acc": 0.2
+    },
+    {
+      "alpha": 0.25,
+      "MIN_acc": 0.6,
+      "MAX_acc": 0.2,
+      "FIRST_acc": 0.2
+    },
+    {
+      "alpha": 0.3,
+      "MIN_acc": 0.8,
+      "MAX_acc": 0.0,
+      "FIRST_acc": 0.4
+    },
+    {
+      "alpha": 0.35,
+      "MIN_acc": 0.6,
+      "MAX_acc": 0.4,
+      "FIRST_acc": 0.4
+    },
+    {
+      "alpha": 0.4,
+      "MIN_acc": 0.6,
+      "MAX_acc": 0.4,
+      "FIRST_acc": 0.4
+    },
+    {
+      "alpha": 0.45,
+      "MIN_acc": 0.4,
+      "MAX_acc": 0.6,
+      "FIRST_acc": 0.6
+    },
+    {
+      "alpha": 0.5,
+      "MIN_acc": 0.6,
+      "MAX_acc": 0.4,
+      "FIRST_acc": 0.8
+    },
+    {
+      "alpha": 0.55,
+      "MIN_acc": 0.6,
+      "MAX_acc": 0.4,
+      "FIRST_acc": 0.8
+    },
+    {
+      "alpha": 0.6,
+      "MIN_acc": 0.8,
+      "MAX_acc": 0.2,
+      "FIRST_acc": 0.6
+    },
+    {
+      "alpha": 0.65,
+      "MIN_acc": 0.6,
+      "MAX_acc": 0.4,
+      "FIRST_acc": 0.8
+    },
+    {
+      "alpha": 0.7,
+      "MIN_acc": 0.6,
+      "MAX_acc": 0.4,
+      "FIRST_acc": 0.8
+    },
+    {
+      "alpha": 0.75,
+      "MIN_acc": 0.4,
+      "MAX_acc": 0.6,
+      "FIRST_acc": 1.0
+    },
+    {
+      "alpha": 0.8,
+      "MIN_acc": 0.4,
+      "MAX_acc": 0.6,
+      "FIRST_acc": 1.0
+    },
+    {
+      "alpha": 0.85,
+      "MIN_acc": 0.0,
+      "MAX_acc": 1.0,
+      "FIRST_acc": 0.6
+    },
+    {
+      "alpha": 0.9,
+      "MIN_acc": 0.0,
+      "MAX_acc": 1.0,
+      "FIRST_acc": 0.6
+    },
+    {
+      "alpha": 0.95,
+      "MIN_acc": 0.0,
+      "MAX_acc": 1.0,
+      "FIRST_acc": 0.6
+    },
+    {
+      "alpha": 1.0,
+      "MIN_acc": 0.0,
+      "MAX_acc": 1.0,
+      "FIRST_acc": 0.6
+    }
+  ],
+  "integration": {
+    "from_FIRST": [
+      {
+        "step": 0,
+        "MIN": 0.4,
+        "MAX": 0.6,
+        "FIRST": 1.0
+      },
+      {
+        "step": 3,
+        "MIN": 0.4,
+        "MAX": 0.6,
+        "FIRST": 1.0
+      },
+      {
+        "step": 6,
+        "MIN": 1.0,
+        "MAX": 0.0,
+        "FIRST": 0.4
+      },
+      {
+        "step": 9,
+        "MIN": 1.0,
+        "MAX": 0.0,
+        "FIRST": 0.4
+      },
+      {
+        "step": 12,
+        "MIN": 0.6,
+        "MAX": 0.2,
+        "FIRST": 0.2
+      },
+      {
+        "step": 15,
+        "MIN": 0.6,
+        "MAX": 0.4,
+        "FIRST": 0.8
+      },
+      {
+        "step": 18,
+        "MIN": 0.4,
+        "MAX": 0.6,
+        "FIRST": 1.0
+      },
+      {
+        "step": 21,
+        "MIN": 0.2,
+        "MAX": 0.8,
+        "FIRST": 0.8
+      },
+      {
+        "step": 24,
+        "MIN": 0.2,
+        "MAX": 0.8,
+        "FIRST": 0.8
+      },
+      {
+        "step": 27,
+        "MIN": 0.2,
+        "MAX": 0.8,
+        "FIRST": 0.8
+      },
+      {
+        "step": 30,
+        "MIN": 0.2,
+        "MAX": 0.8,
+        "FIRST": 0.8
+      }
+    ],
+    "from_random": [
+      {
+        "step": 0,
+        "MIN": 0.6,
+        "MAX": 0.2
+      },
+      {
+        "step": 3,
+        "MIN": 0.2,
+        "MAX": 0.6
+      },
+      {
+        "step": 6,
+        "MIN": 0.2,
+        "MAX": 0.6
+      },
+      {
+        "step": 9,
+        "MIN": 0.2,
+        "MAX": 0.4
+      },
+      {
+        "step": 12,
+        "MIN": 0.2,
+        "MAX": 0.4
+      },
+      {
+        "step": 15,
+        "MIN": 0.2,
+        "MAX": 0.4
+      },
+      {
+        "step": 18,
+        "MIN": 0.2,
+        "MAX": 0.4
+      },
+      {
+        "step": 21,
+        "MIN": 0.2,
+        "MAX": 0.4
+      },
+      {
+        "step": 24,
+        "MIN": 0.2,
+        "MAX": 0.4
+      },
+      {
+        "step": 27,
+        "MIN": 0.2,
+        "MAX": 0.4
+      },
+      {
+        "step": 30,
+        "MIN": 0.2,
+        "MAX": 0.6
+      }
+    ]
+  },
+  "elapsed": 153.6
+}

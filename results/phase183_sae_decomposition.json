@@ -1,0 +1,82 @@
+{
+  "phase": 183,
+  "name": "sae_decomposition",
+  "sae_config": {
+    "latent_dim": 2048,
+    "l1_coeff": 0.01,
+    "n_training_states": 72
+  },
+  "soul_accuracy": {
+    "MIN": 1.0,
+    "MAX": 1.0
+  },
+  "results": {
+    "min_n_active": 554,
+    "max_n_active": 845,
+    "n_shared": 315,
+    "n_min_unique": 239,
+    "n_max_unique": 530,
+    "min_top10_indices": [
+      1191,
+      1258,
+      340,
+      313,
+      382,
+      1512,
+      2042,
+      1661,
+      1463,
+      442
+    ],
+    "min_top10_values": [
+      0.1837,
+      0.145,
+      0.144,
+      0.1384,
+      0.1371,
+      0.1342,
+      0.132,
+      0.1268,
+      0.1252,
+      0.1252
+    ],
+    "max_top10_indices": [
+      1946,
+      762,
+      404,
+      1191,
+      1711,
+      796,
+      1074,
+      207,
+      172,
+      792
+    ],
+    "max_top10_values": [
+      0.1734,
+      0.1596,
+      0.1228,
+      0.1218,
+      0.1196,
+      0.1169,
+      0.1129,
+      0.1102,
+      0.1093,
+      0.1083
+    ],
+    "ablation": {
+      "reconstructed": {
+        "MIN": 0.2,
+        "MAX": 0.4
+      },
+      "min_ablate_unique": 0.2,
+      "min_ablate_shared": 0.2,
+      "max_ablate_unique": 0.2,
+      "max_ablate_shared": 0.2,
+      "swap_min_as_max": 0.4,
+      "swap_max_as_min": 0.2
+    }
+  },
+  "final_sae_loss": 0.000566,
+  "elapsed": 195.5
+}

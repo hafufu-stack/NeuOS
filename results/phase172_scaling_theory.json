@@ -1,0 +1,84 @@
+{
+  "phase": 172,
+  "name": "data_scaling_theory",
+  "scaling_data": {
+    "MIN": [
+      0.5,
+      0.8,
+      0.9,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9
+    ],
+    "MAX": [
+      0.4,
+      0.8,
+      0.9,
+      1.0,
+      1.0,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "ADD": [
+      0.0,
+      0.1,
+      0.2,
+      0.2,
+      0.2,
+      0.3,
+      0.2,
+      0.2
+    ],
+    "SUB": [
+      0.3,
+      0.4,
+      0.5,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ]
+  },
+  "fit_params": {
+    "MIN": {
+      "a": 1.0009,
+      "tau": 5.41
+    },
+    "MAX": {
+      "a": 1.0134,
+      "tau": 6.1162
+    },
+    "ADD": {
+      "a": 0.2523,
+      "tau": 11.8123
+    },
+    "SUB": {
+      "a": 0.6051,
+      "tau": 7.5496
+    }
+  },
+  "info_theory": {
+    "MIN": {
+      "output_entropy_bits": 2.7646,
+      "n_unique_outputs": 8
+    },
+    "MAX": {
+      "output_entropy_bits": 2.8219,
+      "n_unique_outputs": 8
+    },
+    "ADD": {
+      "output_entropy_bits": 3.7159,
+      "n_unique_outputs": 15
+    },
+    "SUB": {
+      "output_entropy_bits": 2.7214,
+      "n_unique_outputs": 8
+    }
+  },
+  "tau_ratio": 1.6798,
+  "elapsed": 4223.7
+}

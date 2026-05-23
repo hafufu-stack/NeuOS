@@ -1,0 +1,58 @@
+{
+  "phase": 178,
+  "name": "multitoken_soul",
+  "seq_len": 6,
+  "results": {
+    "position_sweep": {
+      "0": {
+        "MIN": 0.8,
+        "MAX": 1.0
+      },
+      "1": {
+        "MIN": 1.0,
+        "MAX": 1.0
+      },
+      "2": {
+        "MIN": 0.8,
+        "MAX": 0.8
+      },
+      "3": {
+        "MIN": 0.4,
+        "MAX": 0.4
+      },
+      "4": {
+        "MIN": 0.8,
+        "MAX": 1.0
+      },
+      "5": {
+        "MIN": 1.0,
+        "MAX": 1.0
+      }
+    },
+    "multi_position": {
+      "MIN@last_only": 1.0,
+      "MIN@first_only": 0.8,
+      "MIN@both": 0.2,
+      "MAX@last_only": 1.0,
+      "MAX@first_only": 1.0,
+      "MAX@both": 0.4,
+      "MIN@first+MAX@last": 0.4,
+      "MAX@first+MIN@last": 0.2
+    },
+    "cross_task_MIN_first+MAX_last": [
+      "2",
+      ",",
+      ",",
+      "1",
+      "1"
+    ],
+    "cross_task_MAX_first+MIN_last": [
+      "3",
+      "3",
+      "9",
+      "6",
+      "6"
+    ]
+  },
+  "elapsed": 1364.5
+}
